@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dnk" background="@color/a1o" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/eiz" layout_width="0dp" layout_height="@dimen/yz" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" layout="@layout/b4v"/>
+    <View id="@+id/ej6" background="@color/xp" visibility="gone" layout_width="0dp" layout_height="1dp" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/eiz"/>
+    <FrameLayout id="@+id/fig" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/ej6">
+        <View id="@+id/fie" visibility="gone" layout_width="0dp" layout_height="0dp"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/fif" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/ej6"/>
+    <FrameLayout id="@+id/e5y" visibility="visible" layout_width="wrap_content" layout_height="90dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0"/>
+    <com.bytedance.android.live.uikit.layout.FullscreenVideoFrame id="@+id/ah8" background="@color/a2" focusable="true" visibility="gone" clickable="true" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0"/>
+    <include id="@+id/enh" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" layout="@layout/b4w"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

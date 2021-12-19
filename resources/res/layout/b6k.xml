@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/e8f" background="@drawable/bv8" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/e8l" padding="16dp" layout_width="0dp" layout_height="wrap_content" text="@string/dze" singleLine="true" NOT_FOUND_0xf="2" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/e8_" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" src="0x7f080f6a" layout_marginEnd="16dp" NOT_FOUND_0x10="@+id/e8l" NOT_FOUND_0x11="@+id/e8l" NOT_FOUND_0x14="@+id/e8l"/>
+    <View id="@+id/e8a" background="@color/b2" layout_width="0dp" layout_height="0.5dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/e8l"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/e8h" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/e8a"/>
+    <include id="@+id/cg3" visibility="gone" layout_width="0dp" layout_height="200dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" layout="@layout/be_"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

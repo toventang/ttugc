@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gi" parent="@style/gt">
+    </style>
+    <style name="gj" parent="@style/gu">
+    </style>
+    <style name="gt" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="gu" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

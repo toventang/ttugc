@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <RelativeLayout id="@+id/dlw" layout_width="wrap_content" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/xm" layout_alignParentLeft="true" layout_toStartOf="@+id/xm" layout_alignParentStart="true">
+            <LinearLayout orientation="horizontal" id="@+id/ces" layout_width="wrap_content" layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center_vertical" id="@+id/title" layout_width="0dp" layout_height="wrap_content" minHeight="25dp" maxLines="1" shadowColor="@color/iu" shadowDy="1" shadowRadius="1" layout_weight="1" letterSpacing="-0.01" NOT_FOUND_0x24="42"/>
+                <LinearLayout gravity="center_vertical" layout_gravity="center_vertical" id="@+id/e3z" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="8dp">
+                    <com.bytedance.tux.icon.TuxIconView layout_width="12dp" layout_height="12dp" layout_marginTop="6dp" layout_marginBottom="6dp" NOT_FOUND_0x25="@raw/icon_person_fill" NOT_FOUND_0x26="?attr/aa"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/e3y" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1" layout_marginStart="2dp" NOT_FOUND_0x24="72"/>
+                    <com.p2082ss.android.ugc.aweme.views.MutualRelationView id="@+id/e3x" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="2dp"/>
+                </LinearLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ac" gravity="start" layout_gravity="center_vertical" id="@+id/f1e" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" shadowColor="@color/iu" shadowDy="2" shadowRadius="2" textDirection="locale" textAlignment="viewStart" layout_marginStart="4dp" NOT_FOUND_0x24="42"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/ce9" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="10dp" layout_marginStart="8dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center_vertical" id="@+id/f2b" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxWidth="139dp" text="From your contacts" maxLines="2" shadowColor="@color/iu" shadowDy="1" shadowRadius="1" NOT_FOUND_0x24="61"/>
+                <com.p2082ss.android.ugc.aweme.views.MutualRelationView id="@+id/cp6" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.aweme.feed.p2970ui.VideoTitleFollowBtn layout_gravity="center_vertical" id="@+id/xm" visibility="gone" layout_width="88dp" layout_height="28dp" layout_marginLeft="12dp" layout_marginRight="8dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="8dp" layout_alignParentEnd="true" NOT_FOUND_0x23="88dp"/>
+    </RelativeLayout>
+    <LinearLayout gravity="center_vertical" layout_gravity="center_vertical" id="@+id/e42" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="8dp">
+        <com.bytedance.tux.icon.TuxIconView layout_width="12dp" layout_height="12dp" layout_marginTop="6dp" layout_marginBottom="6dp" NOT_FOUND_0x25="@raw/icon_person_fill" NOT_FOUND_0x26="?attr/aa"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/e41" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1" layout_marginStart="2dp" NOT_FOUND_0x24="72"/>
+        <com.p2082ss.android.ugc.aweme.views.MutualRelationView id="@+id/e40" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="2dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp" layout_marginRight="16dp" layout_marginEnd="16dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/aiq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14dp" layoutDirection="ltr"/>
+    <LinearLayout orientation="vertical" id="@+id/acf" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="13dp">
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" id="@+id/aik" layout_width="match_parent" layout_height="48dp">
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="15sp" textColor="@color/bx" textColorHint="@color/bz" layout_gravity="center" id="@+id/aij" background="@null" layout_width="match_parent" layout_height="18dp" text="@string/dpv" hint="@string/dcc" singleLine="true" windowSoftInputMode="stateVisible" imeOptions="actionDone" textCursorDrawable="@drawable/b4h" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="41"/>
+            <FrameLayout id="@+id/ais" layout_width="48dp" layout_height="48dp" layout_marginRight="3dp" layout_marginEnd="3dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0">
+                <com.bytedance.tux.status.loading.TuxSpinner layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/air" visibility="gone" layout_width="18dp" layout_height="18dp" NOT_FOUND_0x21="@raw/icon_spinner_normal" NOT_FOUND_0x22="?attr/bd"/>
+                <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/aii" padding="2dp" visibility="gone" layout_width="20dp" layout_height="20dp" src="0x7f0804d7"/>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View id="@+id/aip" background="@color/b0" layout_width="match_parent" layout_height="0.5dp"/>
+        <LinearLayout id="@+id/ain" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <ImageView id="@+id/ail" layout_width="16dp" layout_height="16dp" src="0x7f0804d8"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/ly" id="@+id/aim" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="6dp" text="@string/dq0" layout_marginStart="6dp" NOT_FOUND_0x20="51"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/aio" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="25/25" NOT_FOUND_0x20="61"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.cardview.widget.CardView id="@+id/aga" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="4dp" NOT_FOUND_0xb="6dp" NOT_FOUND_0xc="true" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0">
+        <androidx.constraintlayout.widget.ConstraintLayout background="@color/t" padding="16dp" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/dwh" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" NOT_FOUND_0x17="@drawable/ada"/>
+            <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/title" layout_width="0dp" layout_height="wrap_content" text="@string/b2l" maxLines="2" layout_marginStart="12dp" layout_marginEnd="20dp" NOT_FOUND_0xf="@+id/ag_" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/dwh" NOT_FOUND_0x14="@+id/dwh" NOT_FOUND_0x16="43"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/eac" layout_width="0dp" layout_height="wrap_content" text="@string/b2k" NOT_FOUND_0xe="@+id/title" NOT_FOUND_0x12="@+id/title" NOT_FOUND_0x13="@+id/title" NOT_FOUND_0x16="81"/>
+            <com.bytedance.tux.button.TuxButton id="@+id/ag_" layout_width="wrap_content" layout_height="wrap_content" text="@string/b2i" NOT_FOUND_0xe="0" NOT_FOUND_0x14="@+id/title" NOT_FOUND_0x15="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.ButtonTitleBar id="@+id/eiz" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x7="8" NOT_FOUND_0xc="@color/ue" NOT_FOUND_0xd="true"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/a_b" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0x7f080af1" NOT_FOUND_0x9="@string/sj" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="1"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/apx" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0x7f080af4" NOT_FOUND_0x9="@string/sq" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="1"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/e9q" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0x7f080af6" NOT_FOUND_0x9="@string/sq" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="1"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/ic" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0x7f080af0" NOT_FOUND_0x9="@string/sn" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="1"/>
+</LinearLayout>

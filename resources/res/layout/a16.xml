@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/ejf" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout gravity="center_vertical" background="@color/c9" layout_width="match_parent" layout_height="@dimen/a0s">
+                <View id="@+id/ej_" background="@color/l" layout_width="match_parent" layout_height="match_parent" alpha="1"/>
+                <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/pi" layout_width="44dp" layout_height="44dp" src="@drawable/ccw" layout_centerVertical="true" style="@style/a3i"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="@dimen/eg" singleLine="true" drawablePadding="3dp" layout_centerHorizontal="true" layout_centerVertical="true" alpha="0"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/e5k" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x12="true" NOT_FOUND_0x14="1">
+            <com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout id="@+id/dq9" layout_width="match_parent" layout_height="match_parent">
+                <FrameLayout id="@+id/be4" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.p1194ui.widget.tablayout.DmtTabLayout id="@+id/ee7" layout_width="match_parent" layout_height="0dp"/>
+                <com.p2082ss.android.ugc.aweme.views.RtlViewPager id="@+id/fgn" layout_width="match_parent" layout_height="wrap_content"/>
+            </com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+        </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+    </LinearLayout>
+    <RelativeLayout id="@+id/e6t" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e7i" background="?attr/m" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s" NOT_FOUND_0x13="0"/>
+</RelativeLayout>

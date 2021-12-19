@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/a8t"/>
+        <FrameLayout layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/c6x" paddingLeft="@dimen/ek" paddingTop="@dimen/ek" paddingRight="0dp" paddingBottom="@dimen/ek" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/c6m" paddingStart="@dimen/ek" layout_toEndOf="@+id/c6m">
+            <com.p2082ss.android.ugc.tools.view.style.StyleView layout_gravity="center" id="@+id/c6y" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x22="@color/u4" NOT_FOUND_0x23="false" NOT_FOUND_0x24="18dp"/>
+            <LinearLayout layout_gravity="center" id="@+id/bmc" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView layout_gravity="center_vertical" layout_width="24dp" layout_height="24dp" src="0x7f0807a5"/>
+                <TextView textSize="@dimen/en" textColor="@color/ss" layout_gravity="center_vertical" id="@+id/e_e" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layout_marginStart="2dp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/c6r" paddingLeft="@dimen/ek" paddingTop="@dimen/ek" paddingRight="0dp" paddingBottom="@dimen/ek" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/c6x" paddingStart="@dimen/ek" layout_toEndOf="@+id/c6x">
+            <com.p2082ss.android.ugc.tools.view.style.StyleView id="@+id/c6t" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x22="@color/u4" NOT_FOUND_0x23="false" NOT_FOUND_0x24="18dp"/>
+            <LinearLayout layout_gravity="center" orientation="horizontal" id="@+id/c6s" layout_width="wrap_content" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.sticker.widget.CheckableImageView layout_gravity="center_vertical" id="@+id/bma" layout_width="20dp" layout_height="20dp"/>
+                <TextView textSize="@dimen/en" textColor="@color/ss" layout_gravity="center_vertical" id="@+id/e_d" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" text="@string/g3x" layout_marginStart="2dp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/c6q" paddingTop="@dimen/ek" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/c6r" layout_toEndOf="@+id/c6r"/>
+        <include layout="@layout/a8s"/>
+        <ViewStub id="@+id/e_q" layout="@layout/n7" inflatedId="@+id/e_q" layout_width="match_parent" layout_height="wrap_content" layout_toRightOf="@+id/c6q" layout_toEndOf="@+id/c6q"/>
+        <TextView textColor="@color/qr" gravity="center" id="@+id/ezn" background="@drawable/b4y" visibility="gone" layout_width="64dp" layout_height="36dp" layout_marginRight="8dp" text="@string/baq" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="8dp" layout_alignParentEnd="true" style="@style/a21"/>
+    </RelativeLayout>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout id="@+id/a0v" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/cdl" layout_width="wrap_content" layout_height="wrap_content">
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/e_p" layout="@layout/bh_" inflatedId="@layout/bh_" layout_width="match_parent" layout_height="65dp" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/ea6" layout="@layout/bh_" inflatedId="@layout/bh_" layout_width="match_parent" layout_height="65dp" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/e_z" layout="@layout/bh_" inflatedId="@layout/bh_" layout_width="match_parent" layout_height="65dp" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/e_x" layout="@layout/aky" inflatedId="@layout/aky" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/e_r" layout="@layout/uw" inflatedId="@+id/e_r" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+                <androidx.appcompat.widget.ViewStubCompat id="@+id/e_y" layout="@layout/agl" inflatedId="@+id/e_y" layout_width="match_parent" layout_height="64dp" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_marginStart="7.5dp" layout_marginEnd="7.5dp"/>
+            </LinearLayout>
+            <FrameLayout layout_gravity="end" id="@+id/b52" background="@drawable/dq" visibility="gone" layout_width="20dp" layout_height="50.5dp" layout_marginTop="7dp" layout_toLeftOf="@+id/b51" layout_toStartOf="@+id/b51"/>
+            <FrameLayout id="@+id/b51" background="@drawable/dr" visibility="gone" layout_width="50dp" layout_height="65dp" layout_marginRight="7.5dp" layout_marginBottom="6dp" layout_alignParentRight="true" layout_marginEnd="7.5dp" layout_alignParentEnd="true">
+                <ImageView layout_gravity="center" id="@+id/bxn" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080624"/>
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <com.p2082ss.android.ugc.tools.view.style.StyleFrameLayout id="@+id/c72" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x22="@color/u4" NOT_FOUND_0x24="@dimen/cl" NOT_FOUND_0x25="true">
+        <ViewStub id="@+id/ea4" layout="@layout/ah4" inflatedId="@+id/ea4" layout_width="match_parent" layout_height="match_parent"/>
+        <LinearLayout orientation="vertical" id="@+id/c71" layout_width="match_parent" layout_height="wrap_content">
+            <FrameLayout id="@+id/c77" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout id="@+id/c7l" layout_width="match_parent" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.sticker.widget.AVRtlViewPager id="@+id/fgr" layout_width="match_parent" layout_height="220dp" layout_marginLeft="7.5dp" layout_marginRight="7.5dp" overScrollHeader="@color/nw" overScrollFooter="@color/nw"/>
+            </FrameLayout>
+            <LinearLayout orientation="vertical" id="@+id/cxg" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/cxu" layout_width="match_parent" layout_height="wrap_content"/>
+                <FrameLayout id="@+id/cxv" layout_width="match_parent" layout_height="145dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.p2082ss.android.ugc.tools.view.style.StyleFrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/as_" layout_width="match_parent" layout_height="match_parent" splitMotionEvents="false">
+    <View id="@+id/asl" background="@drawable/a72" visibility="gone" layout_width="match_parent" layout_height="82dp"/>
+    <FrameLayout id="@+id/fdd" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/aro" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/arm" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/asd" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/ase" background="@color/c9" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/arl" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/c7k" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/ask" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/ue" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout id="@+id/c4z" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/c7m" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/asc" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/a_h" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

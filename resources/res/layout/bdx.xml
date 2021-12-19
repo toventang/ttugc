@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/bsj" layout_width="228dp" layout_height="wrap_content">
+    <RelativeLayout id="@+id/qn" layout_width="match_parent" layout_height="26dp">
+        <ImageView id="@+id/bya" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="8dp" src="0x7f080e5c" layout_marginStart="12dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/alr" ellipsize="end" id="@+id/eue" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layout_marginTop="9dp" singleLine="true" layout_toRightOf="@+id/bya" layout_marginStart="2dp" layout_toEndOf="@+id/bya" style="@style/u3"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="@color/a_" ellipsize="end" id="@+id/f45" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="81dp" layout_marginTop="9dp" singleLine="true" layout_alignParentLeft="true" layout_marginStart="81dp" layout_alignParentStart="true"/>
+        <ImageView id="@+id/bsj" paddingLeft="8dp" paddingTop="5dp" paddingRight="8dp" paddingBottom="5dp" visibility="invisible" layout_width="32dp" layout_height="26dp" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/dlu" paddingLeft="10dp" paddingRight="10dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/a9" gravity="center" id="@+id/f2e" background="@drawable/bpv" layout_width="60dp" layout_height="28dp" text="@string/gir" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a" id="@+id/f2f" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="10dp" layout_toLeftOf="@+id/f2e" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginEnd="10dp" layout_toStartOf="@+id/f2e" layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <include id="@+id/ai_" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout="@layout/b9x"/>
+    <include id="@+id/aia" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout="@layout/b9z"/>
+    <include id="@+id/aie" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout="@layout/b_0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="@color/xa" gravity="center" layout_gravity="start" id="@+id/av5" layout_width="match_parent" layout_height="24dp" text="@string/ei8" maxLines="3" lineSpacingExtra="3sp" NOT_FOUND_0x23="1"/>
+    <com.bytedance.android.live.publicscreen.impl.game.EdgeTransparentView id="@+id/acp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout_marginBottom="5dp">
+        <com.bytedance.android.live.publicscreen.impl.game.GameMsgRecyclerView id="@+id/dgw" visibility="visible" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.bytedance.android.live.publicscreen.impl.game.EdgeTransparentView>
+</LinearLayout>

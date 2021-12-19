@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" background="@drawable/qu" layout_width="match_parent" layout_height="421.5dp">
+    <FrameLayout padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/a0w" background="?attr/ab8" layout_width="wrap_content" layout_height="wrap_content" text="@string/nr" NOT_FOUND_0xd="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/title" background="?attr/ab8" layout_width="wrap_content" layout_height="wrap_content" text="@string/nt" NOT_FOUND_0xd="33"/>
+        <com.p2082ss.android.ugc.aweme.commercialize.views.bottomdialog.AdBottomDialogConfirmView textSize="15sp" textStyle="bold" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/abv" background="?attr/ab8" layout_width="wrap_content" layout_height="wrap_content" text="@string/ns" lineSpacingExtra="3sp" NOT_FOUND_0xc="PingFangSC-Medium"/>
+    </FrameLayout>
+    <View background="@color/bo" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/cx3" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

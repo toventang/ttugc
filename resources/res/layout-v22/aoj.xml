@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout id="@+id/ctv" background="@drawable/sy" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp" elevation="3dp" outlineProvider="background">
+        <ImageView id="@+id/bwm" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0x19="0x7f080a7e"/>
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" id="@+id/eja" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="8dp" layout_weight="1" layout_marginStart="12dp" layout_marginEnd="8dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/c0h" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="2dp" text="TikTok Rewards" NOT_FOUND_0x1a="43"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/bui" layout_width="match_parent" layout_height="wrap_content" text="Start earning free gifts today." NOT_FOUND_0x17="0" NOT_FOUND_0x1a="71"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtButton textSize="14sp" textColor="@color/p" id="@+id/btg" background="@drawable/b_v" layout_width="76dp" layout_height="28dp" foreground="?attr/ab8" text="Join" lineSpacingExtra="3sp" textAllCaps="false" NOT_FOUND_0x18="7" style="@style/v4"/>
+        <ImageView id="@+id/bu5" layout_width="24dp" layout_height="24dp" layout_marginLeft="8dp" layout_marginRight="12dp" layout_marginStart="8dp" layout_marginEnd="12dp" NOT_FOUND_0x19="0x7f080665"/>
+    </LinearLayout>
+</LinearLayout>

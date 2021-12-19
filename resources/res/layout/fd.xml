@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/bh1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="68dp" src="0x7f080479" NOT_FOUND_0x10="@+id/aj9" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/aj9" layout_width="0dp" layout_height="wrap_content" layout_marginTop="20dp" text="@string/a3z" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x10="@+id/acq" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/bh1" NOT_FOUND_0x17="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/acq" layout_width="0dp" layout_height="wrap_content" layout_marginTop="12dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/aj9" NOT_FOUND_0x17="51"/>
+    <View id="@+id/c93" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="32dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/acq"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/c93">
+        <com.bytedance.tux.input.TuxTextView id="@+id/qg" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/q8" layout_marginStart="16dp" NOT_FOUND_0x17="42"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/bq" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0">
+        <com.bytedance.tux.button.TuxButton gravity="center" id="@+id/a0b" layout_width="wrap_content" layout_height="44dp" text="@string/cav" layout_weight="1" NOT_FOUND_0x16="1"/>
+        <com.bytedance.tux.button.TuxButton gravity="center" id="@+id/a0d" layout_width="wrap_content" layout_height="44dp" text="@string/a5j" layout_weight="1" layout_marginStart="8dp" NOT_FOUND_0x16="0"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

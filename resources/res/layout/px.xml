@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/ci3" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center_horizontal" id="@+id/eqw" layout_width="32dp" layout_height="32dp"/>
+</LinearLayout>

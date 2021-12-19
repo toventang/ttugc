@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="9dp" paddingBottom="9dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.SmartAvatarImageView id="@+id/nz" layout_width="32dp" layout_height="32dp" NOT_FOUND_0xc="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/cpj" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xd="@+id/nz" NOT_FOUND_0xf="@+id/nz" NOT_FOUND_0x12="@+id/nz" NOT_FOUND_0x15="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ajd" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" NOT_FOUND_0xc="@+id/cpj" NOT_FOUND_0x10="@+id/cpj" NOT_FOUND_0x11="@+id/cpj" NOT_FOUND_0x15="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ehl" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xa="@+id/ajd" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0x15="63"/>
+    <ImageView id="@+id/e64" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="3dp" tint="@color/bg" layout_marginStart="3dp" NOT_FOUND_0xa="@+id/cpj" NOT_FOUND_0xf="@+id/ekr" NOT_FOUND_0x12="@+id/cpj" NOT_FOUND_0x14="@drawable/ajw"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bg" id="@+id/ekq" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="3dp" layout_marginStart="3dp" NOT_FOUND_0xa="@+id/cpj" NOT_FOUND_0xf="@+id/e64" NOT_FOUND_0x12="@+id/cpj" NOT_FOUND_0x15="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ekr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="3dp" layout_marginStart="3dp" NOT_FOUND_0xa="@+id/cpj" NOT_FOUND_0xf="@+id/cpj" NOT_FOUND_0x12="@+id/cpj" NOT_FOUND_0x15="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

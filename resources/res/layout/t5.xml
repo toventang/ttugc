@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" id="@+id/ald" layout_width="50dp" layout_height="wrap_content">
+    <FrameLayout id="@+id/dxn" style="@style/vv">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/dxv" layout_width="40dp" layout_height="match_parent" src="0x7f080981"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/dxq" layout_width="40dp" layout_marginTop="-1.4dp" NOT_FOUND_0x7="72" style="@style/vy"/>
+</LinearLayout>

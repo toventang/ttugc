@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/mp" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cr1" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/cr2" layout_width="match_parent" layout_height="335dp" layout_marginTop="10dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/cqz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" lineSpacingExtra="9dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/cr2" NOT_FOUND_0x10="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/cr0" layout_width="232dp" layout_height="wrap_content" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/cqz" NOT_FOUND_0x10="13" style="@style/wa"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/cqy" visibility="gone" layout_width="wrap_content" layout_height="match_parent" overScrollMode="never" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/d9b" background="@color/a2" visibility="gone" layout_width="match_parent" layout_height="44dp" text="@string/a0n" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="23"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/cqx" layout_width="24dp" layout_height="24dp" layout_marginTop="10dp" layout_marginStart="16dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@raw/icon_x_mark" NOT_FOUND_0x12="24dp" NOT_FOUND_0x13="24dp" NOT_FOUND_0x14="@color/u"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

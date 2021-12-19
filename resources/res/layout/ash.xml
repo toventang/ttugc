@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_gravity="center" id="@+id/egu" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/egs" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dey" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/b3q" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/egv" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/apz" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/dbl" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/egw" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fg7" layout="@layout/ev" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fg5" layout="@layout/eu" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.edit.LiveCDEditStickerLayout layout_gravity="center" id="@+id/c4r" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.poll.PollingStickerLayout layout_gravity="center" id="@+id/c5g" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.duet.DuetEditStickerLayout layout_gravity="center" id="@+id/c3w" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.p3819qa.QaStickerEditLayout layout_gravity="center" id="@+id/c5k" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fgf" layout="@layout/ew" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/bn_" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/f4j" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

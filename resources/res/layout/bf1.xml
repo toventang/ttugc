@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ekd" clipChildren="false" layout_width="44dp" layout_height="36dp" layout_marginStart="0dp" layout_marginEnd="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ekb" clipChildren="false" layout_width="44dp" layout_height="36dp">
+        <ImageView id="@+id/ekf" layout_width="24dp" layout_height="24dp" layout_marginTop="0dp" layout_marginStart="10dp" layout_marginEnd="10dp" NOT_FOUND_0x20="0" NOT_FOUND_0x23="0" NOT_FOUND_0x25="0"/>
+        <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@+id/efz" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x21="37dp"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textColor="@color/a1w" ellipsize="end" gravity="center" id="@+id/ekj" layout_width="40dp" layout_height="12dp" layout_marginTop="1dp" layout_marginBottom="0dp" maxLines="1" includeFontPadding="false" alpha="0.6" textAlignment="center" layout_marginStart="2dp" layout_marginEnd="2dp" NOT_FOUND_0x19="10dp" NOT_FOUND_0x1a="9dp" NOT_FOUND_0x1b="1" NOT_FOUND_0x1c="@+id/efz" NOT_FOUND_0x20="0" NOT_FOUND_0x23="0" NOT_FOUND_0x24="@+id/ekf" style="@style/u3"/>
+        <View id="@+id/ekc" background="@drawable/bzy" visibility="gone" layout_width="8dp" layout_height="8dp" NOT_FOUND_0x1d="@+id/ekf" NOT_FOUND_0x1e="45" NOT_FOUND_0x1f="16dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a0z" gravity="center" id="@+id/ek_" background="@drawable/bsa" paddingLeft="4dp" paddingRight="4dp" visibility="gone" layout_width="wrap_content" layout_height="15dp" layout_marginTop="2dp" layout_marginRight="4dp" minWidth="15dp" includeFontPadding="false" NOT_FOUND_0x22="0" NOT_FOUND_0x25="0"/>
+        <ImageView id="@+id/ek9" visibility="gone" layout_width="12dp" layout_height="12dp" NOT_FOUND_0x1d="@+id/ekf" NOT_FOUND_0x1e="45" NOT_FOUND_0x1f="14dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.airbnb.lottie.LottieAnimationView layout_gravity="center" id="@+id/eka" visibility="visible" layout_width="50dp" layout_height="50dp" scaleType="centerCrop"/>
+</FrameLayout>

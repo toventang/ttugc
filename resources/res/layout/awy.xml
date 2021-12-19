@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns="" textAppearance="?attr/ahy" textColor="?attr/ai9" ellipsize="marquee" gravity="center_vertical" id="@android:id/text1" paddingLeft="?attr/a2v" paddingRight="?attr/a2w" layout_width="match_parent" layout_height="wrap_content" minHeight="?attr/a2u"/>

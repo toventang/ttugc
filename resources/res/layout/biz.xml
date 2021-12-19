@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="213dp" layout_height="wrap_content">
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" paddingLeft="18.5dp" paddingTop="14dp" paddingRight="18.5dp" paddingBottom="14dp" layout_width="213dp" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/d3s" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" shadowColor="@color/bo" shadowDy="2" shadowRadius="8" NOT_FOUND_0x18="21"/>
+        <RelativeLayout id="@+id/dlq" layout_width="match_parent" layout_height="44dp" layout_marginBottom="7.5dp">
+            <com.p2082ss.android.ugc.aweme.shortvideo.sticker.infoSticker.interact.consume.view.DispatchTouchEventView id="@+id/d3q" background="@color/c9" layout_width="match_parent" layout_height="match_parent" max="100" progressDrawable="@drawable/b6j" style="?android:attr/progressBarStyleHorizontal"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bj" id="@+id/egl" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" NOT_FOUND_0x18="41"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/d0c" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="41"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/dlr" layout_width="match_parent" layout_height="44dp">
+            <com.p2082ss.android.ugc.aweme.shortvideo.sticker.infoSticker.interact.consume.view.DispatchTouchEventView id="@+id/d3r" background="@color/c9" layout_width="match_parent" layout_height="match_parent" max="100" progressDrawable="@drawable/b6l" style="?android:attr/progressBarStyleHorizontal"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bj" id="@+id/egm" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" NOT_FOUND_0x18="41"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/d0d" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="41"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

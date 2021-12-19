@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="4dp" paddingBottom="4dp" layout_width="wrap_content" layout_height="48dp">
+    <View id="@+id/cid" background="@color/c9" layout_width="12dp" layout_height="1dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x17="0"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/o3" layout_width="40dp" layout_height="40dp" layout_marginStart="4dp" NOT_FOUND_0xd="@drawable/ccg" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@drawable/ccg"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" ellipsize="end" id="@+id/cpk" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" layout_marginStart="4dp" NOT_FOUND_0xe="true" NOT_FOUND_0x11="@+id/ehq" NOT_FOUND_0x12="0" NOT_FOUND_0x13="2" NOT_FOUND_0x14="@+id/o3" NOT_FOUND_0x17="0" NOT_FOUND_0x19="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" id="@+id/ehq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" NOT_FOUND_0xe="true" NOT_FOUND_0x11="@+id/cid" NOT_FOUND_0x14="@+id/cpk" NOT_FOUND_0x17="0" NOT_FOUND_0x19="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/b3" ellipsize="end" id="@+id/ajg" layout_width="wrap_content" layout_height="wrap_content" maxWidth="220dp" text="@string/fhz" maxLines="1" NOT_FOUND_0x11="@+id/cid" NOT_FOUND_0x12="0" NOT_FOUND_0x15="@+id/cpk" NOT_FOUND_0x16="@+id/cpk" NOT_FOUND_0x19="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

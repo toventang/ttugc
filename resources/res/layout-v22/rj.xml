@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/acf" paddingLeft="16dp" paddingTop="12dp" paddingRight="16dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="16dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/dzw" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x27="0" NOT_FOUND_0x29="0" NOT_FOUND_0x2a="0x7f08075f" NOT_FOUND_0x2b="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/dzz" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" maxLines="1" textAlignment="viewStart" layout_marginStart="8dp" NOT_FOUND_0x23="@+id/dzw" NOT_FOUND_0x24="0" NOT_FOUND_0x26="@+id/dzw" NOT_FOUND_0x29="@+id/dzw" NOT_FOUND_0x2d="42"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/e02" layout_width="match_parent" layout_height="0dp" layout_marginTop="10dp" NOT_FOUND_0x22="androidx.recyclerview.widget.LinearLayoutManager" NOT_FOUND_0x25="0" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/dzz"/>
+    <Space id="@+id/e4m" layout_width="match_parent" layout_height="0dp" layout_marginTop="6dp" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/e02"/>
+    <com.p2082ss.android.ugc.aweme.ecommerce.combinepayment.ordersubmit.view.OrderSubmitInfoView id="@+id/dzu" paddingTop="13dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" minHeight="57dp" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/e4m"/>
+    <RelativeLayout id="@+id/als" visibility="visible" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/dzu">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" text="@string/bh1" singleLine="true" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x2d="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/an2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/bh2" singleLine="true" layout_toLeftOf="@+id/alu" layout_centerVertical="true" layout_toStartOf="@+id/alu" NOT_FOUND_0x2d="41"/>
+        <com.p2082ss.android.ugc.aweme.ecommerce.coupon.view.CouponTag id="@+id/afl" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/alu" layout_centerVertical="true" layout_toStartOf="@+id/alu"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="center_vertical" id="@+id/alu" layout_width="16dp" layout_height="16dp" tint="@color/c5" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x2c="@drawable/yn"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/dv6" visibility="gone" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/als">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" text="@string/bh1" singleLine="true" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x2d="41"/>
+        <com.p2082ss.android.ugc.aweme.ecommerce.coupon.view.CouponTag id="@+id/dv8" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/dv7" layout_centerVertical="true" layout_toStartOf="@+id/dv7"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="center_vertical" id="@+id/dv7" layout_width="16dp" layout_height="16dp" tint="@color/c5" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x2c="@drawable/yn"/>
+    </RelativeLayout>
+    <com.p2082ss.android.ugc.aweme.ecommerce.combinepayment.ordersubmit.view.OrderSubmitInfoView id="@+id/cj9" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/dv6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="start" id="@+id/f9k" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" textAlignment="viewStart" NOT_FOUND_0x20="0" NOT_FOUND_0x28="@+id/cj9" NOT_FOUND_0x2d="61"/>
+    <RelativeLayout gravity="end" id="@+id/dzx" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x24="0" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/f9k">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/ebm" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layout_marginRight="2dp" singleLine="true" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="2dp" layout_marginEnd="2dp" layout_alignParentEnd="true" NOT_FOUND_0x2d="41"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

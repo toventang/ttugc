@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center" orientation="vertical" background="@drawable/a2v" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="32dp" layout_marginEnd="32dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/efn" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="12dp" text="@string/ask" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x13="23"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/ase" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x13="51"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c68" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="20dp" paddingStart="20dp" paddingEnd="20dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a2m" background="@drawable/a30" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp" button="@null" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bi" id="@+id/f3j" layout_width="0dp" layout_height="wrap_content" text="@string/ash" layout_weight="1" layout_marginEnd="12dp" NOT_FOUND_0x13="32"/>
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a2n" background="@drawable/a30" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp" button="@null"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c78" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="20dp" paddingStart="20dp" paddingEnd="20dp">
+        <com.bytedance.tux.input.TuxCheckBox id="@+id/a29" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/f5k" layout_width="0dp" layout_height="wrap_content" text="@string/asj" layout_weight="1" layout_marginEnd="12dp" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.input.TuxCheckBox id="@+id/a2_" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/c5i" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="20dp" paddingStart="20dp" paddingEnd="20dp">
+        <com.bytedance.tux.input.TuxCheckBox id="@+id/a27" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="start" id="@+id/f1h" layout_width="0dp" layout_height="wrap_content" text="@string/asi" layout_weight="1" layout_marginEnd="12dp" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.input.TuxCheckBox id="@+id/a28" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c67" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" paddingStart="20dp" paddingEnd="20dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a2k" background="@drawable/a30" visibility="gone" layout_width="24dp" layout_height="24dp" button="@null" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bi" id="@+id/f3i" layout_width="0dp" layout_height="wrap_content" text="@string/ash" layout_weight="1" layout_marginEnd="12dp" NOT_FOUND_0x13="32"/>
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a2l" background="@drawable/a30" visibility="gone" clickable="false" layout_width="24dp" layout_height="24dp" button="@null"/>
+    </LinearLayout>
+    <com.bytedance.tux.button.TuxButton textColor="@color/a9" gravity="center" id="@+id/xd" background="@color/bh" layout_width="match_parent" layout_height="44dp" layout_marginBottom="18dp" text="@string/asl" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x13="42"/>
+</LinearLayout>

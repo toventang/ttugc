@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="kt" parent="@style/kr">
+    </style>
+    <style name="ku" parent="@style/kr">
+    </style>
+    <style name="kv" parent="@style/l0">
+    </style>
+    <style name="kw" parent="@style/l1">
+    </style>
+    <style name="kx" parent="@style/l2">
+    </style>
+    <style name="ky" parent="@style/l3">
+    </style>
+    <style name="kz" parent="@style/la">
+    </style>
+</resources>

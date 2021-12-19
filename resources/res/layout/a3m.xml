@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.uikit.tabhost.FragmentTabHost xmlns="" id="@+id/ci5" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.feed.p2970ui.seekbar.VideoSeekBarMaskView id="@+id/ci2" layout_width="match_parent" layout_height="match_parent" style="@style/a1k">
+        <FrameLayout id="@+id/edy" layout_width="match_parent" layout_height="match_parent"/>
+        <View layout_gravity="bottom" id="@+id/vf" background="@color/a8" layout_width="match_parent" layout_height="0.5dp" layout_marginBottom="47dp"/>
+        <ViewStub layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/afi" layout="@layout/a3h" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="13dp" layout_marginBottom="45dp" layout_marginEnd="13dp"/>
+        <com.p2082ss.android.ugc.aweme.homepage.p3055ui.view.tab.bottom.MainBottomTabView layout_gravity="bottom" id="@+id/ci0" layout_width="match_parent" layout_height="@dimen/n5"/>
+        <com.p2082ss.android.ugc.aweme.feed.p2970ui.seekbar.VideoSeekBar layout_gravity="bottom" id="@+id/fdm" visibility="gone" layout_width="match_parent" layout_height="18dp" layout_marginBottom="36dp"/>
+        <RelativeLayout gravity="center_vertical" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/fdn" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="116dp">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/agw" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/agv" layout_toStartOf="@+id/agv" NOT_FOUND_0x15="12"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/agv" layout_width="6dp" layout_height="20dp" layout_marginLeft="19dp" layout_marginRight="19dp" text="/" layout_centerInParent="true" layout_marginStart="19dp" layout_marginEnd="19dp" NOT_FOUND_0x15="32"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ac" id="@+id/eml" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/agv" layout_toEndOf="@+id/agv" NOT_FOUND_0x15="12"/>
+        </RelativeLayout>
+        <ViewStub layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/zh" layout="@layout/a3s" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="44dp"/>
+        <FrameLayout layout_gravity="bottom" id="@+id/d3m" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.p2082ss.android.ugc.aweme.feed.p2970ui.seekbar.VideoSeekBarMaskView>
+    <View id="@+id/fhw" background="#111111" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+</com.bytedance.ies.uikit.tabhost.FragmentTabHost>

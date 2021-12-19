@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/ddz" visibility="gone" layout_width="match_parent" layout_height="match_parent" importantForAccessibility="no"/>
+    <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/de4" layout_width="30dp" layout_height="30dp" layout_marginLeft="12dp" layout_centerVertical="true" importantForAccessibility="no" layout_marginStart="12dp"/>
+        <com.bytedance.android.live.core.widget.FitTextView textSize="16dp" textColor="@color/wp" gravity="center_vertical" id="@+id/de9" layout_width="100dp" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginRight="6dp" maxLines="1" layout_toLeftOf="@+id/o5" layout_toRightOf="@+id/de4" layout_centerVertical="true" importantForAccessibility="no" layout_marginStart="6dp" layout_marginEnd="6dp" layout_toStartOf="@+id/o5" layout_toEndOf="@+id/de4"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/ks" background="@drawable/byc" layout_width="24dp" layout_height="24dp" layout_marginRight="10dp" layout_alignParentRight="true" layout_centerVertical="true" importantForAccessibility="no" layout_marginEnd="10dp" layout_alignParentEnd="true"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/o7" background="0x7f080d09" paddingTop="6dp" paddingBottom="8dp" layout_width="40dp" layout_height="40dp" layout_marginRight="35dp" scaleType="fitCenter" layout_alignParentRight="true" layout_centerVertical="true" importantForAccessibility="no" layout_marginEnd="35dp" layout_alignParentEnd="true"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/o6" background="0x7f080d0b" paddingTop="6dp" paddingBottom="8dp" layout_width="40dp" layout_height="40dp" scaleType="fitCenter" layout_toLeftOf="@+id/o7" layout_centerVertical="true" importantForAccessibility="no" layout_toStartOf="@+id/o7"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/o5" background="0x7f080d0a" paddingTop="6dp" paddingBottom="8dp" layout_width="40dp" layout_height="40dp" scaleType="fitCenter" layout_toLeftOf="@+id/o6" layout_centerVertical="true" importantForAccessibility="no" layout_toStartOf="@+id/o6"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/de1" layout_width="wrap_content" layout_height="wrap_content" layout_alignTop="@+id/o5" layout_alignRight="@+id/o5" importantForAccessibility="no" layout_alignEnd="@+id/o5"/>
+    </RelativeLayout>
+</FrameLayout>

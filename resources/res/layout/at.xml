@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.TextTitleBar id="@+id/eiz" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x18="@string/fnt" NOT_FOUND_0x19="@color/bx" NOT_FOUND_0x1a="17dp" NOT_FOUND_0x1c="true"/>
+    <ScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x14="@string/h6m" NOT_FOUND_0x15="@string/h6p" NOT_FOUND_0x16="@color/bx" NOT_FOUND_0x17="1"/>
+            <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/fl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x14="@string/nm" NOT_FOUND_0x15="@string/nl" NOT_FOUND_0x16="@color/bx" NOT_FOUND_0x17="1"/>
+            <RelativeLayout padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <CheckBox id="@+id/a2j" background="@null" layout_width="16dp" layout_height="16dp" button="@null" layout_centerVertical="true" drawableStart="@drawable/cg" layout_marginEnd="8dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/fq" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="0dp" layout_toEndOf="@+id/a2j" NOT_FOUND_0x1b="71"/>
+            </RelativeLayout>
+            <LinearLayout orientation="vertical" id="@+id/c3i" layout_width="match_parent" layout_height="wrap_content">
+                <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" text="@string/hcl" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" text="@string/h6u" NOT_FOUND_0x1b="61"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ewl" background="@drawable/pq" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="16dp" text="@string/c3c" NOT_FOUND_0x1b="42"/>
+            <LinearLayout orientation="vertical" id="@+id/c3j" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="16dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/eu_" background="@drawable/pq" layout_width="match_parent" layout_height="44dp" text="@string/au2" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/euy" background="@drawable/pq" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/b52" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/evz" background="@drawable/pq" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/eyx" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ets" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0x1b="41"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/esh" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0x1b="41"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

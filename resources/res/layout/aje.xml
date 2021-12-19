@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/acf" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@+id/aeb" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/emn" focusable="false" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false" importantForAccessibility="no"/>
+        <com.bytedance.android.live.design.widget.shapecontrol.ShapeControllableFrameLayout layout_gravity="top|center_vertical|center_horizontal|center" id="@+id/ajx" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="com.bytedance.android.live.design.view.sheet.LiveBottomSheetBehavior" style="?attr/a39"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

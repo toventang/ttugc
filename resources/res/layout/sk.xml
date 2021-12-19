@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="64dp" layout_height="wrap_content">
+    <RelativeLayout id="@+id/ob" layout_width="64dp" layout_height="64dp" layout_marginTop="4dp">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.SmartAvatarBorderView id="@+id/f__" visibility="visible" layout_width="48dp" layout_height="48dp" layout_centerInParent="true"/>
+        <ImageView id="@+id/bvk" visibility="gone" layout_width="0dp" layout_height="0dp" src="0x7f08040c" scaleType="fitXY" layout_alignTop="@+id/f__" layout_alignBottom="@+id/f__" layout_alignStart="@+id/f__" layout_alignEnd="@+id/f__"/>
+        <com.p2082ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/fa_" visibility="gone" layout_width="54dp" layout_height="54dp" layout_centerInParent="true" NOT_FOUND_0x13="2.5dp"/>
+        <com.p2082ss.android.ugc.aweme.feed.p2970ui.LiveCircleView id="@+id/f_b" padding="3dp" visibility="gone" layout_width="54dp" layout_height="54dp" layout_centerInParent="true" NOT_FOUND_0x12="1.5dp"/>
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/d9u" layout_width="64dp" layout_height="32dp" scaleType="fitCenter" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x11="2"/>
+        <com.p2082ss.android.ugc.aweme.feed.AvatarImageWithLive id="@+id/f_g" visibility="invisible" layout_width="48dp" layout_height="48dp" layout_alignTop="@+id/f__" layout_centerInParent="true" layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/oc" visibility="gone" layout_width="50dp" layout_height="45dp" src="@drawable/icon" scaleType="fitCenter" layout_centerHorizontal="true"/>
+    <RelativeLayout id="@+id/b6j" paddingBottom="16dp" layout_width="60dp" layout_height="wrap_content" layout_marginTop="48dp" layout_centerHorizontal="true">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.AnimationImageView layout_gravity="center" id="@+id/b6a" layout_width="24dp" layout_height="24dp" layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

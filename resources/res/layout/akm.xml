@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent" splitMotionEvents="false" windowEnableSplitTouch="false">
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/cpv" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x14="@color/b2"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/db8" paddingTop="8dp" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/a06" layout_below="@+id/cpv" splitMotionEvents="false" windowEnableSplitTouch="false"/>
+    <View id="@+id/a0a" background="@color/b2" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_above="@+id/a06"/>
+    <FrameLayout id="@+id/a06" background="@color/l" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.bytedance.tux.button.TuxButton enabled="false" textSize="15sp" textColor="@color/bz" gravity="center" id="@+id/ww" background="@drawable/b48" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" layout_marginBottom="32dp" text="@string/ou" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="42"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/gy" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/cpv"/>
+</RelativeLayout>

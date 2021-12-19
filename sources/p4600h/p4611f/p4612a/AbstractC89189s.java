@@ -1,0 +1,13 @@
+package p4600h.p4611f.p4612a;
+
+import com.bytedance.covode.number.Covode;
+import p4600h.AbstractC89096c;
+
+/* renamed from: h.f.a.s */
+public interface AbstractC89189s<P1, P2, P3, P4, P5, R> extends AbstractC89096c<R> {
+    static {
+        Covode.recordClassIndex(105273);
+    }
+
+    R invoke(P1 p1, P2 p2, P3 p3, P4 p4, P5 p5);
+}

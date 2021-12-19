@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.newfollow.p3507ui.FriendTabViewPager id="@+id/fgn" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

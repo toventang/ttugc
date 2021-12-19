@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center" id="@+id/dnb" background="@drawable/pm" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" minWidth="112dp">
+    <ImageView id="@+id/jz" padding="6dp" layout_width="48dp" layout_height="48dp" src="@drawable/cdk" scaleType="fitXY" layout_centerHorizontal="true"/>
+    <ImageView id="@+id/anq" visibility="gone" layout_width="48dp" layout_height="48dp" src="0x7f080998" scaleType="fitXY" layout_centerHorizontal="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/cj9" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/jz" layout_centerHorizontal="true" NOT_FOUND_0xf="42"/>
+</RelativeLayout>

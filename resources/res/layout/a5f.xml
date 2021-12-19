@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <View background="@color/b2" layout_width="match_parent" layout_height="1px" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/bbv" layout_width="wrap_content" layout_height="wrap_content" text="@string/cgq" layout_centerHorizontal="true" layout_centerVertical="true" NOT_FOUND_0x10="41"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a77" layout_width="24dp" layout_height="24dp" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x11="@raw/icon_x_mark_small" NOT_FOUND_0x12="@color/bx"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView layout_gravity="center" id="@+id/bbu" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="18dp" layout_marginRight="8dp"/>
+</LinearLayout>

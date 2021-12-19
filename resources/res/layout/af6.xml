@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/emx" layout_width="wrap_content" layout_height="34dp" layout_marginLeft="12dp" layout_marginTop="4dp" layout_marginStart="12dp">
+    <LinearLayout gravity="center" id="@+id/emv" layout_width="0dp" layout_height="match_parent" layout_weight="1">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/dkp" visibility="gone" layout_width="16dp" layout_height="16dp" alpha="0.5" layout_marginEnd="4dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" gravity="center" id="@+id/emy" layout_width="wrap_content" layout_height="wrap_content" text="@string/bu6" NOT_FOUND_0x11="62"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/emw" paddingTop="0.5dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/a8z"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" id="@+id/a1t" layout_width="34dp" layout_height="34dp" layout_marginLeft="4dp" layout_marginStart="4dp">
+        <com.airbnb.lottie.LottieAnimationView id="@+id/a1u" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x10="feed_ad_transform_btn_ctrl_lottie.json"/>
+    </LinearLayout>
+</LinearLayout>

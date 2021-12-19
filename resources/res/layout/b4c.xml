@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.widget.GestureDetectLayout xmlns="" id="@+id/cz7" layout_width="match_parent" layout_height="match_parent">
+    <SurfaceView id="@+id/ec9" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/ad6" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout gravity="center_horizontal" orientation="horizontal" id="@+id/b25" visibility="invisible" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="@dimen/vy" textColor="@color/wc" gravity="center" layout_gravity="center" id="@+id/b27" layout_width="192dp" layout_height="32dp" layout_marginLeft="@dimen/vx" layout_marginRight="@dimen/vx" text="@string/gvs" shadowColor="@color/x8" shadowDx="1" shadowDy="1" lineSpacingExtra="8sp" layout_marginStart="@dimen/vx" layout_marginEnd="@dimen/vx"/>
+    </LinearLayout>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/cfa" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+</com.bytedance.android.livesdk.widget.GestureDetectLayout>

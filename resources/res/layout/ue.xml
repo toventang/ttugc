@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/ejf" layout="@layout/uk"/>
+    <ScrollView layout_width="match_parent" layout_height="match_parent" layout_above="@+id/u2" layout_below="@+id/ejf">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" paddingTop="20dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                <ImageView layout_gravity="center_horizontal" layout_width="40dp" layout_height="40dp" src="0x7f080453" alpha="0.5"/>
+                <LinearLayout gravity="center_vertical" layout_width="match_parent" layout_height="wrap_content">
+                    <View layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" gravity="center" id="@+id/eht" layout_width="wrap_content" layout_height="wrap_content" text="@string/bri" NOT_FOUND_0x1a="21"/>
+                    <FrameLayout layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+                </LinearLayout>
+                <View id="@+id/f92" background="@color/b6" layout_width="match_parent" layout_height="1px" layout_marginTop="20dp"/>
+            </LinearLayout>
+            <com.bytedance.tux.table.cell.TuxTextCell id="@+id/ehu" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1b="@raw/icon_hourglass" NOT_FOUND_0x1d="@string/gdx"/>
+            <com.bytedance.tux.table.cell.TuxTextCell id="@+id/ehv" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1b="@raw/icon_clock" NOT_FOUND_0x1d="@string/gdy"/>
+            <com.bytedance.tux.table.cell.TuxTextCell id="@+id/ehw" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1b="@raw/icon_lock" NOT_FOUND_0x1d="@string/gdz"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.setting.Divider layout_width="match_parent" layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.setting.SettingItem id="@+id/brp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="@string/gdb"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout orientation="vertical" id="@+id/u2" padding="15dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="5dp" layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtButton textSize="15sp" textColor="@color/a_" id="@+id/y7" background="@drawable/cc1" layout_width="match_parent" layout_height="44dp" text="@string/gdw" textAllCaps="false" style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e7i" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="0"/>
+</RelativeLayout>

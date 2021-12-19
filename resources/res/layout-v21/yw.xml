@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" orientation="vertical" layout_width="match_parent" layout_height="@dimen/jk">
+    <com.p2082ss.android.ugc.aweme.emoji.views.SwipeControlledViewPager id="@+id/auc" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/au_" paddingBottom="15.5dp" layout_width="wrap_content" layout_height="wrap_content"/>
+    <include id="@+id/ff6" layout="@layout/ye"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c3z" background="@color/l" layout_width="match_parent" layout_height="44dp">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/aun" layout_width="0dp" layout_height="44dp" layout_marginRight="10dp" layout_weight="1" layout_marginEnd="10dp"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtButton enabled="false" textColor="@color/c5" ellipsize="end" gravity="center" id="@+id/auf" background="@drawable/a7t" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_marginRight="12dp" maxWidth="90dp" minWidth="60dp" text="@string/bmm" maxLines="1" layout_marginEnd="12dp" stateListAnimator="@null" style="@style/xy"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e7_" background="@color/bz" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/pi" layout_width="44dp" layout_height="match_parent" src="0x7f08108f" layout_alignParentLeft="true" contentDescription="@string/a20" layout_alignParentStart="true" style="@style/a3i"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/w8" maxLines="1" layout_centerInParent="true" layout_marginStart="88dp" layout_marginEnd="88dp" NOT_FOUND_0x1b="33"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="1px" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" background="@color/v" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/kq" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="13dp" layout_marginBottom="21dp" text="@string/w7" singleLine="false" NOT_FOUND_0x1b="51"/>
+    </LinearLayout>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/c_5" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e7i" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="0"/>
+</LinearLayout>

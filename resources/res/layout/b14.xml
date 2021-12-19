@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/bdv" background="@color/l" layout_width="match_parent" layout_height="wrap_content" alpha="0.96">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/ry" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x27="0"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <HorizontalScrollView scrollbars="none" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+            <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+                <GridView id="@+id/e8t" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" horizontalSpacing="16dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View id="@+id/elm" background="@color/b6" layout_width="match_parent" layout_height="1px" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="16dp"/>
+        <RelativeLayout id="@+id/bnr" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" paddingStart="16dp" paddingEnd="16dp">
+            <FrameLayout id="@+id/b5j" layout_width="120dp" layout_height="120dp">
+                <com.p2082ss.android.ugc.aweme.shortvideo.widget.ShapedRemoteImageView id="@+id/e9a" background="@drawable/sh" layout_width="120dp" layout_height="120dp" NOT_FOUND_0x25="0" NOT_FOUND_0x26="@drawable/bla" NOT_FOUND_0x28="1"/>
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/e9b" visibility="visible" layout_width="30dp" layout_height="30dp" layout_marginRight="10dp" layout_marginBottom="10dp" layout_marginEnd="10dp" NOT_FOUND_0x25="2" NOT_FOUND_0x26="0x7f080121"/>
+            </FrameLayout>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_weight="1" layout_toRightOf="@+id/b5j" layout_marginStart="16dp" layout_toEndOf="@+id/b5j">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a2" id="@+id/e9c" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" textDirection="locale" NOT_FOUND_0x29="32"/>
+                <FrameLayout id="@+id/c6w" layout_width="match_parent" layout_height="wrap_content">
+                    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp">
+                        <com.p2082ss.android.ugc.aweme.detail.views.AvatarImageWithVerifyMini id="@+id/or" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginEnd="9dp"/>
+                        <com.bytedance.tux.input.TuxTextView id="@+id/f04" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/exu" singleLine="true" NOT_FOUND_0x29="61"/>
+                        <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/f03" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_weight="1" NOT_FOUND_0x29="61"/>
+                        <ImageView id="@+id/l0" layout_width="5dp" layout_height="12dp" layout_marginLeft="3dp" layout_marginTop="1dp" src="@drawable/aic" layout_marginStart="3dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <View id="@+id/cya" background="@color/b6" visibility="gone" layout_width="match_parent" layout_height="1px" layout_marginTop="3dp" layout_marginBottom="8dp"/>
+                <com.bytedance.tux.input.TuxTextView id="@+id/f_6" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" textDirection="locale" NOT_FOUND_0x29="61"/>
+                <LinearLayout orientation="horizontal" id="@+id/e99" background="@drawable/py" paddingLeft="12dp" paddingTop="6dp" paddingRight="12dp" paddingBottom="6dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" layout_centerVertical="true">
+                    <com.p2082ss.android.ugc.aweme.music.p3481ui.CheckableImageView layout_gravity="center_vertical" id="@+id/e9_" layout_width="15dp" layout_height="15dp" src="0x7f080990"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_vertical" id="@+id/f4m" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" text="@string/g3x" layout_marginStart="6dp" NOT_FOUND_0x29="52"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout id="@+id/fd6" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="25dp" layout_below="@+id/b5j">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f6z" text="@string/c3z" style="@style/zq"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f63" text="@string/bw0" drawablePadding="4dp" drawableEnd="0x7f0805fd" layout_marginStart="6dp" style="@style/zq"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <ViewStub id="@+id/c6u" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="-11dp" layout_marginRight="16dp"/>
+        <ViewStub id="@+id/f7" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp"/>
+        <ViewStub id="@+id/c7_" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginBottom="16dp"/>
+        <ViewStub id="@+id/fhe" layout="@layout/b15" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/c4t" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+        <include layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-16dp" layout_marginBottom="16dp" layout="@layout/vx"/>
+        <ViewStub id="@+id/fhl" layout="@layout/agk" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

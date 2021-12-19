@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/daj" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="0x7f08068b" NOT_FOUND_0x6="@string/c5" NOT_FOUND_0x7="@color/bx" NOT_FOUND_0x8="0x7f080111" NOT_FOUND_0x9="0"/>
+    <View id="@+id/bf0" background="@color/bm" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="15sp" textColor="@color/a9" id="@+id/ey3" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="42dp" text="@string/a8y" layout_alignParentLeft="true" fontFamily="ProximaNova-Regular" layout_alignParentStart="true"/>
+    <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="15sp" textColor="@color/a9" id="@+id/ey4" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="42dp" text="@string/bxh" layout_alignParentRight="true" fontFamily="ProximaNova-Semibold" layout_alignParentEnd="true" NOT_FOUND_0x13="7"/>
+    <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="13sp" textColor="@color/a9" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/ca1" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="19dp" layout_marginTop="8dp" layout_marginRight="19dp" text="@string/bxm" fontFamily="Proxima Nova"/>
+</RelativeLayout>

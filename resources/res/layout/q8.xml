@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/afa" background="@drawable/xn" padding="8dp" layout_width="@dimen/fg" layout_height="@dimen/fg" NOT_FOUND_0xb="@raw/icon_minus" NOT_FOUND_0xc="@color/bx"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textColor="@color/bx" gravity="center" id="@+id/af_" background="@drawable/xk" layout_width="@dimen/fh" layout_height="@dimen/fg" singleLine="true" digits="0123456789" inputType="phone" imeOptions="actionDone" style="@style/y0"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/afb" background="@drawable/xo" padding="8dp" layout_width="@dimen/fg" layout_height="@dimen/fg" NOT_FOUND_0xb="@raw/icon_plus" NOT_FOUND_0xc="@color/bx"/>
+</merge>

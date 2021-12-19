@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/b59" background="?attr/m" layout_width="match_parent" layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@+id/w9" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/eiz">
+        <com.p2082ss.android.ugc.aweme.kids.discovery.list.DiscoveryRecyclerView id="@+id/c_f" background="?attr/m" paddingBottom="@dimen/n2" clipToPadding="false" layout_width="match_parent" layout_height="match_parent"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <View id="@+id/e7_" background="?attr/m" layout_width="match_parent" layout_height="0dp"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e7i" background="?attr/m" layout_width="match_parent" layout_height="match_parent" layout_marginTop="52dp" layout_below="@+id/e7_" NOT_FOUND_0x11="0"/>
+    <RelativeLayout id="@+id/eiz" background="?attr/m" layout_width="match_parent" layout_height="@dimen/a0s" layout_below="@+id/e7_">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="match_parent" maxWidth="199dp" text="@string/crm" maxLines="1" layout_centerInParent="true" NOT_FOUND_0x10="33"/>
+        <View id="@+id/ej4" background="?attr/aj" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

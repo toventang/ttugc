@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout xmlns="" id="@+id/d1x" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="true" NOT_FOUND_0x12="true">
+    <FrameLayout id="@+id/d1z" layout_width="match_parent" layout_height="68dp">
+        <SeekBar layout_gravity="center" id="@+id/d1y" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="48dp" layout_marginRight="48dp" maxHeight="3dp" progressDrawable="@drawable/e6" minHeight="3dp" thumb="@drawable/e7"/>
+    </FrameLayout>
+    <View id="@+id/d1v" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_below="@+id/d1z"/>
+    <LinearLayout layout_width="match_parent" layout_height="52dp" layout_below="@+id/d1v">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" gravity="center" id="@+id/d1w" layout_width="0dp" layout_height="match_parent" text="@string/axg" layout_weight="1" NOT_FOUND_0x13="41"/>
+        <View layout_gravity="center_vertical" background="@color/ac" layout_width="0.5dp" layout_height="16dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/d20" layout_width="0dp" layout_height="match_parent" text="@string/axf" layout_weight="1" NOT_FOUND_0x13="41"/>
+    </LinearLayout>
+</com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>

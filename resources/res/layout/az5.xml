@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.share.p3776ui.SharePublishLayout xmlns="" id="@+id/dat" layout_width="match_parent" layout_height="wrap_content" layoutDirection="locale">
+    <LinearLayout orientation="vertical" id="@+id/dlx" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/cca" background="@drawable/bih" paddingTop="14dp" paddingBottom="14dp" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout id="@+id/dlp" layout_width="match_parent" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/bwr" background="@drawable/bij" layout_width="48dp" layout_height="62dp" layout_margin="1.5dp" layout_alignParentTop="true" layout_alignParentStart="true" NOT_FOUND_0x1e="2dp"/>
+                <RelativeLayout id="@+id/dlo" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" layout_toEndOf="@+id/bwr">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/euz" layout_width="wrap_content" layout_height="wrap_content" text="@string/dlm" layout_marginStart="12dp" NOT_FOUND_0x1f="42"/>
+                    <androidx.recyclerview.widget.RecyclerView id="@+id/bpk" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_below="@+id/euz"/>
+                    <ViewStub id="@+id/dyl" layout="@layout/az9" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_below="@+id/bpk"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <View id="@+id/c9a" background="@color/b4" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+            <LinearLayout orientation="horizontal" id="@+id/cco" paddingLeft="3dp" paddingRight="3dp" visibility="gone" layout_width="match_parent" layout_height="40dp" layout_marginLeft="16dp" layout_marginRight="16dp">
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView layout_gravity="center_vertical" id="@+id/bue" background="@color/c5" layout_width="23dp" layout_height="23dp" layout_marginEnd="8.5dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_vertical" id="@+id/eu1" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_weight="1" NOT_FOUND_0x1f="61"/>
+                <ImageView layout_gravity="center_vertical" layout_width="20dp" layout_height="20dp" src="@drawable/b1j" scaleType="fitXY"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/ayt"/>
+    </LinearLayout>
+</com.p2082ss.android.ugc.aweme.share.p3776ui.SharePublishLayout>

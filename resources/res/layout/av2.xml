@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AnimatedImageView id="@+id/cwy" layout_width="0dp" layout_height="120dp" layout_marginTop="8dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@android:drawable/ic_menu_report_image"/>
+    <View id="@+id/feh" background="@drawable/bcs" layout_width="0dp" layout_height="0dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/cwy" NOT_FOUND_0x10="@+id/cwy" NOT_FOUND_0x11="@+id/cwy"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/cwx" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="42dp" layout_marginBottom="12dp" maxLines="1" layout_marginStart="12dp" layout_marginEnd="42dp" NOT_FOUND_0xe="@+id/feh" NOT_FOUND_0xf="@+id/feh" NOT_FOUND_0x10="@+id/feh" NOT_FOUND_0x12="@+id/feh" NOT_FOUND_0x14="51"/>
+    <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/cld" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" layout_marginEnd="12dp" NOT_FOUND_0xe="@+id/feh" NOT_FOUND_0xf="@+id/feh" NOT_FOUND_0x12="@+id/feh" NOT_FOUND_0x13="@drawable/be6"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

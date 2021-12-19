@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bg" parent="@style/d4">
+    </style>
+    <style name="bn" parent="@style/d5">
+    </style>
+    <style name="d4" parent="@style/d1">
+        <item name="r_">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="d5" parent="@style/d2">
+        <item name="r_">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="xd" parent="@style/p6">
+        <item name="android:background">@color/l</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:foreground">?attr/ab8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="?0x101057f">18dp</item>
+    </style>
+    <style name="xg" parent="@style/p6">
+        <item name="android:background">@color/l</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:foreground">?attr/ab8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="?0x101057f">18dp</item>
+    </style>
+    <style name="a12" parent="@style/p6">
+        <item name="android:background">@color/l</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:foreground">?attr/ab8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="?0x101057f">18dp</item>
+    </style>
+    <style name="a14" parent="@style/p6">
+        <item name="android:background">@color/l</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:foreground">?attr/ab8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="?0x101057f">18dp</item>
+    </style>
+</resources>

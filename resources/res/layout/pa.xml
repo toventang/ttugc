@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/acf" background="@color/r" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.NormalTitleBar id="@+id/eim" layout_width="match_parent" layout_height="@dimen/fi" NOT_FOUND_0x14="@drawable/yr" NOT_FOUND_0x17="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@string/bic"/>
+    <com.p2082ss.android.ugc.aweme.ecommerce.combinepayment.view.PageStepper id="@+id/e80" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/eim"/>
+    <com.p2082ss.android.ugc.aweme.ecommerce.widget.FixedRecyclerView id="@+id/dgn" paddingLeft="16dp" paddingTop="8dp" paddingRight="16dp" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/ub" layout_below="@+id/e80"/>
+    <FrameLayout id="@+id/ub" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/ate" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/ua"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ua" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+            <View id="@+id/amb" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_marginBottom="12dp" NOT_FOUND_0x16="@+id/emk" NOT_FOUND_0x17="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/emk" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginBottom="8dp" layout_marginStart="16dp" NOT_FOUND_0x16="@+id/u3" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x20="32"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/emj" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginBottom="8dp" layout_marginEnd="16dp" NOT_FOUND_0x16="@+id/u3" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0" NOT_FOUND_0x20="32"/>
+            <com.bytedance.tux.button.TuxButton id="@+id/u3" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1d="false" NOT_FOUND_0x1e="3" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="42"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e77" background="@color/r" visibility="invisible" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

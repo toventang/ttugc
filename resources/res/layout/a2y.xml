@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout xmlns="" id="@+id/b_e" saveEnabled="false" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.widgetcompat.RemoteImageView id="@+id/dgi" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dgc" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/dg_" layout_width="match_parent" layout_height="match_parent"/>
+        <FrameLayout id="@+id/dg9" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/dnk" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/c5o" background="@color/c9" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout id="@+id/c5m" layout_width="match_parent" layout_height="match_parent"/>
+            <FrameLayout id="@+id/c5n" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+    </FrameLayout>
+</com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout>

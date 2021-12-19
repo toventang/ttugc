@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center_horizontal" orientation="vertical" id="@+id/dnh" background="@color/bx" layout_width="match_parent" layout_height="52dp">
+    <ImageView id="@+id/bx7" layout_width="20dp" layout_height="20dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp"/>
+    <RelativeLayout gravity="center_vertical" orientation="vertical" id="@+id/dm5" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="12dp" layout_marginRight="8dp" layout_toLeftOf="@+id/dkc" layout_toRightOf="@+id/bx7" layout_marginStart="12dp" layout_marginEnd="8dp" layout_toStartOf="@+id/dkc" layout_toEndOf="@+id/bx7">
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtTextView textColor="@color/bx" ellipsize="end" id="@+id/eyf" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" style="@style/y4"/>
+        <FrameLayout id="@+id/b4s" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/eyf" layout_alignTop="@+id/eyf" layout_alignBottom="@+id/eyf" layout_toEndOf="@+id/eyf"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtTextView textColor="@color/c5" ellipsize="end" id="@+id/eye" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" layout_below="@+id/eyf" style="@style/y0"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/dkc" layout_width="160dp" layout_height="match_parent" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <FrameLayout layout_gravity="end" id="@+id/dk8" layout_width="wrap_content" layout_height="match_parent"/>
+    </FrameLayout>
+    <View id="@+id/f92" background="#99999999" layout_width="match_parent" layout_height="1px" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.p2092ad.splash.core.video.SSRenderSurfaceView id="@+id/fdp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+    <ImageView id="@+id/fy" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginTop="14dp" layout_alignParentLeft="true" layout_alignParentTop="true"/>
+    <TextView textSize="12dp" textColor="#ffffff" id="@+id/fv" padding="3dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginRight="9dp" shadowColor="#7f000000" shadowRadius="12" layout_toLeftOf="@+id/fw" layout_alignParentTop="true"/>
+    <FrameLayout id="@+id/fw" layout_width="wrap_content" layout_height="@dimen/st" layout_marginTop="8dp" layout_marginRight="10dp" layout_alignParentTop="true" layout_alignParentRight="true">
+        <TextView textSize="12sp" textColor="@color/pi" gravity="center" layout_gravity="center" id="@+id/fx" background="@drawable/bku" paddingLeft="10dp" paddingRight="10dp" visibility="invisible" layout_width="wrap_content" layout_height="24dp" text="@string/g06"/>
+        <ImageView layout_gravity="center" id="@+id/fz" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" scaleType="fitXY"/>
+    </FrameLayout>
+    <include layout="@layout/ahk"/>
+    <include layout="@layout/ahj"/>
+    <ProgressBar id="@+id/fd2" visibility="gone" layout_width="60dp" layout_height="60dp" indeterminateDrawable="@drawable/bl1" indeterminateDuration="1200" layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <include id="@+id/bdx" layout_width="match_parent" layout_height="wrap_content" layout="@layout/b00"/>
+    <include id="@+id/ajt" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/azv"/>
+    <include id="@+id/e81" layout_width="match_parent" layout_height="wrap_content" layout="@layout/azz"/>
+</LinearLayout>

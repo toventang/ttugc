@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e7_" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/h4" layout_width="match_parent" layout_height="54dp" layout_below="@+id/e7_"/>
+    <com.p2082ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/agg" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/h4"/>
+    <FrameLayout id="@+id/agh" focusable="true" visibility="gone" clickable="true" longClickable="true" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/h4"/>
+    <LinearLayout gravity="center" id="@+id/gm" background="@drawable/um" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="54dp" layout_marginLeft="20dp" layout_marginRight="20dp" layout_marginBottom="44dp" layout_alignParentBottom="true" layout_centerHorizontal="true" layout_marginStart="20dp" layout_marginEnd="20dp" elevation="10dp">
+        <ImageView layout_width="20dp" layout_height="20dp" src="0x7f0806fb"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/ay9" layout_marginStart="8dp" NOT_FOUND_0x17="43"/>
+    </LinearLayout>
+</RelativeLayout>

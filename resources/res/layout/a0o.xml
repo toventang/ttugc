@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.commercialize.e_commerce.pdp.p2546ui.PdpCoordinatorLayoutCompat id="@+id/aec" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/emn" layout_width="match_parent" layout_height="match_parent"/>
+        <FrameLayout layout_gravity="top|center_vertical|center_horizontal|center" id="@+id/vc" background="@color/l" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x5="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <FrameLayout id="@+id/zn" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+    </com.p2082ss.android.ugc.aweme.commercialize.e_commerce.pdp.p2546ui.PdpCoordinatorLayoutCompat>
+</FrameLayout>

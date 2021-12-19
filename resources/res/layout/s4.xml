@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <LinearLayout layout_gravity="top" orientation="vertical" id="@+id/el5" layout_width="match_parent" layout_height="0px">
+        <View id="@+id/el4" background="@color/a2" layout_width="match_parent" layout_height="0px"/>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="top|left|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080976"/>
+            <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080977"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/uq" layout_width="match_parent" layout_height="0px">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="bottom|left|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080978"/>
+            <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080979"/>
+        </FrameLayout>
+        <View id="@+id/up" background="@color/a2" layout_width="match_parent" layout_height="0px"/>
+    </LinearLayout>
+</merge>

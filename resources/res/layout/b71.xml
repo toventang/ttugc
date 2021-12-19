@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/brn" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/ddy" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17dp" textColor="#161823" id="@+id/f20" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x12="2"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="#80161823" id="@+id/f1z" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" text="@string/dsk"/>
+    </LinearLayout>
+    <com.bytedance.android.live.liveinteract.cohost.p279ui.view.RandomLinkMicMatchViewPager id="@+id/fh6" clipChildren="false" layout_width="match_parent" layout_height="86dp" layout_marginTop="30dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/ddy"/>
+    <View id="@+id/bfr" background="#e0e0e0" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="30dp" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/fh6"/>
+    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="18dp" layout_marginBottom="18dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/bfr">
+        <ImageView layout_gravity="center_vertical" layout_width="18dp" layout_height="18dp" src="0x7f080e7e"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="#c0161823" gravity="center" layout_gravity="center_vertical" id="@+id/f1w" layout_width="wrap_content" layout_height="wrap_content" text="@string/gi8" includeFontPadding="false" layout_marginStart="4dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

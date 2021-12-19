@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dnb" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@+id/ekg" paddingLeft="16dp" paddingRight="20dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" paddingStart="16dp" paddingEnd="20dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0">
+        <com.p2082ss.android.ugc.aweme.story.record.widget.StoryRecordToolbarItem id="@+id/pf" layout_width="36dp" layout_height="36dp" src="0x7f080c92" NOT_FOUND_0xb="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0"/>
+        <com.p2082ss.android.ugc.aweme.story.record.widget.StoryRecordToolbarItem id="@+id/b5t" layout_width="36dp" layout_height="36dp" src="0x7f080c97" NOT_FOUND_0xb="0" NOT_FOUND_0xd="@+id/rc" NOT_FOUND_0xe="@+id/pf" NOT_FOUND_0x10="0"/>
+        <com.p2082ss.android.ugc.aweme.story.record.widget.StoryRecordToolbarItem id="@+id/rc" layout_width="36dp" layout_height="36dp" src="0x7f080c93" NOT_FOUND_0xb="0" NOT_FOUND_0xd="@+id/z2" NOT_FOUND_0xe="@+id/b5t" NOT_FOUND_0x10="0"/>
+        <com.p2082ss.android.ugc.aweme.story.record.widget.StoryRecordToolbarItem id="@+id/z2" layout_width="36dp" layout_height="36dp" src="0x7f080c95" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0x10="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/esw" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0.37" NOT_FOUND_0x12="21"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

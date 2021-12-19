@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.android.livesdk.widget.roundcorner.RoundCornerFrameLayout layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/aw3" background="@drawable/bow" layout_width="wrap_content" layout_height="22dp">
+        <LinearLayout orientation="horizontal" id="@+id/aw6" paddingLeft="8dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="8dp">
+            <com.bytedance.android.live.core.widget.HSImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aox" visibility="gone" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x11="@drawable/bxl"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="#e6ffffff" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aw_" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="2dp" text="@string/e1a" lines="1" singleLine="true" layout_marginEnd="2dp" style="@style/tx"/>
+            <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/aw8" layout_width="8dp" layout_height="match_parent" layout_marginRight="8dp" src="@drawable/bxj" scaleType="centerInside" layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </com.bytedance.android.livesdk.widget.roundcorner.RoundCornerFrameLayout>
+</FrameLayout>

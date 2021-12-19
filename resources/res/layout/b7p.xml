@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" background="0x7f080df5" clipChildren="false" layout_width="match_parent" layout_height="455dp">
+    <com.bytedance.android.livesdk.wishlist.view.WishListServerErrorView id="@+id/fjg" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/fjd" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ahj" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+        <ImageView layout_width="match_parent" layout_height="209dp" src="0x7f080df8" scaleType="fitXY" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+        <ImageView id="@+id/bsf" layout_width="48dp" layout_height="48dp" layout_marginTop="24dp" src="0x7f080fb6" layout_marginStart="16dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="20dp" textColor="#ffffff" ellipsize="end" gravity="start" id="@+id/es9" layout_width="0dp" layout_height="wrap_content" layout_marginTop="26dp" maxLines="1" includeFontPadding="false" layout_marginStart="12dp" layout_marginEnd="16dp" NOT_FOUND_0x19="2" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/bsf" NOT_FOUND_0x1f="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="#80ffffff" ellipsize="end" gravity="start" id="@+id/es8" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" includeFontPadding="false" layout_marginEnd="16dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="@+id/es9" NOT_FOUND_0x1e="@+id/es9"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/c7o" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/bsf">
+            <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_width="0dp" layout_height="60dp" src="0x7f080df7" scaleType="fitXY" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="#ffffff" ellipsize="end" gravity="start" id="@+id/esa" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginTop="16dp" layout_marginRight="10dp" maxLines="2" includeFontPadding="false" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="horizontal" id="@+id/c7q" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/c7o">
+            <com.bytedance.android.livesdk.wishlist.view.WishGiftView id="@+id/fj_" visibility="gone" clipChildren="false" layout_width="0dp" layout_height="170dp" layout_weight="1"/>
+            <com.bytedance.android.livesdk.wishlist.view.WishGiftView id="@+id/fja" visibility="gone" clipChildren="false" layout_width="0dp" layout_height="170dp" layout_weight="1" layout_marginStart="5dp"/>
+            <com.bytedance.android.livesdk.wishlist.view.WishGiftView id="@+id/fjb" visibility="gone" clipChildren="false" layout_width="0dp" layout_height="170dp" layout_weight="1" layout_marginStart="5dp"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/c7q">
+            <RelativeLayout layout_gravity="center_horizontal" id="@+id/c7p" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="28dp">
+                <ImageView id="@+id/fj6" layout_width="36dp" layout_height="36dp" src="0x7f080f4a" layout_marginStart="-6dp" layout_toEndOf="@+id/fj9"/>
+                <com.bytedance.android.livesdk.wishlist.view.WishContributorView id="@+id/fj9" layout_width="36dp" layout_height="36dp" layout_marginStart="-6dp" layout_toEndOf="@+id/fj8"/>
+                <com.bytedance.android.livesdk.wishlist.view.WishContributorView id="@+id/fj8" layout_width="36dp" layout_height="36dp" layout_marginStart="-6dp" layout_toEndOf="@+id/fj7"/>
+                <com.bytedance.android.livesdk.wishlist.view.WishContributorView id="@+id/fj7" layout_width="36dp" layout_height="36dp" layout_alignParentStart="true"/>
+            </RelativeLayout>
+            <ImageView layout_gravity="center_horizontal" id="@+id/bkv" layout_width="46dp" layout_height="42dp" layout_marginTop="35dp" src="0x7f080f46"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="#80ffffff" gravity="center" layout_gravity="center_horizontal" id="@+id/f7_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" maxWidth="190dp"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

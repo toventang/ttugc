@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/dnh" background="@color/l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="1" NOT_FOUND_0x8="0.75">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/ehi" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x4="6" NOT_FOUND_0x5="@color/bz" NOT_FOUND_0x7="@color/bz"/>
+</com.p2082ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/avj" layout_width="24dp" layout_height="24dp" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true">
+        <RadioButton layout_gravity="center" id="@+id/ddr" background="@drawable/y1" visibility="gone" clickable="false" layout_width="match_parent" layout_height="match_parent" checked="true" button="@null"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/b7x" layout_width="16dp" layout_height="16dp" tint="@color/c5" NOT_FOUND_0x17="@drawable/yn"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/c2j" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="12dp" maxLines="1" layout_toLeftOf="@+id/avj" layout_centerVertical="true" textAlignment="viewStart" layout_marginEnd="12dp" layout_toStartOf="@+id/avj" NOT_FOUND_0x18="41"/>
+</RelativeLayout>

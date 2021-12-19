@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/cns" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/ceu" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout layout_gravity="center_vertical" layout_width="72dp" layout_height="72dp" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp">
+            <FrameLayout id="@+id/dqh" layout_width="72dp" layout_height="72dp">
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/dqg" layout_width="72dp" layout_height="72dp" src="0x7f0805f4" NOT_FOUND_0x22="2dp"/>
+                <ImageView layout_gravity="top|left|center_vertical|center_horizontal|center" id="@+id/cxn" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0808ac"/>
+            </FrameLayout>
+            <ImageView layout_width="4dp" layout_height="68dp" layout_marginLeft="0dp" src="0x7f080661" layout_toRightOf="@+id/dqh" layout_centerVertical="true" layout_marginStart="0dp" layout_toEndOf="@+id/dqh"/>
+            <ImageView id="@+id/bzx" layout_width="33dp" layout_height="33dp" src="0x7f080658" layout_centerInParent="true"/>
+            <ProgressBar id="@+id/d01" layout_width="33dp" layout_height="33dp" indeterminateDrawable="@drawable/b3o" indeterminateDuration="1500" layout_centerHorizontal="true" layout_centerVertical="true" style="@style/gc"/>
+        </RelativeLayout>
+        <RelativeLayout layout_gravity="center_vertical" id="@+id/dlv" layout_width="0dp" layout_height="match_parent" layout_marginLeft="12dp" layout_marginRight="8dp" layout_weight="1" layout_marginStart="12dp" layout_marginEnd="8dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/ezz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="11dp" layout_marginRight="8dp" lines="1" layout_marginEnd="8dp" NOT_FOUND_0x23="42"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f3z" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="33dp" layout_marginRight="8dp" lines="1" layout_marginEnd="8dp" NOT_FOUND_0x23="61"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/evh" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="61dp" layout_marginRight="8dp" layout_marginEnd="8dp" NOT_FOUND_0x23="61"/>
+        </RelativeLayout>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/a7q" layout_width="wrap_content" layout_height="match_parent">
+            <com.p2082ss.android.ugc.aweme.music.p3481ui.CheckableImageView id="@+id/cnj" padding="8dp" layout_width="40dp" layout_height="40dp" src="0x7f0805b1" scaleType="centerInside"/>
+            <LinearLayout id="@+id/cnp" padding="8dp" visibility="visible" layout_width="40dp" layout_height="40dp">
+                <ImageView id="@+id/cno" layout_width="match_parent" layout_height="match_parent" src="0x7f080712" scaleType="centerInside"/>
+            </LinearLayout>
+            <LinearLayout gravity="center" orientation="horizontal" id="@+id/dlk" background="@drawable/tu" visibility="gone" layout_width="wrap_content" layout_height="32dp" layout_marginLeft="8dp" layout_centerVertical="true" layout_marginStart="8dp">
+                <ImageView id="@+id/c13" layout_width="24dp" layout_height="24dp" layout_marginLeft="20dp" layout_marginRight="20dp" src="0x7f08065c" layout_marginStart="20dp" layout_marginEnd="20dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/f6p" paddingLeft="17dp" paddingRight="17dp" visibility="gone" layout_width="wrap_content" layout_height="match_parent" text="@string/h4f" maxLines="1" paddingStart="17dp" paddingEnd="17dp" NOT_FOUND_0x23="42"/>
+            </LinearLayout>
+            <Space id="@+id/fhx" layout_width="16dp" layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/cop" background="@color/o5" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="10dp" layout_marginRight="10dp" layout_marginStart="10dp" layout_marginEnd="10dp"/>
+</LinearLayout>

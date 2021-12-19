@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" style="@style/yh">
+    <include layout="@layout/a7b"/>
+    <LinearLayout gravity="start" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/a7n"/>
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/on" style="@style/yi"/>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+            <include layout="@layout/a7c"/>
+            <LinearLayout id="@+id/acq" background="@drawable/aqn" layout_width="248dp" layout_height="wrap_content" style="@style/yb">
+                <include layout="@layout/a53"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/a7_"/>
+</LinearLayout>

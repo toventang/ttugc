@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnb" background="@null" layout_width="match_parent" layout_height="match_parent" layoutDirection="ltr">
+    <RelativeLayout id="@+id/adu" clipChildren="true" layout_width="wrap_content" layout_height="wrap_content">
+        <FrameLayout id="@+id/ade" clipChildren="true" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/e6g" layout_below="@+id/eko" layout_toEndOf="@+id/e6g" elevation="3dp">
+            <FrameLayout layout_gravity="center" id="@+id/acq" layout_width="wrap_content" layout_height="wrap_content"/>
+            <Space layout_width="36dp" layout_height="36dp"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/eko" layout_width="wrap_content" layout_height="wrap_content" layout_alignLeft="@+id/ade" layout_alignRight="@+id/ade" elevation="3dp">
+            <RelativeLayout id="@+id/l9" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView id="@+id/la" layout_width="36dp" layout_height="11dp" src="0x7f080013"/>
+                <ImageView id="@+id/l_" visibility="visible" layout_width="36dp" layout_height="8dp" src="0x7f08000f" layout_alignBottom="@+id/la" rotation="180"/>
+            </RelativeLayout>
+            <Space background="@null" layout_width="wrap_content" layout_height="4dp"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/u2" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/ade" layout_alignLeft="@+id/ade" layout_alignRight="@+id/ade" elevation="3dp">
+            <RelativeLayout id="@+id/ku" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView id="@+id/kw" layout_width="36dp" layout_height="11dp" src="0x7f080010"/>
+                <ImageView id="@+id/kv" layout_width="36dp" layout_height="8dp" src="0x7f08000f"/>
+            </RelativeLayout>
+            <Space background="@null" layout_width="wrap_content" layout_height="4dp"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/e6g" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_alignTop="@+id/ade" layout_alignBottom="@+id/ade" elevation="3dp">
+            <RelativeLayout id="@+id/l6" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView id="@+id/l8" layout_width="11dp" layout_height="36dp" src="0x7f080011"/>
+                <ImageView id="@+id/l7" visibility="visible" layout_width="8dp" layout_height="36dp" src="0x7f080014" layout_alignRight="@+id/l8" layout_alignEnd="@+id/l8"/>
+            </RelativeLayout>
+            <Space background="@null" layout_width="4dp" layout_height="wrap_content"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/avh" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/ade" layout_alignTop="@+id/ade" layout_alignBottom="@+id/ade" layout_toEndOf="@+id/ade" elevation="3dp">
+            <RelativeLayout id="@+id/kx" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView id="@+id/kz" layout_width="11dp" layout_height="36dp" src="0x7f080012"/>
+                <ImageView id="@+id/ky" layout_width="8dp" layout_height="36dp" src="0x7f080014" rotation="180"/>
+            </RelativeLayout>
+            <Space background="@null" layout_width="4dp" layout_height="wrap_content"/>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

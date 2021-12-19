@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" orientation="vertical" id="@+id/dpj" layout_width="match_parent" layout_height="match_parent" layout_alignParentBottom="true" NOT_FOUND_0x26="true">
+    <RelativeLayout id="@+id/at_" layout_width="match_parent" layout_height="52dp">
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/bx" gravity="center" id="@+id/et8" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="52dp" text="@string/a8y" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x27="false" style="@style/a24"/>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" gravity="center" id="@+id/f2x" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="match_parent" text="@string/fdd" layout_alignParentRight="true" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x1f="7" NOT_FOUND_0x27="false" style="@style/a24"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/fea" layout_width="match_parent" layout_height="match_parent" layout_marginTop="50dp" layout_marginBottom="282dp" layout_centerHorizontal="true">
+        <ImageView id="@+id/byg" padding="50dp" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0800ff" layout_centerInParent="true"/>
+        <RelativeLayout gravity="center" id="@+id/dlc" background="@drawable/dk" paddingLeft="20dp" paddingTop="16dp" paddingRight="20dp" paddingBottom="16dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+            <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="13sp" textColor="@color/a_" gravity="center" id="@+id/evn" layout_width="wrap_content" layout_height="wrap_content" text="" lineSpacingExtra="3sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout id="@+id/adx" layout_width="match_parent" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_alignParentStart="true">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp">
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout gravity="center" layout_gravity="bottom" orientation="horizontal" id="@+id/cfd" layout_width="match_parent" layout_height="212dp">
+                <com.p2082ss.android.ugc.tools.view.widget.AVStatusView gravity="center" layout_gravity="center" id="@+id/cfy" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            </com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/dty" visibility="gone" layout_width="match_parent" layout_height="266dp" NOT_FOUND_0x20="@color/d" NOT_FOUND_0x26="true" NOT_FOUND_0x2d="@dimen/cl" NOT_FOUND_0x3c="true">
+                <LinearLayout orientation="horizontal" id="@+id/dtv" layout_width="match_parent" layout_height="40dp" layout_marginTop="15dp">
+                    <com.p2082ss.android.ugc.aweme.effect.VEEffectSeekLayout gravity="center" id="@+id/ata" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x28="24dp" NOT_FOUND_0x2b="?attr/oo"/>
+                    <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoedit.VideoEditView gravity="center" id="@+id/fcg" visibility="gone" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x21="1" NOT_FOUND_0x22="40dp" NOT_FOUND_0x23="4dp" NOT_FOUND_0x24="28dp" NOT_FOUND_0x25="28dp" NOT_FOUND_0x28="16dp" NOT_FOUND_0x29="@color/bh" NOT_FOUND_0x2a="0.34" NOT_FOUND_0x2c="2" NOT_FOUND_0x2e="true" NOT_FOUND_0x2f="12dp" NOT_FOUND_0x30="@color/c9"/>
+                </LinearLayout>
+                <com.p2082ss.android.ugc.aweme.effect.NoScrollViewPager id="@+id/fgn" layout_width="match_parent" layout_height="160dp"/>
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtView layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x31="true"/>
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTabLayout id="@+id/ee7" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x32="@color/c9" NOT_FOUND_0x33="0" NOT_FOUND_0x34="@color/a9" NOT_FOUND_0x35="0dp" NOT_FOUND_0x36="30dp" NOT_FOUND_0x37="0" NOT_FOUND_0x38="0dp" NOT_FOUND_0x39="0dp" NOT_FOUND_0x3a="@color/bx" NOT_FOUND_0x3b="@color/c5"/>
+            </com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

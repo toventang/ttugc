@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/ds1" background="@drawable/bsv" layout_width="match_parent" layout_height="440dp">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="0">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout id="@+id/pn" layout_width="50dp" layout_height="52dp">
+                <ImageView layout_width="wrap_content" layout_height="19dp" layout_marginLeft="18dp" layout_marginTop="20dp" layout_marginStart="18dp" NOT_FOUND_0x21="@drawable/c8q"/>
+            </LinearLayout>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/egb" style="@style/tk"/>
+        </FrameLayout>
+        <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/cst" paddingLeft="32dp" paddingRight="32dp" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1b="32dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/e23" style="@style/tl"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c4" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e22" style="@style/tm"/>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@+id/drt" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/cl7" background="@drawable/bt0" layout_width="0dp" layout_height="36dp" layout_marginLeft="16dp" layout_marginRight="16dp" NOT_FOUND_0x1a="16dp" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="0">
+            <ImageView layout_width="16dp" layout_height="16dp" layout_marginLeft="9dp" src="0x7f080e7f" layout_marginStart="9dp"/>
+            <com.bytedance.android.live.design.widget.LiveEditText textSize="15dp" textColor="@color/a19" textColorHint="@color/a0o" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/drj" background="@drawable/bts" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="56dp" hint="@string/egc" singleLine="true" textAlignment="viewStart" layout_marginStart="8dp" layout_marginEnd="56dp"/>
+        </LinearLayout>
+        <ImageView id="@+id/ds0" visibility="gone" layout_width="16dp" layout_height="16dp" layout_margin="10dp" src="0x7f080f10" NOT_FOUND_0x1d="@+id/cl7" NOT_FOUND_0x1e="@+id/cl7" NOT_FOUND_0x20="@+id/cl7"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" id="@+id/ewg" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="18dp" text="@string/egk" NOT_FOUND_0x1b="16dp" NOT_FOUND_0x1c="10dp" style="@style/tk"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dsf" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/drl" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <View background="0x7f080f4f" layout_width="69.3dp" layout_height="70dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/e29" style="@style/tl"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c4" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e26" style="@style/tm"/>
+    </LinearLayout>
+</LinearLayout>

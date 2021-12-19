@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" fitsSystemWindows="false" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.share.qrcode.view.QRCodeBackgroundLayout id="@+id/dcq" layout_width="match_parent" layout_height="match_parent"/>
+    <RelativeLayout fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout orientation="horizontal" id="@+id/dcl" layout_width="match_parent" layout_height="44dp">
+            <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dcm" layout_width="44dp" layout_height="44dp" src="@drawable/b1o" contentDescription="@string/a20" style="@style/a3i"/>
+            <ImageView id="@+id/dcn" layout_width="40dp" layout_height="40dp" layout_marginRight="8dp" scaleType="centerInside" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <FrameLayout id="@+id/dc9" layout_width="311dp" layout_height="wrap_content" layout_marginTop="99dp" layout_centerHorizontal="true">
+            <LinearLayout orientation="vertical" background="@drawable/bj0" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a2" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/dcr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="52dp" layout_marginRight="16dp" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="33"/>
+                <FrameLayout layout_gravity="center_horizontal" id="@+id/dce" layout_width="170dp" layout_height="170dp" layout_marginTop="22dp">
+                    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="19dp" layout_height="19dp" src="0x7f080c20"/>
+                    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" layout_width="19dp" layout_height="19dp" src="0x7f080c22"/>
+                    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" layout_width="19dp" layout_height="19dp" src="0x7f080c21"/>
+                    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" layout_width="19dp" layout_height="19dp" src="0x7f080c1f"/>
+                    <com.p2082ss.android.ugc.aweme.share.qrcode.view.QRCodeSquareView layout_gravity="center" id="@+id/dcf" layout_width="150dp" layout_height="150dp" NOT_FOUND_0x1b="0x7f080afb"/>
+                </FrameLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" layout_gravity="center_horizontal" id="@+id/dcd" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" text="@string/f51" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="91"/>
+                <ImageView layout_gravity="center_horizontal" id="@+id/cgv" layout_width="wrap_content" layout_height="16dp" layout_marginTop="18dp" layout_marginBottom="24dp" src="0x7f0808b3"/>
+            </LinearLayout>
+            <com.p2082ss.android.ugc.aweme.base.p2379ui.SmartAvatarBorderView layout_gravity="center_horizontal" id="@+id/dcp" background="@drawable/bj1" layout_width="@dimen/sl" layout_height="@dimen/sl"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/dck" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/f4v" layout_below="@+id/dc9" layout_centerHorizontal="true" NOT_FOUND_0x1c="71"/>
+        <com.p2082ss.android.ugc.aweme.share.qrcode.view.UserQRCodeControlView id="@+id/dc_" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

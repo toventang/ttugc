@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@drawable/eh" layout_width="match_parent" layout_height="593dp">
+    <ImageView id="@+id/bu5" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginRight="16dp" src="@raw/icon_x_mark_small" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    <ImageView layout_width="48dp" layout_height="48dp" layout_marginTop="52dp" src="0x7f0805ae" layout_centerHorizontal="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="120dp" layout_marginRight="32dp" text="@string/xx" layout_centerHorizontal="true" NOT_FOUND_0x17="23"/>
+    <ImageView id="@+id/bv4" layout_width="24dp" layout_height="24dp" layout_marginLeft="32dp" layout_marginTop="176dp" src="0x7f08060f" layout_marginStart="32dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="32dp" text="@string/xv" layout_toRightOf="@+id/bv4" layout_alignTop="@+id/bv4" layout_marginStart="12dp" layout_marginEnd="32dp" layout_toEndOf="@+id/bv4" NOT_FOUND_0x17="41"/>
+    <ImageView id="@+id/bw8" layout_width="24dp" layout_height="24dp" layout_marginLeft="32dp" layout_marginTop="62dp" src="0x7f08062a" layout_below="@+id/bv4" layout_marginStart="32dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="32dp" text="@string/xw" layout_toRightOf="@+id/bw8" layout_alignTop="@+id/bw8" layout_marginStart="12dp" layout_marginEnd="32dp" layout_toEndOf="@+id/bv4" NOT_FOUND_0x17="41"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/f4_" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginRight="32dp" layout_marginBottom="46dp" text="@string/xy" layout_alignParentBottom="true" NOT_FOUND_0x15="false" NOT_FOUND_0x16="0" NOT_FOUND_0x17="42"/>
+    <LinearLayout id="@+id/ccv" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp" layout_marginBottom="106dp" layout_alignParentBottom="true">
+        <ImageView id="@+id/btw" layout_width="16dp" layout_height="16dp" layout_marginRight="8dp" src="@drawable/db" layout_marginEnd="8dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/euz" layout_width="match_parent" layout_height="wrap_content" text="@string/xu" NOT_FOUND_0x17="61"/>
+    </LinearLayout>
+</RelativeLayout>

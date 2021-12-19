@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" id="@+id/dwc" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" baselineAligned="false" paddingStart="16dp" paddingEnd="16dp">
+    <include layout="@layout/a6i"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="12dp">
+        <com.p2082ss.android.ugc.aweme.views.EllipsizeLayout gravity="center_vertical" orientation="horizontal" id="@+id/ejf" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x19="@+id/ade" NOT_FOUND_0x1b="@+id/c2t" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0">
+            <com.p2082ss.android.ugc.aweme.emoji.widget.EmojiCompatTuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/fa1" layout_width="wrap_content" layout_height="20dp" maxLines="1" NOT_FOUND_0x20="52"/>
+        </com.p2082ss.android.ugc.aweme.views.EllipsizeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/c2t" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="12dp" NOT_FOUND_0x18="@+id/ejf" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@+id/ejf" NOT_FOUND_0x1f="@+id/ejf" NOT_FOUND_0x20="61"/>
+        <LinearLayout orientation="horizontal" id="@+id/ade" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x18="0" NOT_FOUND_0x1b="@+id/c31" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/ejf">
+            <com.p2082ss.android.ugc.aweme.p3070im.sdk.common.p3193ui.widget.SessionStatusImageView layout_gravity="center_vertical" id="@+id/bzm" visibility="gone" layout_width="12dp" layout_height="12dp" layout_marginEnd="4dp"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/bx9" visibility="gone" layout_width="8dp" layout_height="8dp" src="@drawable/are" layout_marginEnd="8dp"/>
+            <com.p2082ss.android.ugc.aweme.emoji.widget.EmojiCompatTuxTextView textColor="@color/c5" ellipsize="end" gravity="center_vertical" id="@+id/c2s" layout_width="wrap_content" layout_height="20dp" bufferType="spannable" maxLines="1" singleLine="true" NOT_FOUND_0x20="61"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@+id/c31" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" NOT_FOUND_0x18="@+id/ade" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@+id/ade" NOT_FOUND_0x1f="@+id/ade">
+            <ImageView layout_gravity="center_vertical" id="@+id/cp0" visibility="gone" layout_width="16dp" layout_height="16dp" src="@drawable/au0" layout_marginStart="8dp"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/bz9" visibility="gone" layout_width="8dp" layout_height="8dp" src="@drawable/are" layout_marginStart="8dp"/>
+            <com.p2082ss.android.ugc.aweme.p3070im.sdk.common.p3193ui.widget.BadgeTextView textColor="@color/l" gravity="center" layout_gravity="center_vertical" id="@+id/f6l" background="@drawable/arh" paddingLeft="4dp" paddingRight="4dp" visibility="visible" layout_width="wrap_content" layout_height="16dp" minWidth="16dp" layout_marginStart="8dp" NOT_FOUND_0x20="72"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

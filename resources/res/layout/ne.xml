@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingLeft="20dp" paddingRight="20dp" layout_width="wrap_content" layout_height="wrap_content">
+    <RelativeLayout id="@+id/a84" background="0x7f080374" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/a8c" layout_centerHorizontal="true">
+        <ImageView id="@+id/a85" padding="10dp" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080377" layout_alignParentTop="true" layout_alignParentRight="true"/>
+        <TextView id="@+id/a8b" padding="10dp" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/a85" layout_alignParentLeft="true" layout_alignParentTop="true" style="@style/a27"/>
+    </RelativeLayout>
+    <ImageView id="@+id/a8c" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="-10dp" src="0x7f080376" layout_alignParentTop="true" layout_centerHorizontal="true"/>
+    <ImageView layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/a8a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-13dp" src="0x7f080375" layout_below="@+id/a84" layout_centerHorizontal="true"/>
+</RelativeLayout>

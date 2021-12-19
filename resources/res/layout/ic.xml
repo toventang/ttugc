@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c3o" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/px" background="@color/g9" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+    <View id="@+id/cy2" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+    <com.p2082ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout orientation="vertical" id="@+id/cy4" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/cy3" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <FrameLayout layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/c4g" layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/c4b" background="@color/bj" paddingTop="8dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" gravity="center" layout_gravity="center" id="@+id/egc" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x24="51"/>
+                </FrameLayout>
+                <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/acf" layout_width="match_parent" layout_height="wrap_content">
+                    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                        <LinearLayout gravity="center_horizontal" layout_gravity="bottom" orientation="vertical" id="@+id/cf3" paddingBottom="85dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" alpha="0">
+                            <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" layout_gravity="center_horizontal" id="@+id/f7e" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x24="41"/>
+                            <LinearLayout orientation="vertical" id="@+id/b68" layout_width="wrap_content" layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" gravity="center" layout_gravity="center_horizontal" id="@+id/eqm" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp" text="@string/h5p" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x24="51"/>
+                        <LinearLayout layout_gravity="bottom" orientation="horizontal" id="@+id/dut" background="@drawable/l8" visibility="gone" layout_width="match_parent" layout_height="48dp">
+                            <ImageView id="@+id/dhp" background="0x7f0801f6" layout_width="16dp" layout_height="16dp" layout_marginTop="8dp" layout_marginStart="12dp"/>
+                            <com.bytedance.lighten.loader.SmartImageView id="@+id/duu" layout_width="40dp" layout_height="40dp" layout_marginTop="8dp" scaleType="centerInside" layout_marginStart="-4dp"/>
+                        </LinearLayout>
+                        <com.p2082ss.android.ugc.aweme.comment.p2503ui.CommentAtSearchLayout layout_gravity="bottom" id="@+id/a0n" background="@drawable/l8" layout_width="match_parent" layout_height="220dp" layout_marginBottom="-220dp">
+                            <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/evu" visibility="gone" layout_width="match_parent" layout_height="match_parent" text="@string/cxg" NOT_FOUND_0x24="51"/>
+                            <com.p2082ss.android.ugc.aweme.comment.p2503ui.CommentAtSearchLoadingView id="@+id/cg3" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                            <androidx.recyclerview.widget.RecyclerView id="@+id/doi" paddingTop="8dp" layout_width="match_parent" layout_height="match_parent"/>
+                        </com.p2082ss.android.ugc.aweme.comment.p2503ui.CommentAtSearchLayout>
+                        <LinearLayout gravity="center_vertical" layout_gravity="bottom" orientation="horizontal" id="@+id/cf4" background="@drawable/l8" paddingLeft="16dp" paddingTop="12dp" paddingRight="16dp" paddingBottom="8dp" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+                            <ImageView layout_width="16dp" layout_height="16dp" layout_marginRight="3.5dp" src="@drawable/m_"/>
+                            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="middle" id="@+id/f7f" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x24="61"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout orientation="vertical" background="@color/p" layout_width="match_parent" layout_height="wrap_content">
+                        <View id="@+id/edz" background="@color/b4" layout_width="match_parent" layout_height="0.5dp"/>
+                        <include id="@+id/a99" layout_width="match_parent" layout_height="wrap_content" layout="@layout/i4"/>
+                        <FrameLayout id="@+id/c49" visibility="gone" layout_width="60dp" layout_height="60dp" layout_marginLeft="16dp" layout_marginStart="16dp">
+                            <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/b_i" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1e="6" NOT_FOUND_0x1f="300" NOT_FOUND_0x20="@color/a9" NOT_FOUND_0x21="2dp" NOT_FOUND_0x22="@color/b4" NOT_FOUND_0x23="0.5dp"/>
+                            <ImageView layout_gravity="end" id="@+id/b_j" paddingLeft="8dp" paddingRight="0dp" paddingBottom="8dp" visibility="gone" layout_width="24dp" layout_height="24dp" src="0x7f0801e9" paddingStart="8dp" paddingEnd="0dp"/>
+                        </FrameLayout>
+                        <include layout="@layout/id"/>
+                        <LinearLayout orientation="vertical" id="@+id/cyt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                        <LinearLayout orientation="vertical" id="@+id/bad" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                        <com.p2082ss.android.ugc.aweme.comment.p2503ui.ClipLinearLayout orientation="vertical" id="@+id/cyu" visibility="gone" layout_width="match_parent" layout_height="40dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout layout_gravity="bottom" id="@+id/c64" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+        </FrameLayout>
+    </com.p2082ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>
+    <ImageView id="@+id/b_k" visibility="gone" layout_width="60dp" layout_height="60dp"/>
+</FrameLayout>

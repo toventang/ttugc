@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhihu.matisse.internal.p4516ui.widget.SquareFrameLayout xmlns="" background="?attr/xq" layout_width="match_parent" layout_height="wrap_content" foreground="?attr/ab8">
+    <TextView textSize="14sp" textColor="?attr/md" gravity="center" layout_gravity="center" id="@+id/bf2" layout_width="wrap_content" layout_height="wrap_content" text="@string/d1i" drawableTop="0x7f080672" drawablePadding="8dp"/>
+</com.zhihu.matisse.internal.p4516ui.widget.SquareFrameLayout>

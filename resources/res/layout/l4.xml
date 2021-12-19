@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/cv7" paddingTop="7dp" paddingRight="16dp" paddingBottom="7dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="13dp" paddingEnd="16dp">
+    <include layout="@layout/ka"/>
+    <com.p2082ss.android.ugc.aweme.notification.view.template.NoticeTemplateLeftView id="@+id/cun" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentStart="true"/>
+    <RelativeLayout id="@+id/cuu" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="3dp" layout_toRightOf="@+id/cun" layout_alignParentRight="true" layout_marginStart="9dp" layout_toEndOf="@+id/cun" layout_alignParentEnd="true">
+        <com.p2082ss.android.ugc.aweme.notification.view.template.NoticeTemplateMiddleView id="@+id/cuv" layout_width="match_parent" layout_height="wrap_content" minHeight="48dp" layout_toLeftOf="@+id/cv6" layout_centerVertical="true" layout_toStartOf="@+id/cv6"/>
+        <com.p2082ss.android.ugc.aweme.notification.view.template.NoticeTemplateRightView id="@+id/cv6" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.p2082ss.android.ugc.aweme.notification.view.template.NoticeTemplateBottomView id="@+id/cu5" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/cuu" layout_alignLeft="@+id/cuu" layout_alignRight="@+id/cuu" layout_alignStart="@+id/cuu" layout_alignEnd="@+id/cuu"/>
+</RelativeLayout>

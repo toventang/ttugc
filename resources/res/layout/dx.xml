@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <LinearLayout orientation="horizontal" id="@+id/cck" paddingLeft="32dp" paddingTop="34dp" paddingBottom="34dp" visibility="gone" clipChildren="false" layout_width="match_parent" layout_height="match_parent" paddingStart="32dp">
+        <FrameLayout layout_width="wrap_content" layout_height="match_parent">
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/bx" ellipsize="end" layout_gravity="top" id="@+id/f0t" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="19dp" maxWidth="100dp" text="@string/d0j" maxLines="1" NOT_FOUND_0x19="8dp" NOT_FOUND_0x1a="1" style="@style/y0"/>
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/bx" ellipsize="end" layout_gravity="bottom" id="@+id/f0u" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="1dp" maxWidth="100dp" text="@string/mo" maxLines="1" NOT_FOUND_0x1a="1" style="@style/y0"/>
+        </FrameLayout>
+        <FrameLayout layout_width="0dp" layout_height="match_parent" layout_weight="1">
+            <com.p2082ss.android.ugc.aweme.views.TextSeekBar layout_gravity="top" orientation="vertical" id="@+id/egp" layout_width="match_parent" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12sp" textColor="#99ffffff" id="@+id/ap5" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x1a="1" NOT_FOUND_0x1d="true"/>
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dtr" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x1b="0dp" NOT_FOUND_0x1c="20dp" NOT_FOUND_0x1e="@color/c5" NOT_FOUND_0x1f="12dp" NOT_FOUND_0x20="36dp" NOT_FOUND_0x21="50dp" NOT_FOUND_0x22="true" NOT_FOUND_0x23="20dp" NOT_FOUND_0x24="20dp" NOT_FOUND_0x25="18dp"/>
+            </com.p2082ss.android.ugc.aweme.views.TextSeekBar>
+            <com.p2082ss.android.ugc.aweme.views.TextSeekBar layout_gravity="bottom" orientation="vertical" id="@+id/ego" layout_width="match_parent" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12sp" textColor="#99ffffff" id="@+id/ap3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x1a="1" NOT_FOUND_0x1d="true"/>
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dts" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x1b="0dp" NOT_FOUND_0x1c="20dp" NOT_FOUND_0x1e="@color/c5" NOT_FOUND_0x1f="12dp" NOT_FOUND_0x20="36dp" NOT_FOUND_0x21="50dp" NOT_FOUND_0x22="true" NOT_FOUND_0x23="20dp" NOT_FOUND_0x24="20dp" NOT_FOUND_0x25="18dp"/>
+            </com.p2082ss.android.ugc.aweme.views.TextSeekBar>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

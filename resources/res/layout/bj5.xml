@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/c5l" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/ffu" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f27" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/d0d" layout_marginStart="16dp" NOT_FOUND_0x1c="71"/>
+        <ImageView id="@+id/d6k" layout_width="16dp" layout_height="16dp" layout_marginLeft="4dp" src="0x7f0807a4" layout_toRightOf="@+id/f27" layout_alignBottom="@+id/f27" layout_marginStart="4dp" layout_toEndOf="@+id/f27"/>
+        <LinearLayout orientation="horizontal" id="@+id/ch_" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_alignTop="@+id/f27" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="top|center_vertical|center_horizontal|center" layout_gravity="center_vertical" id="@+id/ch8" layout_width="wrap_content" layout_height="wrap_content" text="@string/d09" NOT_FOUND_0x1c="71"/>
+            <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/ch9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="1dp" src="0x7f0807a2" layout_marginStart="4dp"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/dgw" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" layout_below="@+id/f27" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        <LinearLayout orientation="horizontal" id="@+id/b2h" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/dgw" layout_centerHorizontal="true">
+            <LinearLayout orientation="horizontal" id="@+id/b2f" layout_width="wrap_content" layout_height="wrap_content" layout_centerHorizontal="true">
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b2c" layout_width="20dp" layout_height="20dp"/>
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b2d" layout_width="20dp" layout_height="20dp" layout_marginLeft="-4dp" layout_marginStart="-4dp"/>
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b2e" layout_width="20dp" layout_height="20dp" layout_marginLeft="-4dp" layout_marginStart="-4dp"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="top|center_vertical|center_horizontal|center" layout_gravity="center_vertical" id="@+id/b2b" layout_width="wrap_content" layout_height="wrap_content" text="@string/d08" layout_marginStart="8dp" NOT_FOUND_0x1c="61"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/b2g" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="1dp" src="0x7f0807a2" layout_marginStart="4dp"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f1k" padding="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout_below="@+id/dgw" NOT_FOUND_0x1c="61"/>
+        <View id="@+id/c9b" background="@color/b4" visibility="gone" layout_width="match_parent" layout_height="1px" layout_marginLeft="16dp" layout_marginRight="16dp" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/ffv" background="@drawable/tb" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/aa" layout_width="wrap_content" layout_height="wrap_content" text="@string/evt" layout_centerHorizontal="true" layout_centerVertical="true" NOT_FOUND_0x1c="71"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="104dp" paddingStart="16dp" paddingEnd="16dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.CircleImageView id="@+id/bjn" layout_width="72dp" layout_height="72dp" layout_marginRight="12dp" layout_centerVertical="true" layout_marginEnd="12dp" NOT_FOUND_0x22="@color/j"/>
+    <LinearLayout orientation="horizontal" id="@+id/bjs" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="29dp" layout_toRightOf="@+id/bjn" layout_toEndOf="@+id/bjn">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/bjr" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_weight="1" NOT_FOUND_0x23="32"/>
+        <ImageView id="@+id/bjt" layout_width="16dp" layout_height="16dp" layout_margin="2dp" src="0x7f080856" layout_weight="0"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/bjq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="29dp" maxLines="1" layout_toRightOf="@+id/bjn" layout_below="@+id/bjs" layout_toEndOf="@+id/bjn" NOT_FOUND_0x23="41"/>
+    <LinearLayout orientation="vertical" id="@+id/bjo" layout_width="0dp" layout_height="wrap_content" layout_marginTop="33dp" layout_toRightOf="@+id/bjn" layout_alignParentRight="true" layout_toEndOf="@+id/bjn" layout_alignParentEnd="true">
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+            <com.p2082ss.android.ugc.aweme.p3070im.sdk.common.p3193ui.widget.ExtendedEditText textColor="@color/bx" textColorHint="@color/bz" id="@+id/bjp" background="@color/c9" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="32dp" hint="@string/c5x" maxLines="1" maxLength="30" inputType="text" imeOptions="actionDone" layout_marginEnd="32dp" style="@style/y4"/>
+            <ImageView id="@+id/bjv" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" src="0x7f080853" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="8dp" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+            <ProgressBar id="@+id/bju" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" indeterminate="true" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="8dp" layout_marginEnd="8dp" layout_alignParentEnd="true" style="?android:attr/progressBarStyleSmall"/>
+        </RelativeLayout>
+        <View background="@color/b0" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="14.5dp"/>
+    </LinearLayout>
+</RelativeLayout>

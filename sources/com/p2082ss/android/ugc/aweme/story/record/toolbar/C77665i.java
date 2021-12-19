@@ -1,0 +1,25 @@
+package com.p2082ss.android.ugc.aweme.story.record.toolbar;
+
+import com.bytedance.covode.number.Covode;
+import p4600h.p4611f.p4613b.C89232y;
+import p4600h.p4620k.AbstractC89290k;
+
+/* renamed from: com.ss.android.ugc.aweme.story.record.toolbar.i */
+final /* synthetic */ class C77665i extends C89232y {
+
+    /* renamed from: a */
+    public static final AbstractC89290k f174171a = new C77665i();
+
+    static {
+        Covode.recordClassIndex(90706);
+    }
+
+    C77665i() {
+        super(StoryRecordToolbarState.class, "clickSwitch", "getClickSwitch()Lcom/bytedance/jedi/arch/JediUnitEvent;", 0);
+    }
+
+    @Override // p4600h.p4620k.AbstractC89290k, p4600h.p4611f.p4613b.C89232y
+    public final Object get(Object obj) {
+        return ((StoryRecordToolbarState) obj).getClickSwitch();
+    }
+}

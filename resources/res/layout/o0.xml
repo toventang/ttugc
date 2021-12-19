@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/acf" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.NormalTitleBar id="@+id/eim" layout_width="match_parent" layout_height="@dimen/a0s" layout_alignParentTop="true" NOT_FOUND_0x7="@string/ftt"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dgn" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/eim"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e77" background="@color/r" visibility="invisible" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/eim"/>
+</RelativeLayout>

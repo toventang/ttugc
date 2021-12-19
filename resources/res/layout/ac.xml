@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" minWidth="196dp">
+    <ImageView id="@+id/bc7" background="@drawable/ay" layout_width="match_parent" layout_height="1dp" layout_marginTop="4dp" layout_marginBottom="4dp"/>
+    <LinearLayout id="@+id/acq" duplicateParentState="true" layout_width="match_parent" layout_height="?attr/s2" style="@style/h4">
+        <TextView textAppearance="?attr/ahv" layout_gravity="center_vertical" id="@+id/title" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" style="@style/h9"/>
+        <Space layout_width="0dp" layout_height="1dp" layout_weight="1"/>
+        <TextView textAppearance="?attr/ai3" layout_gravity="center_vertical" id="@+id/e0_" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" style="@style/h6"/>
+        <ImageView layout_gravity="center" id="@+id/eah" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" scaleType="center" style="@style/h7"/>
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

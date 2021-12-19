@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/dr6" layout_width="match_parent" layout_height="match_parent">
+    <TextView textAppearance="?android:attr/textAppearanceMedium" textColor="?android:attr/textColorPrimary" gravity="center_vertical" id="@+id/dr5" visibility="gone" layout_width="wrap_content" layout_height="match_parent" layout_marginBottom="2dp" drawablePadding="0dp"/>
+    <ImageView layout_gravity="center_vertical" id="@+id/dr9" focusable="true" layout_width="wrap_content" layout_height="match_parent" contentDescription="@string/m4" style="?attr/h6"/>
+    <LinearLayout orientation="horizontal" id="@+id/drk" layout_width="wrap_content" layout_height="match_parent" layout_marginLeft="8dp" layout_marginRight="8dp" layout_weight="1" layoutDirection="locale">
+        <ImageView layout_gravity="center_vertical" id="@+id/ds4" visibility="gone" layout_width="@dimen/ah" layout_height="wrap_content" scaleType="centerInside" style="@style/he"/>
+        <LinearLayout layout_gravity="center_vertical" orientation="horizontal" id="@+id/dsd" layout_width="wrap_content" layout_height="match_parent" layout_weight="1">
+            <view ellipsize="end" layout_gravity="center_vertical" id="@+id/dsj" background="@null" paddingLeft="@dimen/ai" paddingRight="@dimen/aj" layout_width="0dp" layout_height="36dp" singleLine="true" layout_weight="1" inputType="none|text|textAutoComplete|textNoSuggestions" dropDownAnchor="@+id/drk" imeOptions="actionSearch" dropDownHeight="wrap_content" dropDownHorizontalOffset="0dp" dropDownVerticalOffset="0dp" class="androidx.appcompat.widget.SearchView$SearchAutoComplete"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/dre" background="?attr/ab9" paddingLeft="8dp" paddingRight="8dp" focusable="true" layout_width="wrap_content" layout_height="match_parent" contentDescription="@string/m2"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@+id/eaj" layout_width="wrap_content" layout_height="match_parent">
+            <ImageView layout_gravity="center_vertical" id="@+id/drs" background="?attr/ab9" paddingLeft="16dp" paddingRight="16dp" focusable="true" visibility="gone" layout_width="wrap_content" layout_height="match_parent" contentDescription="@string/m5"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/dsy" background="?attr/ab9" paddingLeft="16dp" paddingRight="16dp" focusable="true" visibility="gone" layout_width="wrap_content" layout_height="match_parent" contentDescription="@string/m6"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

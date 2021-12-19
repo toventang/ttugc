@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="wrap_content" layout_height="96dp">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+        <com.p2082ss.android.ugc.aweme.views.CircleDraweeView id="@+id/e91" layout_width="52dp" layout_height="52dp"/>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView gravity="center" id="@+id/e9l" layout_width="52dp" layout_height="wrap_content" layout_marginTop="6dp"/>
+    </LinearLayout>
+    <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="end" id="@+id/bv8" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginLeft="3dp" layout_marginTop="37dp" src="0x7f0800e1" scaleType="fitXY" layout_marginStart="3dp" NOT_FOUND_0xd="true" NOT_FOUND_0xe="true"/>
+</FrameLayout>

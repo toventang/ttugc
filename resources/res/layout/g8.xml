@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" paddingTop="@dimen/d8" paddingBottom="16dp" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" paddingStart="32dp" paddingEnd="32dp">
+        <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/b98" layout_width="match_parent" layout_height="48dp" maxLines="1" inputType="text" NOT_FOUND_0x13="1" NOT_FOUND_0x14="1" NOT_FOUND_0x15="@string/ado" style="@style/y4"/>
+        <com.p2082ss.android.ugc.aweme.account.login.p2268v2.p2271ui.InputResultIndicator textSize="@dimen/d5" id="@+id/b99" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/di" NOT_FOUND_0x1a="@dimen/d4"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/b9a" paddingTop="12dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="5dp" NOT_FOUND_0x1b="71"/>
+        <com.p2082ss.android.ugc.aweme.account.p2280ui.LoadingButton textSize="@dimen/d6" textColor="@color/a9" id="@+id/b9_" layout_width="match_parent" layout_height="44dp" layout_marginTop="32dp" text="@string/adk" NOT_FOUND_0x16="@color/l" NOT_FOUND_0x17="3dp" NOT_FOUND_0x18="15dp" NOT_FOUND_0x19="18dp"/>
+    </LinearLayout>
+    <View layout_width="wrap_content" layout_height="wrap_content" layout_weight="1"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/b9e" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

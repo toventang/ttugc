@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dl1" background="@color/ur" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.tools.beauty.views.BeautyStyleFrameLayout id="@+id/b3w" background="@color/d_" clickable="true" layout_width="match_parent" layout_height="@dimen/ck" NOT_FOUND_0xb="0" NOT_FOUND_0xd="@dimen/cl" NOT_FOUND_0xe="true">
+        <include layout="@layout/ek"/>
+    </com.p2082ss.android.ugc.aweme.tools.beauty.views.BeautyStyleFrameLayout>
+    <LinearLayout orientation="vertical" id="@+id/dl2" paddingBottom="16dp" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/b3w" NOT_FOUND_0xc="@+id/b3w">
+        <include layout="@layout/el"/>
+    </LinearLayout>
+    <View id="@+id/fan" background="@color/ur" layout_width="match_parent" layout_height="wrap_content" soundEffectsEnabled="false" importantForAccessibility="no" NOT_FOUND_0xc="@+id/dl2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

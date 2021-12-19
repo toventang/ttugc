@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/cks" paddingLeft="16dp" paddingTop="18dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="48dp" paddingStart="16dp" paddingEnd="16dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/ds8" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_toLeftOf="@+id/ds_" layout_alignParentLeft="true" textDirection="locale" textAlignment="viewStart" layout_toStartOf="@+id/ds_" layout_alignParentStart="true" NOT_FOUND_0x1d="33"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/ds_" layout_width="wrap_content" layout_height="wrap_content" layout_alignTop="@+id/ds8" layout_alignBottom="@+id/ds8" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/dsa" layout_width="wrap_content" layout_height="wrap_content" text="@string/fhe" lines="1" NOT_FOUND_0x1d="41"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/bz6" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" src="@drawable/be8" layout_marginStart="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

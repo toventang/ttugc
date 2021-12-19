@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/b8u" paddingLeft="17dp" paddingTop="18dp" paddingRight="17dp" paddingBottom="2dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/b8t" layout_width="48dp" layout_height="48dp" src="0x7f080622" NOT_FOUND_0x19="0x7f080622" NOT_FOUND_0x1a="6" NOT_FOUND_0x1b="true"/>
+    <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/b8r" layout_width="20dp" layout_height="20dp" layout_marginTop="16dp" src="@drawable/ccl" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="13dp" layout_marginRight="24dp" layout_toLeftOf="@+id/b8r" layout_toRightOf="@+id/b8t" layout_marginStart="13dp" layout_marginEnd="24dp" layout_toStartOf="@+id/b8r" layout_toEndOf="@+id/b8t">
+        <com.bytedance.tux.input.TuxTextView textSize="15sp" textColor="@color/bx" gravity="center_vertical" id="@+id/b8v" layout_width="wrap_content" layout_height="wrap_content"/>
+        <com.bytedance.tux.input.TuxTextView textSize="13sp" textColor="@color/c5" ellipsize="end" gravity="center_vertical" id="@+id/b8s" layout_width="wrap_content" layout_height="wrap_content" maxLines="2"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" padding="16dp" layout_width="match_parent" layout_height="66dp">
+    <LinearLayout orientation="vertical" id="@+id/ceo" layout_width="match_parent" layout_height="wrap_content" layout_toLeftOf="@+id/we" layout_centerVertical="true" layout_toStartOf="@+id/we">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f6v" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x11="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f2j" layout_width="wrap_content" layout_height="wrap_content" text="@string/fiu" layout_below="@+id/f6v" NOT_FOUND_0x11="81"/>
+    </LinearLayout>
+    <com.bytedance.tux.button.TuxButton id="@+id/we" layout_width="80dp" layout_height="wrap_content" layout_marginRight="8dp" text="@string/b4w" layout_toLeftOf="@+id/w_" layout_centerVertical="true" layout_marginEnd="8dp" layout_toStartOf="@+id/w_" NOT_FOUND_0xf="1" NOT_FOUND_0x10="1" NOT_FOUND_0x11="52"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/w_" layout_width="80dp" layout_height="wrap_content" text="@string/mb" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0xf="1" NOT_FOUND_0x10="0" NOT_FOUND_0x11="52"/>
+</RelativeLayout>

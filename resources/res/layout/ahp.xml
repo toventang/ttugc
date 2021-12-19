@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dno" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.editSticker.interact.view.StickerHelpBoxView id="@+id/e8x" layout_width="wrap_content" layout_height="wrap_content"/>
+    <FrameLayout id="@+id/ade" layout_width="wrap_content" layout_height="wrap_content">
+        <com.p2082ss.android.ugc.aweme.commentStickerPanel.itemview.CommentStickerView id="@+id/ads" layout_width="wrap_content" layout_height="wrap_content"/>
+    </FrameLayout>
+</FrameLayout>

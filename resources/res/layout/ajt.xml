@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dom" background="@color/k5" layout_width="match_parent" layout_height="match_parent">
+    <Button textSize="@dimen/oa" textColor="@drawable/b3u" gravity="left|center_vertical|center_horizontal|center" id="@+id/wq" background="@android:color/transparent" paddingLeft="@dimen/oc" layout_width="wrap_content" layout_height="match_parent" textAllCaps="false"/>
+    <TextView textSize="@dimen/od" textColor="@color/k8" gravity="center" id="@+id/ers" layout_width="match_parent" layout_height="wrap_content" layout_toLeftOf="@+id/ws" layout_toRightOf="@+id/wq" layout_centerVertical="true"/>
+    <Button textSize="@dimen/oa" textColor="@drawable/b3u" gravity="right|center_vertical|center_horizontal|center" id="@+id/ws" background="@android:color/transparent" paddingRight="@dimen/oc" layout_width="wrap_content" layout_height="match_parent" layout_alignParentRight="true" textAllCaps="false"/>
+</RelativeLayout>

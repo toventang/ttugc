@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/cv7" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageWithVerify id="@+id/cuf" layout_width="48dp" layout_height="48dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" id="@+id/cuw" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" maxWidth="227dp" layout_marginStart="12dp" NOT_FOUND_0xe="0" NOT_FOUND_0x10="@+id/cu7" NOT_FOUND_0x14="@+id/cuf" NOT_FOUND_0x17="@+id/cuf" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="2" NOT_FOUND_0x1d="51"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/cu7" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="20dp" layout_marginStart="12dp" layout_marginEnd="20dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/cu9" NOT_FOUND_0x14="@+id/cuf" NOT_FOUND_0x15="@+id/cu9" NOT_FOUND_0x17="@+id/cuf" NOT_FOUND_0x19="@+id/cuw" NOT_FOUND_0x1d="51"/>
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteRoundImageView id="@+id/cu9" layout_width="36dp" layout_height="48dp" NOT_FOUND_0x11="0" NOT_FOUND_0x16="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@color/f"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

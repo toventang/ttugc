@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" background="@drawable/bp2" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amm" gravity="center" id="@+id/e1i" visibility="invisible" layout_width="wrap_content" layout_height="52dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" style="@style/tk"/>
+    <com.bytedance.android.livesdk.rank.impl.p619ui.tablayout.LiveTabLayout id="@+id/ee7" visibility="invisible" layout_width="match_parent" layout_height="40dp" layout_marginTop="12dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="#161823" NOT_FOUND_0x15="2dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="12dp" NOT_FOUND_0x18="12dp"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/de2" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginRight="16dp" src="0x7f080f80" layout_marginEnd="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0"/>
+    <View id="@+id/amc" background="@color/b6" visibility="invisible" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x12="@+id/ee7"/>
+    <com.bytedance.android.live.uikit.rtl.RtlViewPager id="@+id/ffo" visibility="gone" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/amc"/>
+    <ViewStub id="@+id/ct6" layout="@layout/bal" inflatedId="@+id/ea_" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/dvw" layout="@layout/ban" inflatedId="@+id/eab" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/cfa" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

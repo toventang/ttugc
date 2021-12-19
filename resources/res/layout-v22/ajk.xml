@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/caq" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.app.ContentConstraintLayout layout_gravity="center" background="?attr/alc" clickable="true" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="@dimen/o3">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cak" visibility="gone" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0">
+            <androidx.appcompat.widget.AppCompatImageView id="@+id/cai" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/nl" layout_marginBottom="@dimen/o1" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+            <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/caj" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/nl" layout_marginBottom="@dimen/nd" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+            <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/cah" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="@dimen/nc" scaleType="centerCrop" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="vertical" id="@+id/cal" layout_width="0dp" layout_height="wrap_content" layout_marginTop="0dp" NOT_FOUND_0x19="true" NOT_FOUND_0x1b="@+id/cad" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/cak" NOT_FOUND_0x20="@dimen/nl">
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amm" gravity="center" id="@+id/cap" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="@dimen/o0" layout_marginRight="@dimen/o0" layout_marginBottom="@dimen/o2" includeFontPadding="false" NOT_FOUND_0x17="@dimen/o0" style="@style/th"/>
+            <ScrollView scrollbarThumbVertical="?attr/a3c" id="@+id/can" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="@dimen/ng" layout_marginRight="@dimen/ng" fadeScrollbars="false" NOT_FOUND_0x17="@dimen/ng" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/cap" NOT_FOUND_0x20="0dp">
+                <FrameLayout id="@+id/cam" paddingLeft="@dimen/nh" paddingRight="@dimen/nh" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x18="@dimen/nh">
+                    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amm" gravity="center" id="@+id/cao" visibility="gone" layout_width="match_parent" layout_height="wrap_content" includeFontPadding="false" style="@style/tm"/>
+                </FrameLayout>
+            </ScrollView>
+        </LinearLayout>
+        <FrameLayout id="@+id/cad" paddingTop="@dimen/o2" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="@dimen/o0" layout_marginRight="@dimen/o0" NOT_FOUND_0x17="@dimen/o0" NOT_FOUND_0x1b="@+id/cae" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+        <FrameLayout id="@+id/cae" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+        <androidx.appcompat.widget.AppCompatImageView id="@+id/caf" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/o3" layout_marginRight="@dimen/o3" layout_marginEnd="@dimen/o3" NOT_FOUND_0x1c="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="@drawable/b3d"/>
+    </com.bytedance.android.live.design.app.ContentConstraintLayout>
+</FrameLayout>

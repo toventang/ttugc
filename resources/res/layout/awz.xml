@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns="" textAppearance="?android:attr/textAppearanceMedium" textColor="?attr/ai9" ellipsize="marquee" gravity="center_vertical" id="@android:id/text1" paddingLeft="@dimen/av" paddingRight="?attr/ra" layout_width="match_parent" layout_height="wrap_content" minHeight="?attr/a2u" drawableLeft="?android:attr/listChoiceIndicatorMultiple" drawablePadding="20dp" drawableStart="?android:attr/listChoiceIndicatorMultiple" paddingStart="@dimen/av" paddingEnd="?attr/ra"/>

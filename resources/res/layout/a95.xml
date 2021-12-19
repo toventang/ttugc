@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteRoundImageView id="@+id/bhh" layout_width="24dp" layout_height="24dp"/>
+</FrameLayout>

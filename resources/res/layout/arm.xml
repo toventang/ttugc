@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointVideoSegView id="@+id/fdo" visibility="gone" layout_width="match_parent" layout_height="@dimen/sy"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/v2" visibility="gone" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textColor="@color/c5" ellipsize="end" gravity="center_vertical" id="@+id/erv" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="8dp" text="@string/d59" maxLines="2" shadowColor="@color/bo" shadowRadius="2" lineSpacingExtra="2dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="false"/>
+            <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/fbs" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="16dp" NOT_FOUND_0x1f="16dp" NOT_FOUND_0x20="16dp"/>
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="center_vertical" id="@+id/ju" layout_width="10dp" layout_height="2dp" layout_marginLeft="38dp" layout_marginStart="38dp" NOT_FOUND_0x1d="false" NOT_FOUND_0x21="10dp" NOT_FOUND_0x23="true"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout layout_gravity="bottom" id="@+id/e1_" visibility="gone" layout_width="match_parent" layout_height="52dp">
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="top" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x22="true"/>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/brw" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" src="0x7f08075d" scaleType="centerInside" layout_marginStart="16dp"/>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="17sp" textStyle="bold" textColor="@color/a9" layout_gravity="center" id="@+id/e1c" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/awo" fontFamily="Proxima Nova"/>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bs9" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" src="0x7f08075e" scaleType="centerInside" layout_marginEnd="16dp"/>
+    </FrameLayout>
+</FrameLayout>

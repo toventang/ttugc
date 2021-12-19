@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" id="@+id/d_5" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.ies.dmt.p1194ui.widget.DoubleColorBallAnimationView layout_gravity="center" id="@+id/anz" layout_width="36dp" layout_height="36dp"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@drawable/bvg" layout_width="0dp" layout_height="@dimen/yz">
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView id="@+id/pf" layout_width="wrap_content" layout_height="wrap_content" drawableLeft="@drawable/bpp" drawableStart="@drawable/bpp" style="@style/a2n"/>
+    <ImageView id="@+id/a6v" paddingTop="5dp" paddingRight="10dp" paddingBottom="5dp" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" paddingEnd="10dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" style="@style/a2o"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/dki" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="15dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="15dp" layout_alignParentEnd="true"/>
+    <ImageView id="@+id/yv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginRight="15dp" src="@drawable/bug" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginEnd="15dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

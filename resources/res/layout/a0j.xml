@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/fii" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xa="true"/>
+    <com.p2082ss.android.ugc.aweme.bullet.module.base.CommonBizWebView id="@+id/zv" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/fij" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a6q" paddingLeft="8dp" paddingTop="7dp" paddingRight="8dp" paddingBottom="4dp" layout_width="40dp" layout_height="35dp" src="0x7f080702"/>
+</FrameLayout>

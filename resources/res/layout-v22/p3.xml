@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="@dimen/fj" paddingBottom="@dimen/fj" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xf="@dimen/fj">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ddo" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ddl" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x11="@+id/ddm" NOT_FOUND_0x13="@+id/ddm" NOT_FOUND_0x17="0" NOT_FOUND_0x18="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ddm" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="41"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="13dp" textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ddn" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" hint="Include a description" lineSpacingExtra="5dp" textCursorDrawable="@drawable/z6" textAlignment="viewStart" NOT_FOUND_0x16="@+id/ddo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

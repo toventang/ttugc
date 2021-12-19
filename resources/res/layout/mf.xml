@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.main.guide.ScrollToFeedFollowGuideView xmlns="" background="@color/gn" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="@color/gn" layout_width="match_parent" layout_height="match_parent" weightSum="10">
+        <androidx.legacy.widget.Space layout_width="wrap_content" layout_height="0dp" layout_weight="4"/>
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.AnimationImageView layout_gravity="center_horizontal" id="@+id/bw0" layout_width="190dp" layout_height="70dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="center_horizontal" id="@+id/bf6" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="28dp" text="@string/ca_" shadowColor="#26000000" shadowDy="2" shadowRadius="2" NOT_FOUND_0xe="23"/>
+        <androidx.legacy.widget.Space layout_width="wrap_content" layout_height="0dp" layout_weight="5"/>
+    </LinearLayout>
+</com.p2082ss.android.ugc.aweme.main.guide.ScrollToFeedFollowGuideView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/d9f" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e7_" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/cpv" layout_width="match_parent" layout_height="@dimen/a0s"/>
+        <LinearLayout orientation="vertical" id="@+id/acf" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/dhb" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xe="true" NOT_FOUND_0xf="1">
+                <com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout orientation="vertical" id="@+id/dq9" layout_width="match_parent" layout_height="match_parent">
+                    <include layout="@layout/apo"/>
+                    <include layout="@layout/ap7"/>
+                    <com.p2082ss.android.ugc.aweme.profile.p3576ui.SwipableViewPager id="@+id/dqe" layout_width="match_parent" layout_height="match_parent"/>
+                </com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout>
+            </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub id="@+id/dk" layout_width="match_parent" layout_height="45dp" layout_marginBottom="-46dp" layout_above="@+id/sw"/>
+    <ViewStub id="@+id/crm" layout_width="match_parent" layout_height="60dp" layout_marginBottom="-121dp" layout_above="@+id/sw" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+    <ViewStub id="@+id/d42" layout_width="match_parent" layout_height="64dp" layout_marginBottom="-129dp" layout_above="@+id/sw"/>
+    <ViewStub id="@+id/fk" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.profile.tip.FollowRequestTipView id="@+id/b6v" background="@drawable/b7l" visibility="gone" layout_width="match_parent" layout_height="66dp" layout_marginLeft="12dp" layout_marginRight="12dp" layout_alignParentBottom="true" translationY="66dp"/>
+    <View id="@+id/sw" layout_width="0dp" layout_height="0dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

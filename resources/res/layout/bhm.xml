@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout id="@+id/dgq" layout_width="match_parent" layout_height="wrap_content">
+        <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView id="@+id/e1d" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView id="@+id/b8o" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.p2082ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout>
+    <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout id="@+id/ags" layout_width="20dp" layout_height="wrap_content">
+        <ImageView id="@+id/agr" layout_width="wrap_content" layout_height="match_parent"/>
+    </com.p2082ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout>
+</merge>

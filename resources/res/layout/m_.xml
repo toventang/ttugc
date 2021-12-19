@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ejs" background="@color/em" layout_width="match_parent" layout_height="@dimen/tn" minHeight="@dimen/tn">
+    <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginStart="6dp">
+        <com.bytedance.ies.bullet.p1184ui.common.view.AutoRTLImageView id="@+id/bsy" padding="10dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0806ce"/>
+        <com.bytedance.ies.bullet.p1184ui.common.view.AutoRTLImageView layout_gravity="center_vertical" id="@+id/bu6" padding="10dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0806d0"/>
+    </LinearLayout>
+    <TextView textSize="17sp" textStyle="bold" textColor="@color/eo" ellipsize="end" layout_gravity="center" id="@+id/f63" layout_width="wrap_content" layout_height="wrap_content" lines="1" maxEms="9"/>
+    <FrameLayout layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/ej5" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="6dp" layout_marginEnd="6dp">
+        <Button id="@+id/yk" layout_width="wrap_content" layout_height="match_parent" text="Refresh"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/d_8" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp">
+    <com.p2082ss.android.ugc.aweme.story.feed.p4046ui.progress.StoryListProgressBar layout_gravity="center_vertical" orientation="horizontal" id="@+id/d_6" layout_width="match_parent" layout_height="18dp"/>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="match_parent" layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout id="@+id/avb" background="?attr/m" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="0dp">
+            <FrameLayout layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x20="13">
+                <ScrollView id="@+id/dqb" background="@null" layout_width="match_parent" layout_height="match_parent">
+                    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView layout_gravity="top" id="@+id/e7i" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="80dp" paddingStart="32dp" paddingEnd="32dp"/>
+                </ScrollView>
+                <ViewStub id="@+id/ea0" visibility="invisible" layout="@layout/apr" layout_width="match_parent" layout_height="wrap_content"/>
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout id="@+id/dfo" visibility="visible" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x17="@string/ue"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.p2082ss.android.ugc.aweme.views.FpsRecyclerView id="@+id/b0k" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/bcr" background="?attr/m" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/c8t" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginBottom="12dp" text="@string/c9n" layout_marginStart="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="@+id/bu5" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/bu5" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="61"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/bu5" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="@raw/icon_x_mark_small" NOT_FOUND_0x23="?attr/bc"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

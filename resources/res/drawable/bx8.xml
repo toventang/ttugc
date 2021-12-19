@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@+id/epd" android:drawable="@drawable/bx9"/>
+    <item android:id="@+id/epe" android:drawable="@drawable/bxa"/>
+    <transition android:drawable="@drawable/bx_" android:toId="@+id/epe" android:fromId="@+id/epd"/>
+    <transition android:drawable="@drawable/bxb" android:toId="@+id/epd" android:fromId="@+id/epe"/>
+</animated-selector>

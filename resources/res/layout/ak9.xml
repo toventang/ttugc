@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/cjq" style="@style/g4">
+    <TextView text="@string/d30" style="@style/ga"/>
+</FrameLayout>

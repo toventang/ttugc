@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/a60" layout_width="match_parent" layout_height="48dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bgt" layout_width="16dp" layout_height="16dp" layout_marginStart="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xd="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="16dp" NOT_FOUND_0x16="16dp" NOT_FOUND_0x17="?attr/bc"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/f0d" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xb="0" NOT_FOUND_0xe="@+id/bgt" NOT_FOUND_0x10="@+id/bgt" NOT_FOUND_0x12="0" NOT_FOUND_0x13="42"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bgu" layout_width="20dp" layout_height="20dp" layout_marginEnd="15.5dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@raw/icon_tick_fill" NOT_FOUND_0x15="20dp" NOT_FOUND_0x16="20dp" NOT_FOUND_0x17="?attr/ay"/>
+    <ImageView id="@+id/by2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="22dp" src="@drawable/ol" scaleType="centerInside" layout_marginEnd="22dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

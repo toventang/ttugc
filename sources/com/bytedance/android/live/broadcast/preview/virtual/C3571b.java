@@ -1,0 +1,28 @@
+package com.bytedance.android.live.broadcast.preview.virtual;
+
+import com.bytedance.covode.number.Covode;
+import com.google.gson.p2018a.AbstractC27891c;
+
+/* renamed from: com.bytedance.android.live.broadcast.preview.virtual.b */
+public final class C3571b {
+    @AbstractC27891c(mo46611a = "enable_live_video")
+
+    /* renamed from: a */
+    public boolean f9896a;
+    @AbstractC27891c(mo46611a = "enable_live_third_party")
+
+    /* renamed from: b */
+    public boolean f9897b;
+    @AbstractC27891c(mo46611a = "enable_live_screenshot")
+
+    /* renamed from: c */
+    public boolean f9898c;
+    @AbstractC27891c(mo46611a = "enable_live_studio")
+
+    /* renamed from: d */
+    public boolean f9899d;
+
+    static {
+        Covode.recordClassIndex(4058);
+    }
+}

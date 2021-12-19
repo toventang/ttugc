@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" background="@color/wk" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.liveinteract.cohost.p279ui.view.PkInviteUserListRefreshLayout id="@+id/bq4" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center_horizontal" id="@+id/bq3" padding="6dp" layout_width="wrap_content" layout_height="48dp"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/bq5" background="@color/wk" layout_width="match_parent" layout_height="match_parent"/>
+    </com.bytedance.android.live.liveinteract.cohost.p279ui.view.PkInviteUserListRefreshLayout>
+    <com.bytedance.android.live.liveinteract.cohost.p279ui.view.RandomLinkMicEntranceButton id="@+id/ddx" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/bq2" padding="6dp" layout_width="wrap_content" layout_height="wrap_content"/>
+    <LinearLayout layout_gravity="center" orientation="vertical" id="@+id/c40" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="33dp" layout_marginRight="33dp">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center_horizontal" layout_width="110dp" layout_height="92dp" NOT_FOUND_0x11="@drawable/c_7"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a0_" gravity="center_horizontal" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" text="@string/e52"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a0b" gravity="center" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e51"/>
+    </LinearLayout>
+</FrameLayout>

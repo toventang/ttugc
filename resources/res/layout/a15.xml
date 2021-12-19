@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dnb" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="68dp">
+        <com.bytedance.ies.dmt.p1194ui.titlebar.NormalTitleBar id="@+id/cky" layout_width="match_parent" layout_height="44dp" NOT_FOUND_0xd="8" NOT_FOUND_0xe="@string/fa0" NOT_FOUND_0xf="@color/bx"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+        <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.ies.powerlist.PowerList id="@+id/ckz" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" layout_width="match_parent" layout_height="match_parent"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.bytedance.tux.button.TuxButton layout_gravity="bottom" id="@+id/ckn" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="12dp" text="@string/baq" NOT_FOUND_0x10="3" NOT_FOUND_0x11="0"/>
+</FrameLayout>

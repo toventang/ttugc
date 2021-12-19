@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.ButtonTitleBar id="@+id/ejf" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x1a="@string/fdr" NOT_FOUND_0x1b="15sp" NOT_FOUND_0x1c="0" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@color/np" NOT_FOUND_0x29="true"/>
+    <FrameLayout id="@+id/c6g" background="@color/v" padding="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x23="@+id/ejf">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bi" id="@+id/f4c" layout_width="match_parent" layout_height="wrap_content" alpha="0.75" NOT_FOUND_0x28="41"/>
+    </FrameLayout>
+    <ScrollView layout_width="match_parent" layout_height="0dp" fillViewport="true" layout_weight="1">
+        <androidx.constraintlayout.widget.ConstraintLayout padding="16sp" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/exx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="9sp" text="@string/cqj" NOT_FOUND_0x22="0" NOT_FOUND_0x24="0" NOT_FOUND_0x28="42"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/exy" layout_width="wrap_content" layout_height="wrap_content" text="0" NOT_FOUND_0x1d="@+id/exx" NOT_FOUND_0x1f="@+id/exz" NOT_FOUND_0x24="@+id/exx" NOT_FOUND_0x28="51"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/exz" layout_width="wrap_content" layout_height="wrap_content" text="/" NOT_FOUND_0x1d="@+id/exy" NOT_FOUND_0x1f="@+id/ey0" NOT_FOUND_0x24="@+id/exy" NOT_FOUND_0x28="51"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/ey0" layout_width="wrap_content" layout_height="wrap_content" text="40" NOT_FOUND_0x1d="@+id/exz" NOT_FOUND_0x1e="0" NOT_FOUND_0x24="@+id/exz" NOT_FOUND_0x28="51"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="15sp" id="@+id/art" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="23dp" hint="@string/cri" textDirection="locale" NOT_FOUND_0x23="@+id/exx"/>
+            <View id="@+id/amd" background="@color/b2" layout_width="match_parent" layout_height="1px" layout_marginTop="14.5dp" NOT_FOUND_0x23="@+id/art"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ezc" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="25sp" text="@string/d2k" NOT_FOUND_0x22="0" NOT_FOUND_0x23="@+id/amd" NOT_FOUND_0x28="42"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/eze" layout_width="wrap_content" layout_height="wrap_content" text="0" NOT_FOUND_0x1d="@+id/ezc" NOT_FOUND_0x1f="@+id/ezf" NOT_FOUND_0x24="@+id/ezc" NOT_FOUND_0x28="51"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/ezf" layout_width="wrap_content" layout_height="wrap_content" text="/" NOT_FOUND_0x1d="@+id/eze" NOT_FOUND_0x1f="@+id/ezg" NOT_FOUND_0x24="@+id/eze" NOT_FOUND_0x28="51"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/ezg" layout_width="wrap_content" layout_height="wrap_content" text="500" NOT_FOUND_0x1d="@+id/eze" NOT_FOUND_0x1e="0" NOT_FOUND_0x24="@+id/eze" NOT_FOUND_0x28="51"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="15sp" gravity="top" id="@+id/arx" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="23dp" minHeight="60sp" hint="@string/d2q" inputType="textMultiLine" textDirection="locale" NOT_FOUND_0x23="@+id/ezc"/>
+            <View id="@+id/ame" background="@color/b2" paddingLeft="0dp" paddingRight="0dp" layout_width="match_parent" layout_height="1px" layout_marginTop="14.5dp" NOT_FOUND_0x23="@+id/arx"/>
+            <LinearLayout orientation="vertical" id="@+id/c3y" layout_width="match_parent" layout_height="0dp" layout_marginTop="28dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x23="@+id/ame">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="@string/cqn" NOT_FOUND_0x28="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="@string/cqo" NOT_FOUND_0x28="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="@string/cqp" NOT_FOUND_0x28="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="@string/cqq" NOT_FOUND_0x28="61"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.bytedance.tux.button.TuxButton id="@+id/a0h" layout_width="match_parent" layout_height="wrap_content" layout_margin="15dp" text="@string/g81" NOT_FOUND_0x26="3" NOT_FOUND_0x27="0" NOT_FOUND_0x28="42"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/a07" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="15dp" layout_marginTop="-7dp" layout_marginRight="15dp" layout_marginBottom="15dp" text="@string/b5n" NOT_FOUND_0x19="15dp" NOT_FOUND_0x26="3" NOT_FOUND_0x27="1" NOT_FOUND_0x28="42"/>
+</LinearLayout>

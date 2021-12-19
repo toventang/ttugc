@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/des" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.p2082ss.android.ugc.aweme.crossplatform.view.WebViewFrameLayout id="@+id/fil" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/awv" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/a6j" background="@color/a9" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView layout_gravity="center" id="@+id/cg3" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/ahw" background="@color/aq" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginBottom="10dp" NOT_FOUND_0xf="61"/>
+    <View id="@+id/s8" background="@color/j" visibility="gone" layout_width="match_parent" layout_height="2dp"/>
+    <com.p2082ss.android.ugc.aweme.feed.widget.LineProgressBarView id="@+id/d02" visibility="gone" layout_width="match_parent" layout_height="2dp"/>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout xmlns="" id="@+id/e9z" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/a0u" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout id="@+id/b_c" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dgc" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout id="@+id/c48" background="@color/c9" visibility="gone" saveEnabled="false" layout_width="match_parent" layout_height="match_parent"/>
+</com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout>

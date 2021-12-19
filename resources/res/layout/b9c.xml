@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="64dp">
+    <com.bytedance.android.livesdk.widget.VHeadView id="@+id/be7" layout_width="40dp" layout_height="40dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0x15="6" NOT_FOUND_0x17="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0x7f080e89" NOT_FOUND_0x1e="true" NOT_FOUND_0x1f="false"/>
+    <FrameLayout id="@+id/a14" visibility="gone" layout_width="88dp" layout_height="28dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1c="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/uu" gravity="center" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/a0z" background="@drawable/bq3" layout_width="88dp" layout_height="28dp" text="@string/e_n" NOT_FOUND_0x16="7"/>
+        <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/a16" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    </FrameLayout>
+    <RelativeLayout layout_width="0dp" layout_height="wrap_content" layout_marginRight="12dp" layout_centerVertical="true" layout_marginEnd="12dp" NOT_FOUND_0x17="0" NOT_FOUND_0x19="@+id/a14" NOT_FOUND_0x1a="@+id/be7" NOT_FOUND_0x1c="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="@color/a00" ellipsize="end" id="@+id/fa1" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="4dp" singleLine="true" layout_marginStart="12dp" layout_marginEnd="4dp" NOT_FOUND_0x16="7"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/f_l" visibility="gone" layout_width="32dp" layout_height="16dp" scaleType="fitXY" layout_toRightOf="@+id/fa1" layout_centerVertical="true" layout_toEndOf="@+id/fa1"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c5" ellipsize="end" id="@+id/csj" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="4dp" singleLine="true" layout_below="@+id/fa1" layout_marginStart="12dp" layout_marginEnd="4dp" style="@style/ts"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

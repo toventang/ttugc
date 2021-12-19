@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" focusable="true" focusableInTouchMode="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/da5" layout_width="match_parent" layout_height="44dp"/>
+    <LinearLayout orientation="vertical" id="@+id/da6" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/da0" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/da2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/exr" layout_marginStart="16dp" NOT_FOUND_0x19="33"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bi" id="@+id/da1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/exm" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="51"/>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.aweme.profile.editprofile.pronouns.views.PronounsEditText textColor="@color/bx" gravity="bottom" id="@+id/d_z" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp" hint="@string/exp" lineSpacingExtra="13dp" textDirection="ltr" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <View id="@+id/f92" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="10.5dp" layout_marginRight="16dp" paddingStart="16dp" paddingEnd="16dp"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/da7" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.bytedance.ies.powerlist.PowerList id="@+id/da4" paddingTop="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <LinearLayout gravity="center" orientation="vertical" id="@+id/d_y" visibility="gone" layout_width="match_parent" layout_height="70dp" layout_marginTop="8dp">
+            <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" text="@string/cgt" NOT_FOUND_0x19="41"/>
+            <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" id="@+id/d_x" layout_width="wrap_content" layout_height="wrap_content" text="@string/cgu" NOT_FOUND_0x19="41"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

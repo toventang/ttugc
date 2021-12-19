@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" id="@+id/bj8" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout id="@+id/bj7" background="@color/l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="0dp">
+        <LinearLayout orientation="vertical" id="@+id/bj9" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="11">
+            <LinearLayout orientation="vertical" id="@+id/biz" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/bj1" layout_width="match_parent" layout_height="wrap_content"/>
+                <View id="@+id/biy" background="@color/v" visibility="gone" layout_width="match_parent" layout_height="8dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/bit" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/biu" layout_width="match_parent" layout_height="wrap_content"/>
+                <View background="@color/v" layout_width="match_parent" layout_height="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/acd" paddingTop="8dp" paddingBottom="8dp" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xb="@string/ue"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e7i" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_marginTop="10dp" NOT_FOUND_0xd="0"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

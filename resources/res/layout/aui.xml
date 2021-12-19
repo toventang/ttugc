@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnb" background="@drawable/bci" layout_width="130dp" layout_height="176dp">
+    <FrameLayout id="@+id/oo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="8dp" layout_centerHorizontal="true">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/nz" layout_width="72dp" layout_height="72dp"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_horizontal" id="@+id/fa1" layout_width="wrap_content" layout_height="17dp" layout_marginLeft="20dp" layout_marginRight="20dp" lines="1" layout_below="@+id/oo" layout_centerHorizontal="true" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x12="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="center_horizontal" id="@+id/fa5" layout_width="wrap_content" layout_height="15dp" layout_marginLeft="12dp" layout_marginRight="12dp" maxLines="1" layout_below="@+id/fa1" layout_centerHorizontal="true" NOT_FOUND_0x12="71"/>
+    <com.p2082ss.android.ugc.aweme.discover.p2797ui.view.SearchFollowUserBtn gravity="center_horizontal" id="@+id/b6a" layout_width="106dp" layout_height="28dp" layout_marginTop="12dp" layout_marginBottom="12dp" layout_alignParentBottom="true" layout_centerHorizontal="true"/>
+</RelativeLayout>

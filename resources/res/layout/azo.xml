@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="?attr/ab8" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.SmartAvatarImageView id="@+id/c15" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f6t" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="12dp" NOT_FOUND_0x14="@+id/c15" NOT_FOUND_0x15="@+id/c15" NOT_FOUND_0x18="@+id/c15" NOT_FOUND_0x1f="62"/>
+    <LinearLayout orientation="horizontal" id="@+id/ccp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0x12="@+id/c15" NOT_FOUND_0x14="@+id/c15" NOT_FOUND_0x15="@+id/c15">
+        <com.p2082ss.android.ugc.aweme.shoutouts.review.view.ShoutOutRatingBar id="@+id/def" paddingBottom="0dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x19="5" NOT_FOUND_0x1a="0x7f080c32" NOT_FOUND_0x1b="0x7f080c33" NOT_FOUND_0x1c="12dp" NOT_FOUND_0x1d="1dp" NOT_FOUND_0x1e="3"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/eu0" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x12="@+id/c15" NOT_FOUND_0x13="0" NOT_FOUND_0x1f="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" id="@+id/ety" layout_width="0dp" layout_height="wrap_content" layout_marginTop="10dp" textDirection="locale" NOT_FOUND_0x13="0" NOT_FOUND_0x16="@+id/f6t" NOT_FOUND_0x17="@+id/c15" NOT_FOUND_0x1f="41"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

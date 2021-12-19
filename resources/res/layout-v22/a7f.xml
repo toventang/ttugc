@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="bottom" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/cmw" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/c9b" background="@color/b4" layout_width="match_parent" layout_height="0.5dp"/>
+    <RelativeLayout id="@+id/awz" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/cmt" paddingLeft="12dp" paddingTop="10dp" paddingRight="12dp" paddingBottom="10dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" maxLines="2" layout_marginStart="16dp" layout_marginEnd="29dp" NOT_FOUND_0x23="12dp" NOT_FOUND_0x24="10dp"/>
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/cmu" layout_width="42dp" layout_height="56dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_below="@+id/cmt" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="15sp" textColor="@color/bx" textColorHint="@color/bz" gravity="top" id="@+id/cmv" background="@null" scrollbars="vertical" layout_width="match_parent" layout_height="56dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="29dp" hint="@string/cmi" maxLines="3" layout_toLeftOf="@+id/cmu" layout_below="@+id/cmt" textCursorDrawable="@drawable/asv" layout_marginStart="16dp" layout_marginEnd="29dp" layout_toStartOf="@+id/cmu"/>
+        <ImageView id="@+id/bzp" visibility="gone" layout_width="30dp" layout_height="30dp" layout_marginRight="16dp" src="0x7f080847" scaleType="fitXY" layout_alignBottom="@+id/cmu" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c44" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginBottom="12dp" layout_below="@+id/awz" layout_marginStart="16dp">
+        <ImageView id="@+id/bvr" background="@drawable/ar6" layout_width="16dp" layout_height="16dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/sg" layout_marginStart="4dp" NOT_FOUND_0x25="61"/>
+    </LinearLayout>
+</RelativeLayout>

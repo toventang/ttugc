@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b11" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b5h" background="@color/a2" layout_width="match_parent" layout_height="173dp"/>
+    <com.p2082ss.android.ugc.aweme.feed.p2970ui.LiveSkyLightTouchEventFrameLayout id="@+id/b44" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/s2"/>
+    </com.p2082ss.android.ugc.aweme.feed.p2970ui.LiveSkyLightTouchEventFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ako" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout="@layout/sm"/>
+    <FrameLayout id="@+id/b5g" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" gravity="center" layout_gravity="center_horizontal" id="@+id/f42" background="@drawable/rj" paddingLeft="10dp" paddingRight="6dp" layout_width="wrap_content" layout_height="24dp" drawableRight="0x7f080621" drawableEnd="0x7f080621" paddingStart="10dp" paddingEnd="6dp" NOT_FOUND_0xe="62"/>
+    </FrameLayout>
+</FrameLayout>

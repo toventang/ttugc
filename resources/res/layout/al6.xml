@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="64dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/cnz" layout_width="40dp" layout_height="40dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/co4" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="14dp" maxWidth="233dp" maxLines="1" layout_toRightOf="@+id/cnz" layout_marginStart="8dp" layout_toEndOf="@+id/cnz" NOT_FOUND_0x19="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/co5" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxWidth="240dp" maxLines="1" layout_below="@+id/co4" layout_alignLeft="@+id/co4" layout_alignStart="@+id/co4" NOT_FOUND_0x19="61"/>
+    <ImageView id="@+id/co0" visibility="gone" layout_width="12dp" layout_height="12dp" layout_marginLeft="3dp" layout_marginRight="12dp" layout_toRightOf="@+id/co4" layout_alignTop="@+id/co4" layout_alignBottom="@+id/co4" layout_marginStart="3dp" layout_marginEnd="12dp" layout_toEndOf="@+id/co4"/>
+    <ImageView id="@+id/cos" visibility="gone" layout_width="10dp" layout_height="10dp" layout_marginLeft="3dp" layout_marginRight="12dp" layout_toRightOf="@+id/co5" layout_alignTop="@+id/co5" layout_alignBottom="@+id/co5" layout_marginStart="3dp" layout_marginEnd="12dp" layout_toEndOf="@+id/co5"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView id="@+id/co1" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" src="0x7f0809f8" scaleType="centerInside" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

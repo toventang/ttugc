@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="52dp" layout_height="52dp" layout_marginRight="7.5dp" layout_marginEnd="7.5dp">
+    <ImageView layout_gravity="center" id="@+id/bvh" background="@drawable/u7" visibility="gone" layout_width="52dp" layout_height="52dp"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.sticker.widget.ShapedImageView layout_gravity="center" id="@+id/bvg" layout_width="50dp" layout_height="50dp" scaleType="center" NOT_FOUND_0x14="@drawable/d3" NOT_FOUND_0x15="6dp" NOT_FOUND_0x16="1"/>
+    <com.p2082ss.android.ugc.tools.view.style.StyleTextView textColor="@color/pk" layout_gravity="center" id="@+id/evh" paddingLeft="2dp" paddingRight="2dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" shadowColor="@color/oh" shadowDx="0" shadowDy="2" shadowRadius="3" paddingStart="2dp" paddingEnd="2dp" style="@style/a1y"/>
+    <TextView textColor="@color/ss" gravity="center" layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/ex5" background="@drawable/avm" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginTop="3dp" layout_marginRight="3dp" layout_marginEnd="3dp" style="@style/a1x"/>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/d2h" paddingLeft="16dp" paddingRight="16dp" visibility="visible" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x12="16dp">
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" text="@string/bhl" singleLine="true" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x14="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/an2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/bh2" singleLine="true" layout_toLeftOf="@+id/d2i" layout_centerVertical="true" layout_toStartOf="@+id/d2i" NOT_FOUND_0x14="41"/>
+    <com.p2082ss.android.ugc.aweme.ecommerce.coupon.view.CouponTag id="@+id/d2j" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/d2i" layout_centerVertical="true" layout_toStartOf="@+id/d2i"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView layout_gravity="center_vertical" id="@+id/d2i" layout_width="16dp" layout_height="16dp" tint="@color/c5" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x13="@drawable/yn"/>
+</RelativeLayout>

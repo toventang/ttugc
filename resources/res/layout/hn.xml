@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent" paddingStart="32dp" paddingEnd="32dp">
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.PhoneInputView id="@+id/boh" layout_width="match_parent" layout_height="30dp" layout_marginTop="@dimen/dg"/>
+    <com.p2082ss.android.ugc.aweme.account.login.p2268v2.p2271ui.InputResultIndicator textSize="@dimen/d5" id="@+id/bog" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0xe="@dimen/d4"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/boe" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d4" text="@string/fjy" NOT_FOUND_0xf="51"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.LoadingButton textSize="@dimen/d6" id="@+id/bof" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/dd" text="@string/ap2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/a3v" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d9" NOT_FOUND_0xf="41"/>
+</LinearLayout>

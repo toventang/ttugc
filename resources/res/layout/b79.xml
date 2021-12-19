@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/bu_" layout_width="@dimen/y8" layout_height="wrap_content" minWidth="@dimen/y8">
+    <RelativeLayout id="@+id/eld" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.livesdk.chatroom.p499ui.LiveRoundImageView id="@+id/elb" layout_width="match_parent" layout_height="160dp" NOT_FOUND_0x1a="@dimen/y7" NOT_FOUND_0x1b="@dimen/y7"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/el1" layout_width="32dp" layout_height="32dp" layout_marginTop="16dp" layout_marginRight="16dp" scaleType="centerInside" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="0x7f080ea0" NOT_FOUND_0x19="6"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a16" gravity="center" layout_gravity="center_horizontal" id="@+id/dms" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" NOT_FOUND_0x17="7"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a15" gravity="center" layout_gravity="center_horizontal" id="@+id/dmr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="15dp" layout_marginTop="12dp" layout_marginRight="15dp" lineSpacingExtra="2dp" layout_marginStart="15dp" layout_marginEnd="15dp"/>
+    <View id="@+id/cag" layout_marginTop="24dp" style="@style/a34"/>
+    <com.bytedance.android.live.design.widget.LiveTextView id="@+id/dmn" visibility="gone" style="@style/a33"/>
+    <include id="@+id/dmo" layout="@layout/b6a"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a12" gravity="center" id="@+id/dmm" visibility="gone" layout_width="wrap_content" layout_height="32dp" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" drawableLeft="0x7f080ea1" drawablePadding="8dp" lineSpacingExtra="2dp" drawableStart="0x7f080ea1" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

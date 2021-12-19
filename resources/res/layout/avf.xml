@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingTop="8dp" paddingBottom="8dp" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout id="@+id/b3g" clipChildren="false" layout_width="56dp" layout_height="56dp" layout_centerVertical="true" layout_marginStart="16dp">
+            <com.p2082ss.android.ugc.aweme.feed.p2970ui.LiveCircleView layout_gravity="center" id="@+id/br7" padding="3dp" layout_width="66dp" layout_height="66dp" NOT_FOUND_0x1c="2dp"/>
+            <com.p2082ss.android.ugc.aweme.feed.AvatarImageWithLive layout_gravity="center" id="@+id/bsr" layout_width="56dp" layout_height="56dp"/>
+        </FrameLayout>
+        <com.p2082ss.android.ugc.aweme.follow.NewFollowButton id="@+id/xm" layout_width="wrap_content" layout_height="wrap_content" minWidth="88dp" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x1d="true" NOT_FOUND_0x1e="1"/>
+        <LinearLayout orientation="vertical" id="@+id/c3r" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="12dp" layout_toStartOf="@+id/xm" layout_toEndOf="@+id/b3g">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/f6v" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x1f="42"/>
+            <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/eso" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x1f="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/ew0" layout_width="0dp" layout_height="wrap_content" lines="1" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0x1f="61"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/ev0" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" lines="1" NOT_FOUND_0x1f="61"/>
+            <com.p2082ss.android.ugc.aweme.views.MutualRelationView id="@+id/cp5" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub id="@+id/fae" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/fad" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/fa6" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/cou" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

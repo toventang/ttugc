@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ca8" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.autoplay.player.live.SearchLiveView layout_gravity="center" id="@+id/fe8" layout_width="match_parent" layout_height="match_parent" keepScreenOn="true"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/afx" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xc="6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/ez2" background="@drawable/bc_" layout_width="wrap_content" layout_height="17dp" layout_marginTop="8dp" paddingStart="5dp" paddingEnd="5dp" layout_marginStart="8dp" NOT_FOUND_0xd="73"/>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout id="@+id/ejf" clickable="true" layout_width="match_parent" layout_height="@dimen/a0s">
+            <View id="@+id/ej_" layout_width="match_parent" layout_height="match_parent"/>
+            <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/pi" layout_width="44dp" layout_height="44dp" src="@drawable/ccw" layout_centerVertical="true" style="@style/a3i"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="@dimen/q5" maxLines="1" layout_centerInParent="true" NOT_FOUND_0x22="33"/>
+            <FrameLayout layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/dxf" layout_centerVertical="true" layout_toStartOf="@+id/dxf">
+                <include layout="@layout/al9"/>
+            </FrameLayout>
+            <ImageView id="@+id/dxf" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginRight="6dp" src="0x7f08065e" scaleType="fitXY" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="6dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/dhb" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x23="true">
+            <com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout id="@+id/dq9" layout_width="match_parent" layout_height="match_parent">
+                <include layout="@layout/al5"/>
+                <com.bytedance.ies.dmt.p1194ui.widget.tablayout.DmtTabLayout id="@+id/ee7" layout_width="match_parent" layout_height="45dp" NOT_FOUND_0x1a="@null" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@color/bi" NOT_FOUND_0x1d="2dp" NOT_FOUND_0x1e="0dp" NOT_FOUND_0x1f="1" NOT_FOUND_0x20="12dp" NOT_FOUND_0x21="12dp"/>
+                <com.p2082ss.android.ugc.aweme.views.RtlViewPager id="@+id/fgn" layout_width="match_parent" layout_height="wrap_content"/>
+            </com.p2082ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+        </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+    </LinearLayout>
+    <RelativeLayout id="@+id/e6t" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s"/>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/cnq" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s">
+        <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="200dp" src="0x7f080a03"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/dau" NOT_FOUND_0x22="51"/>
+    </LinearLayout>
+</RelativeLayout>

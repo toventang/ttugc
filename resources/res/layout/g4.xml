@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="32dp" layout_marginTop="28dp" layout_marginRight="32dp">
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/a4y" layout_width="match_parent" layout_height="48dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xd="1" NOT_FOUND_0xe="@string/d6b"/>
+    <View background="@color/b0" layout_width="match_parent" layout_height="0.5dp"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/a4w" layout_width="match_parent" layout_height="48dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xd="1" NOT_FOUND_0xe="@string/d8i" NOT_FOUND_0xf="@+id/awx"/>
+    <View background="@color/b0" layout_width="match_parent" layout_height="0.5dp"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/a4u" layout_width="match_parent" layout_height="48dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xd="1" NOT_FOUND_0xe="@string/d9k" NOT_FOUND_0xf="@+id/aww"/>
+    <com.p2082ss.android.ugc.aweme.account.login.p2268v2.p2271ui.InputResultIndicator id="@+id/a4v" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.LoadingButton textSize="@dimen/d6" textColor="@color/a9" id="@+id/a4x" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/db" text="@string/aq6" NOT_FOUND_0x10="@color/l" NOT_FOUND_0x11="3dp" NOT_FOUND_0x12="15dp" NOT_FOUND_0x13="18dp"/>
+</LinearLayout>

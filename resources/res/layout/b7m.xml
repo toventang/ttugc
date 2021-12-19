@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/csv" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/csw" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xb="@+id/csx" NOT_FOUND_0xf="0"/>
+    <View id="@+id/csx" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xb="@+id/ayb" NOT_FOUND_0xe="@+id/csw"/>
+    <LinearLayout orientation="vertical" id="@+id/ayb" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="@+id/csy" NOT_FOUND_0xe="@+id/csx">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@+id/dvy" layout_width="wrap_content" layout_height="72dp" src="0x7f080f8d"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amm" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/eel" style="@style/tl"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/ams" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/eek" style="@style/tp"/>
+    </LinearLayout>
+    <View id="@+id/csy" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xb="@+id/csz" NOT_FOUND_0xe="@+id/ayb"/>
+    <View id="@+id/csz" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xb="@+id/ct0" NOT_FOUND_0xe="@+id/csy"/>
+    <View id="@+id/ct0" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xb="@+id/cvy" NOT_FOUND_0xe="@+id/csz"/>
+    <com.bytedance.android.live.design.widget.LiveButton id="@+id/cvy" layout_width="240dp" layout_height="44dp" text="@string/ea9" NOT_FOUND_0x9="0x7f080dbc" NOT_FOUND_0xb="@+id/ct1" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ct0" style="@style/sz"/>
+    <View id="@+id/ct1" layout_width="match_parent" layout_height="1px" NOT_FOUND_0xa="0" NOT_FOUND_0xe="@+id/cvy"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

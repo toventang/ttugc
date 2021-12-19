@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" style="@style/yh">
+    <include layout="@layout/a7b"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout gravity="end" orientation="horizontal" id="@+id/adi" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/e7f" visibility="gone" layout_width="20dp" layout_height="20dp" scaleType="fitXY" layout_marginEnd="8dp"/>
+            <LinearLayout gravity="end" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <include layout="@layout/a7d"/>
+                <FrameLayout id="@+id/acq" background="@drawable/aqs" layout_width="@dimen/lj" layout_height="wrap_content">
+                    <include layout="@layout/a5z"/>
+                </FrameLayout>
+                <include layout="@layout/a6x"/>
+                <include layout="@layout/a7a"/>
+            </LinearLayout>
+            <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/on" style="@style/yj"/>
+        </LinearLayout>
+        <include layout="@layout/a7o"/>
+    </RelativeLayout>
+    <include layout="@layout/a7_"/>
+</LinearLayout>

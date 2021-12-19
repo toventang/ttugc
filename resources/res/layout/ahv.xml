@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dnk" paddingBottom="300dp" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout layout_gravity="center" orientation="vertical" id="@+id/ci3" layout_width="200dp" layout_height="wrap_content">
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/fcz" layout_width="200dp" layout_height="200dp">
+                    <com.p2082ss.android.ugc.tools.view.widget.AnimatedImageView id="@+id/bwq" layout_width="match_parent" layout_height="200dp" NOT_FOUND_0x10="0dp"/>
+                    <com.p2082ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView id="@+id/fe8" layout_width="match_parent" layout_height="200dp" layerType="hardware"/>
+                    <com.p2082ss.android.ugc.tools.view.widget.AVLoadingLayout layout_gravity="center" id="@+id/cg3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+                </FrameLayout>
+                <View layout_gravity="bottom" background="@color/l" layout_width="match_parent" layout_height="4dp"/>
+            </FrameLayout>
+            <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="14sp" textStyle="bold" textColor="@color/bx" layout_gravity="center_horizontal" id="@+id/ejn" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/h3v" NOT_FOUND_0xf="7"/>
+            <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="12sp" textColor="@color/c4" layout_gravity="center_horizontal" id="@+id/ads" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="12dp" text=""/>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.tools.view.widget.AVTextView textSize="17dp" textStyle="bold" textColor="@color/a9" layout_gravity="bottom|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/h3u" NOT_FOUND_0xf="7"/>
+    </LinearLayout>
+</FrameLayout>

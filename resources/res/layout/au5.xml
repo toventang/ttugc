@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/acf" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.discover.p2797ui.Dialog.SearchNestedLayout orientation="vertical" id="@+id/dnh" layout_width="match_parent" layout_height="match_parent" translationY="500dp">
+        <com.p2082ss.android.ugc.aweme.discover.p2797ui.Dialog.PlaceHolderLayout id="@+id/cy3" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/aki" background="@drawable/bct" layout_width="match_parent" layout_height="300dp">
+            <RelativeLayout orientation="horizontal" id="@+id/eja" layout_width="match_parent" layout_height="53dp">
+                <androidx.appcompat.widget.AppCompatTextView textSize="15dp" textColor="@color/bx" id="@+id/a72" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/aky" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_centerInParent="true" NOT_FOUND_0x17="32"/>
+                <androidx.appcompat.widget.AppCompatTextView textSize="15dp" textColor="@color/bx" gravity="end" id="@+id/abx" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" maxWidth="110dp" maxLines="1" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <View id="@+id/ff5" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" alpha="0.2"/>
+            <com.p2082ss.android.ugc.aweme.discover.p2797ui.Dialog.NestedScrollingChildFrameLayout id="@+id/akp" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+    </com.p2082ss.android.ugc.aweme.discover.p2797ui.Dialog.SearchNestedLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+package com.p2082ss.android.ugc.aweme.feed.assem.progressbar;
+
+import com.bytedance.covode.number.Covode;
+import com.p2082ss.android.ugc.aweme.feed.adapter.C48198ba;
+import p4600h.p4611f.p4613b.C89232y;
+import p4600h.p4620k.AbstractC89290k;
+
+/* renamed from: com.ss.android.ugc.aweme.feed.assem.progressbar.f */
+final /* synthetic */ class C48944f extends C89232y {
+
+    /* renamed from: a */
+    public static final AbstractC89290k f112841a = new C48944f();
+
+    static {
+        Covode.recordClassIndex(57732);
+    }
+
+    C48944f() {
+        super(C48198ba.class, "onAwesomeSplashEvent", "getOnAwesomeSplashEvent()Lcom/bytedance/ies/ugc/aweme/commercialize/splash/topview/AwesomeSplashEvent;", 0);
+    }
+
+    @Override // p4600h.p4620k.AbstractC89290k, p4600h.p4611f.p4613b.C89232y
+    public final Object get(Object obj) {
+        return ((C48198ba) obj).f111655f;
+    }
+}

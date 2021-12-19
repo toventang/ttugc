@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.tools.draft.ftc.view.LoadMoreFrameLayout id="@+id/cg7" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <View id="@+id/b07" background="@color/a2" visibility="gone" layout_width="match_parent" layout_height="0dp"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/cfe" background="@color/a2" layout_width="match_parent" layout_height="match_parent"/>
+            <com.p2082ss.android.ugc.aweme.tools.draft.ftc.view.VerticalViewPager id="@+id/b08" background="@color/a2" layout_width="match_parent" layout_height="match_parent"/>
+            <View id="@+id/b00" background="@color/a2" visibility="gone" layout_width="match_parent" layout_height="0dp"/>
+        </LinearLayout>
+    </com.p2082ss.android.ugc.aweme.tools.draft.ftc.view.LoadMoreFrameLayout>
+    <com.p2082ss.android.ugc.aweme.tools.draft.ftc.view.VideoDownloadStatusBar id="@+id/aod" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="0"/>
+    <com.p2082ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/pi" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginLeft="12dp" src="0x7f0805bc" scaleType="centerCrop" layout_marginStart="12dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@null" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="@color/a0_" gravity="center" id="@+id/title" background="@drawable/bqg" paddingLeft="16dp" layout_width="match_parent" layout_height="48dp" text="@string/e3b" paddingStart="16dp" NOT_FOUND_0x11="1"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="@color/wf" gravity="center" id="@+id/auq" background="@color/w0" visibility="gone" layout_width="match_parent" layout_height="137dp" text="@string/gob"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dgw" background="@color/w0" layout_width="match_parent" layout_height="160dp"/>
+    <LinearLayout orientation="vertical" background="@color/w0" layout_width="match_parent" layout_height="45dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/wk" gravity="center" layout_gravity="center_horizontal" id="@+id/c4" background="@drawable/brr" layout_width="wrap_content" layout_height="36dp" minWidth="106dp" text="@string/go3" maxLines="1" includeFontPadding="false" paddingStart="12dp" paddingEnd="12dp" NOT_FOUND_0x11="7"/>
+    </LinearLayout>
+</LinearLayout>

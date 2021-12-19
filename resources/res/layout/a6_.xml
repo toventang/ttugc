@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" style="@style/yh">
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/oi" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x16="48dp"/>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/ad8" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="0.1787"/>
+    <include id="@+id/c4x" NOT_FOUND_0x14="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" layout="@layout/a7b"/>
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/on" layout_marginEnd="12dp" NOT_FOUND_0x14="0" NOT_FOUND_0x1b="@+id/acq" style="@style/yj"/>
+    <include layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x15="@+id/oi" NOT_FOUND_0x1a="@+id/c4x" layout="@layout/a7e"/>
+    <com.p2082ss.android.ugc.aweme.p3070im.sdk.chat.feature.reply.p3123ui.ReplyMessageLayout id="@+id/di8" background="@drawable/aqp" paddingTop="6dp" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp" layout_marginStart="24dp" NOT_FOUND_0x12="true" NOT_FOUND_0x15="@+id/oi" NOT_FOUND_0x18="1" NOT_FOUND_0x19="@+id/ad8" NOT_FOUND_0x1a="@+id/fa1" NOT_FOUND_0x1d="@color/c5" NOT_FOUND_0x1e="false"/>
+    <LinearLayout orientation="vertical" id="@+id/acq" background="@drawable/aqr" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" NOT_FOUND_0x12="true" NOT_FOUND_0x15="@+id/oi" NOT_FOUND_0x18="1" NOT_FOUND_0x19="@+id/ad8" NOT_FOUND_0x1a="@+id/di8">
+        <com.p2082ss.android.ugc.aweme.p3070im.sdk.chat.feature.reply.p3123ui.ReplyMessageLayout id="@+id/di7" paddingTop="12dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp" NOT_FOUND_0x1c="@color/b2" NOT_FOUND_0x1d="@color/c5"/>
+        <com.p2082ss.android.ugc.aweme.p3070im.sdk.common.p3193ui.widget.SpanInterceptNoTextView textColor="@color/bx" id="@+id/cmk" padding="12dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1f="31"/>
+    </LinearLayout>
+    <include layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x19="@+id/acq" NOT_FOUND_0x1a="@+id/acq" layout="@layout/a6x"/>
+    <androidx.constraintlayout.widget.Barrier id="@+id/acu" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="5" NOT_FOUND_0x11="user_name,reply_layout_2,content,ll_dm_like"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/e7f" visibility="gone" layout_width="20dp" layout_height="20dp" scaleType="fitXY" layout_marginEnd="8dp" NOT_FOUND_0x13="@+id/cd2" NOT_FOUND_0x15="@+id/acu" NOT_FOUND_0x1b="@+id/fa1"/>
+    <include layout_width="wrap_content" layout_height="32dp" layout_marginStart="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="@+id/fa1" layout="@layout/a7o"/>
+    <include layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="@+id/cd2" layout="@layout/a7_"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

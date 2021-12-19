@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="62dp" layout_marginBottom="23dp" layout_alignParentBottom="true" layout_centerHorizontal="true">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/bq7" layout_width="wrap_content" layout_height="62dp" layout_marginRight="4dp" layout_alignParentBottom="true" layout_centerHorizontal="true" layout_marginEnd="4dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="@+id/dgh" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0">
+        <RelativeLayout id="@+id/bpu" paddingLeft="25dp" paddingRight="25dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="25dp" paddingEnd="25dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bpw" layout_width="24dp" layout_height="24dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x1f="@raw/icon_plus_person" NOT_FOUND_0x20="?attr/ay"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtTextView textSize="17sp" textColor="@color/bh" ellipsize="end" id="@+id/bpv" paddingLeft="6dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" layout_toRightOf="@+id/bpw" layout_centerVertical="true" paddingStart="6dp" layout_toEndOf="@+id/bpw" NOT_FOUND_0x18="2"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/dgh" layout_width="wrap_content" layout_height="62dp" layout_marginLeft="4dp" layout_alignParentBottom="true" layout_centerHorizontal="true" layout_marginStart="4dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@+id/bq7" NOT_FOUND_0x1e="0">
+        <RelativeLayout id="@+id/e6s" paddingLeft="25dp" paddingRight="25dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="25dp" paddingEnd="25dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1e="0">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/e6x" layout_width="24dp" layout_height="24dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x1f="@raw/icon_video_fill" NOT_FOUND_0x20="?attr/aa"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtTextView textSize="17sp" textColor="@color/a9" ellipsize="end" id="@+id/e6w" paddingLeft="6dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" layout_toRightOf="@+id/e6x" layout_centerVertical="true" paddingStart="6dp" layout_toEndOf="@+id/e6x" NOT_FOUND_0x18="2"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

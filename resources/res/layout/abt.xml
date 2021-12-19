@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e7_" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/eiz" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/e7_"/>
+    <com.p2082ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a5n" layout_width="match_parent" NOT_FOUND_0x7="@string/fn_" NOT_FOUND_0x8="true" NOT_FOUND_0x9="@string/fng" NOT_FOUND_0xa="@string/fmu" NOT_FOUND_0xb="4dp" style="@style/a10"/>
+    <com.p2082ss.android.ugc.aweme.setting.p3732ui.Divider id="@+id/dj2" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.p2082ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a5m" layout_width="match_parent" NOT_FOUND_0x7="@string/crj" NOT_FOUND_0x8="true" NOT_FOUND_0x9="@string/fmx" NOT_FOUND_0xa="@string/fmu" NOT_FOUND_0xb="4dp" style="@style/a10"/>
+    <com.p2082ss.android.ugc.aweme.setting.p3732ui.Divider id="@+id/fhu" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.p2082ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a5l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x7="@string/fnb" NOT_FOUND_0x9="@string/fn2" NOT_FOUND_0xb="4dp"/>
+</LinearLayout>

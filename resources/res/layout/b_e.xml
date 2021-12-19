@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="horizontal" paddingTop="6dp" paddingBottom="8dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="8dp" paddingEnd="8dp">
+    <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/brn" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x15="0"/>
+    <LinearLayout orientation="vertical" id="@+id/ccp" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x12="@+id/brn" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/ams" ellipsize="end" id="@+id/exw" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" style="@style/tp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/ams" ellipsize="end" id="@+id/f6w" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" lines="1" style="@style/tp"/>
+    </LinearLayout>
+    <View background="@color/b6" layout_width="match_parent" layout_height="1dp" layout_marginTop="3dp" NOT_FOUND_0x14="@+id/ccp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

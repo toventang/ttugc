@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/bqz" background="@drawable/b78" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/abq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" minHeight="18dp" text="@string/fyc" singleLine="false" layout_marginStart="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="@+id/bqz" NOT_FOUND_0x19="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/abo" layout_width="wrap_content" layout_height="14dp" layout_marginLeft="16dp" layout_marginTop="2dp" layout_marginStart="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/abq" NOT_FOUND_0x18="1/3 complete" NOT_FOUND_0x19="72"/>
+    <com.p2082ss.android.ugc.aweme.views.FpsRecyclerView id="@+id/a1w" background="@color/e" paddingLeft="6dp" paddingRight="12dp" clipToPadding="false" layout_width="wrap_content" layout_height="match_parent" layout_marginTop="8dp" layout_marginBottom="16dp" paddingStart="6dp" paddingEnd="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/abo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

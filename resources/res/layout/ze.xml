@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="52dp">
+    <FrameLayout id="@+id/f80" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" minWidth="64dp" minHeight="28dp" layout_centerVertical="true" paddingStart="8dp" paddingEnd="8dp" layout_marginEnd="12dp">
+        <com.p2082ss.android.ugc.aweme.editSticker.text.view.MaskBlurLightTextView textSize="14dp" textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/ejn" layout_width="wrap_content" layout_height="wrap_content" minWidth="48dp" maxLines="1"/>
+    </FrameLayout>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/e7e" layout_width="18dp" layout_height="18dp" layout_marginRight="-5dp" layout_marginBottom="-5dp" src="0x7f0807b2" layout_alignRight="@+id/f80" layout_alignBottom="@+id/f80" layout_marginEnd="-5dp" layout_alignEnd="@+id/f80"/>
+</RelativeLayout>

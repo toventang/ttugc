@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <com.p2082ss.android.ugc.aweme.views.FpsRecyclerView id="@+id/b0k" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+        <FrameLayout id="@+id/e7l" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="60dp">
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" paddingLeft="32dp" paddingTop="52dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent" paddingStart="32dp" paddingEnd="32dp"/>
+        </FrameLayout>
+        <ViewStub id="@+id/ea0" visibility="invisible" layout="@layout/apr" layout_width="match_parent" layout_height="wrap_content"/>
+        <ViewStub id="@+id/e_s" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/bcr" background="@color/l" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/c8t" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginBottom="12dp" text="@string/c9n" layout_marginStart="16dp" NOT_FOUND_0x17="0" NOT_FOUND_0x19="@+id/bu5" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="@+id/bu5" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="61"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bu5" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="@raw/icon_x_mark_small" NOT_FOUND_0x21="?attr/bc"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</LinearLayout>

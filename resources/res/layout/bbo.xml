@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" gravity="center" orientation="horizontal" background="0x7f081059" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView layout_gravity="center_vertical" id="@+id/fj1" layout_width="31dp" layout_height="12dp" src="0x7f08100f" scaleType="fitXY" adjustViewBounds="true" layout_marginStart="3dp"/>
+    <ImageView layout_gravity="center_vertical" id="@+id/fj2" layout_width="10dp" layout_height="10dp" layout_margin="1dp" src="0x7f081007" scaleType="fitCenter"/>
+    <FrameLayout layout_gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a2j" layout_gravity="end" id="@+id/fiy" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" style="@style/to"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a2j" layout_gravity="end" id="@+id/fix" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" style="@style/to"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a2j" layout_gravity="end" id="@+id/fiz" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" style="@style/to"/>
+    </FrameLayout>
+</merge>

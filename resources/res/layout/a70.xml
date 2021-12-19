@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" id="@+id/bc4" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/amb" background="@color/b2" layout_width="0dp" layout_height="0.5dp" NOT_FOUND_0xd="@+id/ev5" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" layout_gravity="center" id="@+id/ev5" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="24dp" layout_marginRight="24dp" NOT_FOUND_0xd="@+id/ery" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/amb" NOT_FOUND_0x12="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center" id="@+id/ery" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="35dp" layout_marginRight="24dp" layout_marginBottom="15dp" text="@string/c5t" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/ev5" NOT_FOUND_0x12="42"/>
+</merge>

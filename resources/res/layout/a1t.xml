@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/dnb" background="@color/l" fitsSystemWindows="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.ButtonTitleBar id="@+id/ejf" layout_width="match_parent" layout_height="@dimen/tn" NOT_FOUND_0x9="8" NOT_FOUND_0xd="@color/bx" NOT_FOUND_0xe="true"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/ejf">
+        <com.p2082ss.android.ugc.aweme.setting.p3732ui.ChooseOneOfMultiItemView id="@+id/ie" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0xa="@string/fkd" NOT_FOUND_0xb="@string/fkc"/>
+        <com.p2082ss.android.ugc.aweme.setting.p3732ui.ChooseOneOfMultiItemView id="@+id/cwz" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="@string/fkg" NOT_FOUND_0xb="@string/fkf"/>
+        <com.p2082ss.android.ugc.aweme.setting.p3732ui.ChooseOneOfMultiItemView id="@+id/cx0" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="@string/fkh" NOT_FOUND_0xb="@string/bv_" NOT_FOUND_0xc="false"/>
+    </LinearLayout>
+</RelativeLayout>

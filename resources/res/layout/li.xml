@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashMask xmlns="" id="@+id/pc" layout_width="match_parent" layout_height="match_parent">
+    <Space id="@+id/pd" layout_width="match_parent" layout_height="0px"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.AutoRTLImageView id="@+id/pb" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginTop="14dp" src="0x7f080c6a" scaleType="centerInside" layout_below="@+id/pd" layout_alignParentLeft="true" layoutDirection="ltr"/>
+    <include id="@+id/e1v" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/pd" layout_alignParentRight="true" layout="@layout/bj8"/>
+    <RelativeLayout id="@+id/dl8" background="@color/a2" visibility="gone" layout_width="match_parent" layout_height="200dp" layout_marginBottom="-200dp" layout_alignParentBottom="true"/>
+    <RelativeLayout id="@+id/dl7" background="0x7f080aee" visibility="gone" layout_width="match_parent" layout_height="50dp" layout_marginBottom="-50dp" layout_alignParentBottom="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="top" id="@+id/euf" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" layout_centerHorizontal="true" NOT_FOUND_0x12="41"/>
+    </RelativeLayout>
+</com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashMask>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnb" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/eis" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/g9s" layout_centerHorizontal="true" NOT_FOUND_0xf="33"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/a6u" layout_width="52dp" layout_height="52dp" layout_alignParentTop="true" layout_alignParentEnd="true" NOT_FOUND_0x10="@raw/icon_x_mark_small" NOT_FOUND_0x11="24dp" NOT_FOUND_0x12="24dp" NOT_FOUND_0x13="?attr/bc"/>
+    <View id="@+id/amc" background="?attr/aj" paddingBottom="8dp" layout_width="match_parent" layout_height="0.5dp" layout_below="@+id/eis"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/b18" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/amc"/>
+</RelativeLayout>

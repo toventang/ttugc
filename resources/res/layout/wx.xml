@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout gravity="center_vertical" id="@+id/fdn" visibility="gone" layout_width="match_parent" layout_height="164dp" layout_marginBottom="62dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/agw" layout_width="wrap_content" layout_height="wrap_content" layout_toStartOf="@+id/agv" NOT_FOUND_0x10="12"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/agv" layout_width="6dp" layout_height="20dp" layout_marginLeft="19dp" layout_marginRight="19dp" text="/" layout_centerInParent="true" layout_marginStart="19dp" layout_marginEnd="19dp" NOT_FOUND_0x10="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/ac" id="@+id/eml" layout_width="wrap_content" layout_height="wrap_content" layout_toEndOf="@+id/agv" NOT_FOUND_0x10="12"/>
+    </RelativeLayout>
+    <com.p2082ss.android.ugc.aweme.feed.p2970ui.seekbar.VideoSeekBar id="@+id/fdm" visibility="gone" layout_width="match_parent" layout_height="18dp"/>
+</FrameLayout>

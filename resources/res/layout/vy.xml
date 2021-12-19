@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/e6q" layout_width="96dp" layout_height="96dp">
+    <View layout_gravity="center" id="@+id/e6v" background="0x7f080975" layout_width="71dp" layout_height="71dp"/>
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/e6u" layout_width="96dp" layout_height="96dp"/>
+</FrameLayout>

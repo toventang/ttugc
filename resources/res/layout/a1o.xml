@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.base.opensourcemodified.android.support.p2378v4.widget.SwipeRefreshLayout id="@+id/e5w" layout_width="match_parent" layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/dof" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.p2082ss.android.ugc.aweme.base.opensourcemodified.android.support.p2378v4.widget.SwipeRefreshLayout>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

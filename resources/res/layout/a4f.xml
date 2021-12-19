@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dnj" background="@drawable/arj" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/dxt" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_horizontal" id="@+id/dvm" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/ch7" NOT_FOUND_0x1e="33"/>
+        <LinearLayout gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="15dp" layout_marginRight="24dp" layout_marginBottom="10dp">
+            <FrameLayout layout_width="wrap_content" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/ol" layout_width="40dp" layout_height="40dp" NOT_FOUND_0x1b="0x7f08063a" NOT_FOUND_0x1c="6" NOT_FOUND_0x1d="true"/>
+                <com.bytedance.tux.icon.TuxIconView id="@+id/fbe" style="@style/yf"/>
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/fa1" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="7dp" maxLines="1" layout_weight="1" layout_marginStart="7dp" NOT_FOUND_0x1e="51"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/fee" background="@color/b4" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="24dp" layout_marginRight="24dp" layout_marginBottom="15dp"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/a8w" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginRight="24dp" maxLines="3" NOT_FOUND_0x1e="51"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aru" background="@drawable/ark" paddingLeft="10dp" paddingTop="9.5dp" paddingRight="10dp" paddingBottom="9.5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="24dp" layout_marginRight="24dp" layout_marginBottom="4dp" hint="@string/cef" maxLines="2" textAlignment="viewStart" paddingStart="10dp" paddingEnd="10dp" style="@style/y4"/>
+    </LinearLayout>
+    <View id="@+id/dxz" background="@color/b4" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/dxe" layout_width="match_parent" layout_height="49dp">
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtButton textColor="@color/c5" gravity="center" layout_gravity="start" id="@+id/dxg" background="@null" layout_width="0dp" layout_height="49dp" text="@string/cck" layout_weight="1" textAllCaps="false" style="@style/y7"/>
+        <View layout_gravity="center_horizontal" background="@color/b4" layout_width="0.5dp" layout_height="49dp"/>
+        <com.bytedance.ies.dmt.p1194ui.widget.DmtButton textColor="@color/bx" gravity="center" layout_gravity="end" id="@+id/dxm" background="@null" layout_width="0dp" layout_height="49dp" text="@string/ch4" layout_weight="1" textAllCaps="false" style="@style/y7"/>
+    </LinearLayout>
+</LinearLayout>

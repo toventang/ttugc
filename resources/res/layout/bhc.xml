@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/on" padding="4dp" layout_width="56dp" layout_height="56dp" src="0x7f08075f" layout_marginStart="12dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/cpq" paddingTop="4dp" paddingBottom="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" maxLines="1" paddingStart="4dp" layout_marginStart="4dp" NOT_FOUND_0x11="true" NOT_FOUND_0x14="@+id/b70" NOT_FOUND_0x15="0" NOT_FOUND_0x16="2" NOT_FOUND_0x17="@+id/on" NOT_FOUND_0x1a="@+id/on" NOT_FOUND_0x1b="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/aq" id="@+id/b70" padding="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp" NOT_FOUND_0x12="@+id/cpq" NOT_FOUND_0x14="@+id/ccx" NOT_FOUND_0x17="@+id/cpq"/>
+    <com.p2082ss.android.ugc.aweme.views.MutualRelationView id="@+id/dhi" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" layout_marginStart="4dp" NOT_FOUND_0x18="@+id/cpq" NOT_FOUND_0x19="@+id/cpq"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" id="@+id/a_w" layout_width="0dp" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="4dp" layout_marginEnd="16dp" NOT_FOUND_0x14="@+id/ccx" NOT_FOUND_0x15="0" NOT_FOUND_0x18="@+id/cpq" NOT_FOUND_0x19="@+id/dhi" NOT_FOUND_0x1b="51"/>
+    <include id="@+id/ccx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x1a="@+id/cpq" layout="@layout/bhd"/>
+    <View id="@+id/al9" layout_width="44dp" layout_height="40dp" NOT_FOUND_0x13="0" NOT_FOUND_0x1a="@+id/cpq"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

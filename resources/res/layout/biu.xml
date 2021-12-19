@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/acf" focusable="true" clickable="true" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0">
+        <include id="@+id/bx" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" layout="@layout/bit"/>
+        <com.bytedance.tux.extension.player.view.TuxPlayerStateView id="@+id/d2m" layout_width="@dimen/a0f" layout_height="@dimen/a0f" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="@drawable/aij" NOT_FOUND_0x1c="@drawable/agn"/>
+        <ImageView id="@+id/axl" paddingLeft="4dp" paddingTop="8dp" paddingRight="4dp" paddingBottom="8dp" visibility="gone" layout_width="32dp" layout_height="40dp" layout_marginLeft="@dimen/a0a" layout_marginTop="@dimen/a0b" src="@drawable/ael" paddingStart="4dp" paddingEnd="4dp" layout_marginStart="@dimen/a0a" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" style="@style/a3g"/>
+        <com.bytedance.tux.extension.player.view.TuxPlayerTimeView id="@+id/ei1" visibility="gone" layout_width="0dp" layout_height="56dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.status.loading.TuxSpinner id="@+id/d2x" layout_width="@dimen/a0i" layout_height="@dimen/a0i" NOT_FOUND_0x14="@+id/d2y" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="2" NOT_FOUND_0x1d="?attr/ef"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ef" id="@+id/d2y" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/a0h" text="0KB/s" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/d2x" NOT_FOUND_0x1b="?attr/eo" style="@style/a3g"/>
+    <androidx.constraintlayout.widget.Group id="@+id/d2v" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    <View id="@+id/fci" background="?attr/ed" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <ImageView id="@+id/d31" layout_width="48dp" layout_height="48dp" src="@drawable/agh" NOT_FOUND_0x14="@+id/d32" NOT_FOUND_0x15="@+id/fci" NOT_FOUND_0x16="@+id/fci" NOT_FOUND_0x18="@+id/fci" NOT_FOUND_0x19="2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/eh" id="@+id/d32" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="?attr/ep" NOT_FOUND_0x13="@+id/fci" NOT_FOUND_0x15="@+id/fci" NOT_FOUND_0x16="@+id/fci" NOT_FOUND_0x17="@+id/d31" NOT_FOUND_0x1b="?attr/eo" style="@style/a3g"/>
+    <androidx.constraintlayout.widget.Group id="@+id/fch" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    <View id="@+id/fdh" background="?attr/ed" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <ImageView id="@+id/d33" layout_width="32dp" layout_height="32dp" src="@drawable/aht" NOT_FOUND_0x14="@+id/d34" NOT_FOUND_0x15="@+id/fdh" NOT_FOUND_0x16="@+id/fdh" NOT_FOUND_0x18="@+id/fdh" NOT_FOUND_0x19="2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ef" id="@+id/d34" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="?attr/eq" NOT_FOUND_0x13="@+id/fdh" NOT_FOUND_0x15="@+id/fdh" NOT_FOUND_0x16="@+id/fdh" NOT_FOUND_0x17="@+id/d33" NOT_FOUND_0x1b="?attr/eo" style="@style/a3g"/>
+    <androidx.constraintlayout.widget.Group id="@+id/fdg" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

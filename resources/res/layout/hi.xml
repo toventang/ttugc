@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" descendantFocusability="beforeDescendants" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/ath" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/dh" NOT_FOUND_0x12="0" layout="@layout/hw" style="@style/uh"/>
+    <LinearLayout orientation="vertical" id="@+id/atl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/dd" NOT_FOUND_0x11="@+id/ath" style="@style/uh">
+        <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/atj" layout_width="match_parent" layout_height="20dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xa="1" NOT_FOUND_0xb="@+id/ax3"/>
+        <com.p2082ss.android.ugc.aweme.account.login.p2268v2.p2271ui.InputResultIndicator textSize="@dimen/d5" id="@+id/atk" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0x13="@dimen/d4"/>
+    </LinearLayout>
+    <include id="@+id/atg" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/d8" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/atl" layout="@layout/hv" style="@style/uh"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.LoadingButton textSize="@dimen/d6" id="@+id/ati" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/d8" text="@string/anz" NOT_FOUND_0x11="@+id/atg" style="@style/uh"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

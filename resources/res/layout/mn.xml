@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <FrameLayout id="@+id/d0_" visibility="gone" layout_width="wrap_content" layout_height="120dp">
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/sd" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/si" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/e35" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/e3a" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.p2082ss.android.ugc.aweme.pendant.OptimizedLottieAnimationView layout_gravity="top" id="@+id/se" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitCenter" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <RelativeLayout layout_gravity="center_horizontal" id="@+id/a1g" background="@drawable/vz" visibility="gone" layout_width="61dp" layout_height="22dp" layout_marginTop="68dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a1i" layout_width="match_parent" layout_height="match_parent" app:NOT_FOUND_0x12="81"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a1h" visibility="gone" layout_width="match_parent" layout_height="match_parent" app:NOT_FOUND_0x12="81"/>
+        </RelativeLayout>
+        <com.p2082ss.android.ugc.aweme.pendant.OptimizedLottieAnimationView layout_gravity="top" id="@+id/e38" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitCenter" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a6z" paddingLeft="6dp" paddingRight="0dp" paddingBottom="6dp" layout_width="30dp" layout_height="30dp" src="0x7f080335" paddingStart="6dp" paddingEnd="0dp"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ekd" clipChildren="false" layout_width="36dp" layout_height="36dp" layout_marginLeft="8dp" layout_marginStart="8dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ekb" layout_width="36dp" layout_height="36dp">
+        <ImageView id="@+id/ekf" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0"/>
+        <View id="@+id/ekc" background="@drawable/bzy" visibility="gone" layout_width="8dp" layout_height="8dp" NOT_FOUND_0x12="@+id/ekf" NOT_FOUND_0x13="45" NOT_FOUND_0x14="16dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a0z" gravity="center" id="@+id/ek_" background="@drawable/bsa" paddingLeft="4dp" paddingRight="4dp" visibility="gone" layout_width="wrap_content" layout_height="15dp" layout_marginTop="2dp" minWidth="15dp" includeFontPadding="false" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+        <ImageView id="@+id/ek9" visibility="gone" layout_width="12dp" layout_height="12dp" NOT_FOUND_0x12="@+id/ekf" NOT_FOUND_0x13="45" NOT_FOUND_0x14="14dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.airbnb.lottie.LottieAnimationView layout_gravity="center" id="@+id/eka" visibility="visible" layout_width="50dp" layout_height="50dp" scaleType="centerCrop"/>
+</FrameLayout>

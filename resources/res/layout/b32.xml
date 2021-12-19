@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" paddingLeft="@dimen/tv" paddingRight="@dimen/tv" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.tools.view.style.StyleTextView textColor="@color/tp" gravity="center" id="@+id/f63" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0.3" NOT_FOUND_0x11="7" style="@style/a24"/>
+    <com.p2082ss.android.ugc.tools.view.style.StyleTextView textColor="@color/ty" gravity="center" id="@+id/ev0" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/f63" NOT_FOUND_0x10="0" style="@style/a20"/>
+    <com.p2082ss.android.ugc.tools.view.style.StyleTextView gravity="center" id="@+id/et4" layout_marginTop="12dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ev0" NOT_FOUND_0x10="0.2" style="@style/a1u"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

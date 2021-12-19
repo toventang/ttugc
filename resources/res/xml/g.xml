@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/u8" android:icon="@drawable/icon" android:accountType="com.tiktok.auth.type" android:smallIcon="@drawable/icon"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dsl" layout_width="match_parent" layout_height="@dimen/rv">
+    <RelativeLayout orientation="horizontal" id="@+id/dm0" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginStart="16dp">
+        <RelativeLayout id="@+id/drf" background="@drawable/awl" layout_width="match_parent" layout_height="match_parent" layout_marginRight="16dp" layout_toLeftOf="@+id/f35" layout_marginEnd="16dp" layout_toStartOf="@+id/f35">
+            <com.p2082ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/bzi" layout_width="24dp" layout_height="24dp" layout_marginLeft="6dp" src="0x7f08069d" layout_centerVertical="true" layout_marginStart="6dp"/>
+            <ImageButton id="@+id/x9" background="0x7f08069a" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="6dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="6dp" layout_alignParentEnd="true" style="@style/f2"/>
+            <EditText textSize="15dp" textColor="@color/st" textColorHint="@color/sw" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ax6" background="@null" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" lines="1" layout_centerVertical="true" inputType="text" imeOptions="actionSearch" textCursorDrawable="@drawable/bnm" textAlignment="viewStart" layout_toStartOf="@+id/x9" layout_toEndOf="@+id/bzi"/>
+        </RelativeLayout>
+        <TextView textColor="@color/qs" gravity="center" id="@+id/f35" layout_width="wrap_content" layout_height="match_parent" layout_marginEnd="16dp" layout_alignParentEnd="true" style="@style/a21"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/drx" layout_width="match_parent" layout_height="match_parent" layout_marginTop="16dp">
+        <LinearLayout orientation="vertical" id="@+id/dry" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" id="@+id/dru" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginStart="16dp">
+                <TextView textColor="@color/sv" id="@+id/f36" layout_width="wrap_content" layout_height="wrap_content" style="@style/a1z"/>
+                <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@+id/doc" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/e95" layout_width="match_parent" layout_height="match_parent">
+                <TextView textColor="@color/sv" layout_gravity="center" id="@+id/f37" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="14dp" style="@style/a1z"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/e93" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="7.5dp" layout_marginRight="7.5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/cck" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/btt" background="@drawable/tl" layout_width="54dp" layout_height="32dp" layout_marginRight="20dp" src="@drawable/ac4" scaleType="center" layout_marginEnd="20dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/fzc" NOT_FOUND_0x29="62"/>
+        </FrameLayout>
+        <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout orientation="vertical" id="@+id/fh2" paddingLeft="32dp" paddingTop="20dp" paddingRight="36dp" paddingBottom="34dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" paddingStart="32dp" paddingEnd="36dp" NOT_FOUND_0x23="@dimen/cl" NOT_FOUND_0x27="true">
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" layout_gravity="center_vertical" id="@+id/f0t" layout_width="100dp" layout_height="wrap_content" text="@string/d0j" singleLine="false" NOT_FOUND_0x1c="8dp" NOT_FOUND_0x1d="7" style="@style/y0"/>
+                <com.p2082ss.android.ugc.aweme.views.TextSeekBar layout_gravity="top" orientation="vertical" id="@+id/egp" layout_width="match_parent" layout_height="wrap_content">
+                    <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12sp" textColor="#99ffffff" id="@+id/ap5" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x1f="true"/>
+                    <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dtr" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x1e="0dp" NOT_FOUND_0x20="@color/c5" NOT_FOUND_0x21="12dp" NOT_FOUND_0x22="20dp" NOT_FOUND_0x23="50dp" NOT_FOUND_0x24="true" NOT_FOUND_0x25="20dp" NOT_FOUND_0x26="20dp" NOT_FOUND_0x28="18dp"/>
+                </com.p2082ss.android.ugc.aweme.views.TextSeekBar>
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="52dp">
+                <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" layout_gravity="center_vertical" id="@+id/f0u" layout_width="100dp" layout_height="wrap_content" text="@string/mo" singleLine="false" NOT_FOUND_0x1d="7" style="@style/y0"/>
+                <com.p2082ss.android.ugc.aweme.views.TextSeekBar layout_gravity="bottom" orientation="vertical" id="@+id/ego" layout_width="match_parent" layout_height="wrap_content">
+                    <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12sp" textColor="#99ffffff" id="@+id/ap3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x1f="true"/>
+                    <com.p2082ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dts" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x1e="0dp" NOT_FOUND_0x20="@color/c5" NOT_FOUND_0x21="12dp" NOT_FOUND_0x22="20dp" NOT_FOUND_0x23="50dp" NOT_FOUND_0x24="true" NOT_FOUND_0x25="20dp" NOT_FOUND_0x26="20dp" NOT_FOUND_0x28="18dp"/>
+                </com.p2082ss.android.ugc.aweme.views.TextSeekBar>
+            </LinearLayout>
+        </com.p2082ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+    </LinearLayout>
+</FrameLayout>

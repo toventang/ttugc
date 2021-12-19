@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.FeedSwipeRefreshLayout xmlns="" theme="@style/o_" id="@+id/b04" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.LoadMoreFrameLayout id="@+id/b03" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <View id="@+id/b07" background="?attr/a1" visibility="gone" layout_width="match_parent" layout_height="0dp"/>
+            <com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.VerticalViewPager id="@+id/b08" background="?attr/a1" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <View id="@+id/b00" background="?attr/a1" visibility="gone" layout_width="match_parent" layout_height="58dp"/>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.LikeLayout id="@+id/b01" layout_width="match_parent" layout_height="match_parent"/>
+        <ImageView layout_gravity="center" id="@+id/b02" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080901"/>
+        <FrameLayout id="@+id/e79" background="?attr/af" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/b05" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="52dp" NOT_FOUND_0xb="0"/>
+    </com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.LoadMoreFrameLayout>
+</com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.FeedSwipeRefreshLayout>

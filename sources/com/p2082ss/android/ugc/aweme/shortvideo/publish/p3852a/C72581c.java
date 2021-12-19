@@ -1,0 +1,29 @@
+package com.p2082ss.android.ugc.aweme.shortvideo.publish.p3852a;
+
+import androidx.core.p033d.C0646a;
+import com.bytedance.covode.number.Covode;
+
+/* renamed from: com.ss.android.ugc.aweme.shortvideo.publish.a.c */
+final /* synthetic */ class C72581c implements C0646a.AbstractC0647a {
+
+    /* renamed from: a */
+    private final C72572a f162726a;
+
+    static {
+        Covode.recordClassIndex(85264);
+    }
+
+    C72581c(C72572a aVar) {
+        this.f162726a = aVar;
+    }
+
+    @Override // androidx.core.p033d.C0646a.AbstractC0647a
+    /* renamed from: a */
+    public final void mo2678a() {
+        C72572a aVar = this.f162726a;
+        if (!aVar.f162683f) {
+            aVar.f162683f = true;
+            aVar.f162684g.mo110157b();
+        }
+    }
+}

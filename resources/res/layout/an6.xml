@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout id="@+id/kh" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1e="0dp">
+        <LinearLayout id="@+id/drt" paddingTop="8dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="48dp" layout_marginTop="4dp" paddingStart="16dp" NOT_FOUND_0x21="13">
+            <FrameLayout id="@+id/b4r" background="@drawable/b7e" focusable="true" focusableInTouchMode="true" layout_width="0dp" layout_height="36dp" layout_weight="1">
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bzd" layout_width="24dp" layout_height="24dp" contentDescription="@string/fey" layout_marginStart="4dp" NOT_FOUND_0x23="@raw/icon_magnifying_glass" NOT_FOUND_0x25="?attr/bc"/>
+                <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textColor="?attr/bc" textColorHint="?attr/bj" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ax7" background="@null" paddingLeft="32.5dp" paddingRight="32.5dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="36dp" hint="@string/ce9" cursorVisible="false" singleLine="true" inputType="textNoSuggestions" imeOptions="actionSearch" textCursorDrawable="@drawable/iq" textDirection="ltr" textAlignment="viewStart" style="@style/y4"/>
+                <ImageButton layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/x7" background="0x7f080a93" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginEnd="4dp"/>
+            </FrameLayout>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.p2082ss.android.ugc.aweme.following.p3003ui.NestedVPScrollView layout_width="match_parent" layout_height="match_parent" fillViewport="true" NOT_FOUND_0x20="@string/ue">
+        <FrameLayout background="?attr/m" layout_width="match_parent" layout_height="match_parent">
+            <com.p2082ss.android.ugc.aweme.base.opensourcemodified.android.support.p2378v4.widget.SwipeRefreshLayout id="@+id/e5w" layout_width="match_parent" layout_height="match_parent">
+                <com.p2082ss.android.ugc.aweme.views.FixScrollableLayout id="@+id/dgo" layout_width="match_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="vertical" id="@+id/ekt" layout_width="match_parent" layout_height="wrap_content">
+                        <com.bytedance.ies.powerlist.PowerList id="@+id/eku" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                        <com.bytedance.tux.status.TuxStatusView id="@+id/b7d" visibility="gone" layout_width="match_parent" layout_height="240dp" NOT_FOUND_0x24="1"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView id="@+id/dof" layout_width="match_parent" layout_height="wrap_content"/>
+                </com.p2082ss.android.ugc.aweme.views.FixScrollableLayout>
+            </com.p2082ss.android.ugc.aweme.base.opensourcemodified.android.support.p2378v4.widget.SwipeRefreshLayout>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/b7l" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x24="0"/>
+        </FrameLayout>
+    </com.p2082ss.android.ugc.aweme.following.p3003ui.NestedVPScrollView>
+    <com.p2082ss.android.ugc.aweme.discover.p2797ui.NoticeView layout_gravity="bottom" id="@+id/bbc" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="0x7f080a87" NOT_FOUND_0x22="@string/ckh"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

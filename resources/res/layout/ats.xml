@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/dqv" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="5dp" layout_above="@+id/dqu" layout_marginStart="8dp">
+        <com.bytedance.ies.ugc.aweme.rich.p1274ui.RichTagView layout_gravity="center_vertical" id="@+id/g3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout id="@+id/dqu" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.bytedance.ies.ugc.aweme.commercialize.search.transformbutton.SearchAdTransformButton id="@+id/cy7" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="@dimen/rp" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+    </FrameLayout>
+</RelativeLayout>

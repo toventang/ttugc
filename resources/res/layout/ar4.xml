@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="56dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/bsw" layout_width="30dp" layout_height="30dp" layout_marginTop="8dp" layout_marginStart="12dp" NOT_FOUND_0xc="0x7f08075f" NOT_FOUND_0x10="@+id/bsu" NOT_FOUND_0x15="@+id/bsu" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0x7f08075f" NOT_FOUND_0x18="true"/>
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/bsu" background="@drawable/bbk" padding="2dp" layout_width="34dp" layout_height="34dp" layout_marginBottom="6dp" layout_marginStart="14dp" NOT_FOUND_0xc="0x7f08075f" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0x7f08075f" NOT_FOUND_0x18="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/eu6" layout_width="0dp" layout_height="wrap_content" maxLines="2" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="@+id/bsj" NOT_FOUND_0x11="@+id/bsw" NOT_FOUND_0x12="@+id/bsj" NOT_FOUND_0x14="@+id/bsw" NOT_FOUND_0x16="0" NOT_FOUND_0x19="51"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bsj" layout_width="20dp" layout_height="20dp" layout_marginEnd="16dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x1a="@raw/icon_chevron_right_offset_small_ltr" NOT_FOUND_0x1b="20dp" NOT_FOUND_0x1c="20dp" NOT_FOUND_0x1d="?attr/bj"/>
+</merge>

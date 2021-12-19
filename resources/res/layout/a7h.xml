@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.p3070im.sdk.share.p3245ui.nested.ShareNestedLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/dyj" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent" layout_alignParentBottom="true" translationY="538dp">
+    <View id="@+id/d2b" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/adj" background="@drawable/aqx" layout_width="match_parent" layout_height="538dp">
+        <include layout="@layout/a7p"/>
+        <FrameLayout id="@+id/eid" layout_width="match_parent" layout_height="wrap_content"/>
+        <include layout="@layout/a4b"/>
+    </LinearLayout>
+</com.p2082ss.android.ugc.aweme.p3070im.sdk.share.p3245ui.nested.ShareNestedLayout>

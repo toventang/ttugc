@@ -1,0 +1,26 @@
+package com.p2082ss.android.ugc.aweme.setting.p3732ui;
+
+import android.view.View;
+import com.bytedance.apm.agent.p757v2.instrumentation.ClickAgent;
+import com.bytedance.covode.number.Covode;
+
+/* access modifiers changed from: package-private */
+/* renamed from: com.ss.android.ugc.aweme.setting.ui.ad */
+public final /* synthetic */ class View$OnClickListenerC68522ad implements View.OnClickListener {
+
+    /* renamed from: a */
+    private final AbstractActivityC68607v f153342a;
+
+    static {
+        Covode.recordClassIndex(80775);
+    }
+
+    View$OnClickListenerC68522ad(AbstractActivityC68607v vVar) {
+        this.f153342a = vVar;
+    }
+
+    public final void onClick(View view) {
+        ClickAgent.onClick(view);
+        this.f153342a.mo109121r(view);
+    }
+}

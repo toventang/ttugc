@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/acf" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/e7_" layout_width="match_parent" layout_height="0dp" style="@style/z3"/>
+    <FrameLayout id="@+id/bba" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/d9f" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e7_" layout_width="match_parent" layout_height="0dp"/>
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/cpv" layout_width="match_parent" layout_height="@dimen/a0s"/>
+        <LinearLayout orientation="vertical" id="@+id/acf" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/dhb" background="@color/l" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xf="true" NOT_FOUND_0x10="1">
+                <com.p2082ss.android.ugc.aweme.profile.p3576ui.MTDampScrollableLayout orientation="vertical" id="@+id/dq9" layout_width="match_parent" layout_height="match_parent">
+                    <include layout="@layout/ank"/>
+                    <include layout="@layout/ap7"/>
+                    <com.p2082ss.android.ugc.aweme.profile.p3576ui.SwipableViewPager id="@+id/dqe" layout_width="match_parent" layout_height="match_parent"/>
+                </com.p2082ss.android.ugc.aweme.profile.p3576ui.MTDampScrollableLayout>
+            </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub id="@+id/ct9" layout="@layout/ap_" layout_width="200dp" layout_height="wrap_content" layout_marginBottom="44dp" minWidth="178dp" layout_alignParentBottom="true" layout_centerHorizontal="true"/>
+    <com.p2082ss.android.ugc.aweme.discover.p2797ui.NoticeView id="@+id/ffg" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="44dp" layout_alignParentBottom="true"/>
+    <com.p2082ss.android.ugc.aweme.profile.p3576ui.widget.NoticeButtonView id="@+id/ffx" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="56dp" layout_alignParentBottom="true" NOT_FOUND_0xb="Start earning free gifts today." NOT_FOUND_0xc="0x7f080a7e" NOT_FOUND_0xd="Join" NOT_FOUND_0xe="TikTok Rewards"/>
+    <com.p2082ss.android.ugc.aweme.profile.p3576ui.widget.NoticeButtonView id="@+id/feo" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="56dp" layout_alignParentBottom="true" NOT_FOUND_0xb="You &apos;ve been invited to join Business Account" NOT_FOUND_0xc="0x7f080a63" NOT_FOUND_0xd="Join" NOT_FOUND_0xe="Join Business Account!"/>
+    <ViewStub id="@+id/cpf" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="56dp" layout_alignParentBottom="true"/>
+    <ViewStub id="@+id/cpe" layout="@layout/aob" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bqm" layout_width="wrap_content" layout_height="28dp">
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/anh" layout_width="20dp" layout_height="20dp" layout_marginLeft="4dp" src="0x7f080f69" layout_marginStart="4dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/ani" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/a_" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ani" layout_width="0dp" layout_height="0dp" layout_marginLeft="6dp" text="@string/dz_" lines="1" alpha="0.9" layout_marginStart="6dp" NOT_FOUND_0x10="7" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/ang" NOT_FOUND_0x14="@+id/anh" NOT_FOUND_0x16="0" NOT_FOUND_0x17="1"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/ang" layout_width="0dp" layout_height="0dp" layout_marginLeft="5dp" layout_marginRight="8dp" src="0x7f080f68" layout_marginStart="5dp" layout_marginEnd="8dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/ani" NOT_FOUND_0x16="0" NOT_FOUND_0x17="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

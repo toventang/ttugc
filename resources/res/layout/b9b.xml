@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dle" background="@drawable/c8i" padding="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/bx_" layout_width="56dp" layout_height="56dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/a1w" gravity="center" id="@+id/ffw" background="@drawable/buj" visibility="gone" layout_width="18dp" layout_height="15dp" includeFontPadding="false" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="18dp" layout_alignParentEnd="true" style="@style/tx"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/csc" layout_width="16dp" layout_height="16dp" src="0x7f080e69" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+    <RelativeLayout layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_toLeftOf="@+id/csc" layout_toRightOf="@+id/bx_" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="5dp" layout_toStartOf="@+id/csc" layout_toEndOf="@+id/bx_">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="@color/a0_" id="@+id/eyo" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" layout_alignParentLeft="true" lineSpacingExtra="3sp" layout_alignParentStart="true" NOT_FOUND_0x1b="7"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/a0a" id="@+id/eyn" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" layout_below="@+id/eyo" layout_alignParentLeft="true" lineSpacingExtra="2sp" layout_alignParentStart="true"/>
+    </RelativeLayout>
+</RelativeLayout>

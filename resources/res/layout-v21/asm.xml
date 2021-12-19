@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/as4" visibility="gone" layout_width="40dp" layout_height="48dp" src="0x7f0804de" scaleType="fitXY" layout_centerInParent="true" alpha="0.7"/>
+    <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLImageView id="@+id/arw" visibility="gone" layout_width="56dp" layout_height="45dp" src="0x7f0804d9" scaleType="fitXY" layout_centerInParent="true" alpha="0.7"/>
+    <RelativeLayout gravity="center" id="@+id/as2" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/ch6" paddingBottom="8dp" visibility="gone" layout_width="300dp" layout_height="wrap_content" text="@string/ayz" layout_centerHorizontal="true" NOT_FOUND_0x19="22"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/as6" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/ch6">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/as5" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" NOT_FOUND_0x19="13"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/aqz" layout_width="wrap_content" layout_height="wrap_content" text="/" layout_marginStart="4dp" layout_toEndOf="@+id/as5" NOT_FOUND_0x19="12"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/as7" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" layout_toEndOf="@+id/aqz" NOT_FOUND_0x19="12"/>
+        </LinearLayout>
+        <SeekBar id="@+id/as3" paddingTop="6dp" paddingBottom="6dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="25dp" max="100" progressDrawable="@drawable/a73" thumb="@drawable/a6x" layout_below="@+id/as6" layout_centerHorizontal="true" layout_marginStart="4dp" layout_marginEnd="4dp" splitTrack="false"/>
+    </RelativeLayout>
+</RelativeLayout>

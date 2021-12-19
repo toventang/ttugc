@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout xmlns="" id="@+id/dhb" layout_width="match_parent" layout_height="match_parent" keepScreenOn="true">
+    <com.p2082ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout id="@+id/cg7" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <View id="@+id/em1" background="@color/a2" layout_width="match_parent" layout_height="0dp"/>
+            <com.p2082ss.android.ugc.aweme.common.widget.VerticalViewPager layout_gravity="top" id="@+id/fgn" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <View id="@+id/ve" background="@color/a2" layout_width="match_parent" layout_height="0dp"/>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.aweme.feed.p2970ui.progressguidance.NewUserFeedProgressBar id="@+id/cs4" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.p2082ss.android.ugc.aweme.feed.p2970ui.VideoDownloadStatusBar id="@+id/aod" layout_width="match_parent" layout_height="wrap_content"/>
+        <ViewStub id="@+id/i2" layout="@layout/rs" inflatedId="@+id/i1" layout_width="match_parent" layout_height="match_parent"/>
+        <include layout="@layout/s4"/>
+        <com.p2082ss.android.ugc.aweme.common.widget.DiggLayout id="@+id/alb" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true"/>
+    </com.p2082ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout>
+</com.p2082ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout>

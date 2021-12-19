@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.feed.p2970ui.SlideSwitchLayout id="@+id/e2s" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="horizontal" id="@+id/cdg" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" id="@+id/ffp" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+    </com.p2082ss.android.ugc.aweme.feed.p2970ui.SlideSwitchLayout>
+    <FrameLayout id="@+id/bba" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s"/>
+</FrameLayout>

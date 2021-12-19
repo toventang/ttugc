@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/co9" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout gravity="center" layout_gravity="center_horizontal" id="@+id/dli" layout_width="250dp" layout_height="28dp" layout_marginTop="@dimen/rk" layout_alignParentTop="true" layout_centerInParent="true">
+        <View id="@+id/bty" background="@drawable/sq" layout_width="0dp" layout_height="28dp" layout_alignParentTop="true" layout_alignParentBottom="true" alpha="0.5" layout_alignStart="@+id/e4i" layout_alignEnd="@+id/e4j"/>
+        <Space id="@+id/e4i" layout_width="0dp" layout_height="0dp" layout_alignParentTop="true" layout_alignParentBottom="true" layout_toStartOf="@+id/btx"/>
+        <Space id="@+id/e4j" layout_width="0dp" layout_height="0dp" layout_alignParentTop="true" layout_alignParentBottom="true" layout_toEndOf="@+id/ccg"/>
+        <ImageView id="@+id/btx" visibility="gone" layout_width="20dp" layout_height="20dp" src="0x7f080659" scaleType="centerInside" layout_centerVertical="true" layout_marginStart="10dp"/>
+        <ImageView id="@+id/bu0" visibility="gone" layout_width="16dp" layout_height="16dp" src="@drawable/aif" scaleType="centerInside" layout_centerVertical="true" contentDescription="@null" layout_marginStart="10dp" layout_alignEnd="@+id/btx"/>
+        <com.p2082ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13sp" textColor="@color/a9" ellipsize="marquee" gravity="center" layout_gravity="center" id="@+id/etm" paddingTop="1.5dp" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxWidth="140dp" text="@string/ad6" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_alignParentTop="true" layout_alignParentBottom="true" marqueeRepeatLimit="marquee_forever" paddingEnd="10dp" layout_marginStart="4dp" layout_toEndOf="@+id/btx"/>
+        <LinearLayout id="@+id/ccg" visibility="gone" layout_width="36dp" layout_height="match_parent" layout_toEndOf="@+id/etm">
+            <View id="@+id/amc" background="@color/a7" visibility="visible" layout_width="1dp" layout_height="match_parent"/>
+            <FrameLayout id="@+id/a15" visibility="visible" layout_width="36dp" layout_height="match_parent">
+                <ImageView layout_gravity="center" layout_width="16dp" layout_height="16dp" src="0x7f0800f5"/>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub layout_gravity="center_horizontal" id="@+id/ni" layout="@layout/bhr" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16.5dp"/>
+</FrameLayout>

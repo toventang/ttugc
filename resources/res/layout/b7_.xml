@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/vb" background="@drawable/bsv" layout_width="match_parent" layout_height="440dp">
+    <LinearLayout orientation="vertical" id="@+id/dn9" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="0">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout id="@+id/dn8" layout_width="50dp" layout_height="60dp">
+                <ImageView layout_width="wrap_content" layout_height="19dp" layout_marginLeft="18dp" layout_marginTop="20dp" layout_marginStart="18dp" NOT_FOUND_0x17="@drawable/c8q"/>
+            </LinearLayout>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a01" gravity="center" layout_gravity="center" id="@+id/dn6" layout_width="wrap_content" layout_height="60dp" NOT_FOUND_0x12="7"/>
+        </FrameLayout>
+        <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    </LinearLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/kc" textColor="@color/c5" id="@+id/dn4" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginBottom="7dp" text="@string/ee4" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="@+id/dn3" NOT_FOUND_0x15="@+id/dn9"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dn3" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/dn4"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView id="@+id/dn5" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/dn4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView layout_gravity="center_vertical" id="@+id/c1k" layout_width="16dp" layout_height="16dp" src="@drawable/bhv" scaleType="fitXY"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f7h" layout_width="wrap_content" layout_height="wrap_content" text="@string/fms" layout_marginStart="5dp" NOT_FOUND_0x9="61"/>
+</LinearLayout>

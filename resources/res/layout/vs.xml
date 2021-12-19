@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns="" textAppearance="@style/hq" textColor="?android:attr/textColorSecondary" gravity="left|center_vertical|center_horizontal|center|start" paddingLeft="?attr/a2v" paddingRight="?attr/a2w" layout_width="match_parent" layout_height="?attr/a2u" maxLines="1"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p2082ss.android.ugc.aweme.p2282ad.feed.interactive.FeedAdInteractiveAwardMask xmlns="" id="@+id/azu" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/oz" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/oy" layout_width="310dp" layout_height="394dp" scaleType="fitXY" NOT_FOUND_0xa="0" NOT_FOUND_0xb="8dp"/>
+        <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a6s" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_marginRight="8dp" src="0x7f080701" layout_marginEnd="8dp"/>
+    </FrameLayout>
+</com.p2082ss.android.ugc.aweme.p2282ad.feed.interactive.FeedAdInteractiveAwardMask>

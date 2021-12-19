@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/dnb" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.ButtonTitleBar id="@+id/ejf" layout_width="match_parent" layout_height="@dimen/tn" NOT_FOUND_0x7="8" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="true"/>
+    <ScrollView layout_width="match_parent" layout_height="match_parent" layout_below="@+id/ejf">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/h6" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/gv" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/p3" NOT_FOUND_0x9="@color/b9"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

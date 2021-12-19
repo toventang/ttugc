@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/acf" background="@color/l" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/a9j" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="@string/ak7" NOT_FOUND_0x20="@string/ak6" NOT_FOUND_0x21="1"/>
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/a9i" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="@string/ak_" NOT_FOUND_0x20="@string/fkv" NOT_FOUND_0x21="1"/>
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/a9k" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="@string/ak8" NOT_FOUND_0x20="@string/fkt" NOT_FOUND_0x21="1"/>
+            <com.bytedance.ies.dmt.p1194ui.widget.DmtEditText textSize="15dp" id="@+id/gu" background="@null" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="14dp" layout_marginBottom="12dp" hint="@string/p2" maxLines="1" lineSpacingExtra="3dp" inputType="text" imeOptions="actionDone" textDirection="locale" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="2"/>
+            <View id="@+id/arv" background="@color/b0" layout_width="match_parent" layout_height="0.5dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            <com.p2082ss.android.ugc.aweme.compliance.business.commentfilter.p2650ui.TagMaxHeightRecyclerView id="@+id/c28" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="4dp" layout_marginBottom="12dp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+            <com.bytedance.tux.input.TuxTextView textSize="15dp" textStyle="bold" textColor="@color/bx" ellipsize="end" layout_gravity="center_vertical" id="@+id/a9m" paddingLeft="16dp" paddingTop="16dp" paddingRight="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" text="@string/ako" lineSpacingExtra="3dp" NOT_FOUND_0x22="42"/>
+            <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/a9l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1f="@string/akp" NOT_FOUND_0x20="@string/akq"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

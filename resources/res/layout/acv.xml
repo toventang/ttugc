@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/b0r" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView layout_gravity="center_vertical" layout_width="20dp" layout_height="20dp" layout_marginRight="2dp" src="0x7f0808fe" scaleType="center" layout_marginEnd="2dp"/>
+    <com.p2082ss.android.ugc.aweme.kids.commonfeed.p3347ui.widget.MarqueeView id="@+id/b1_" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="25dp" NOT_FOUND_0x9="@color/a9" NOT_FOUND_0xa="@color/bl" NOT_FOUND_0xb="15dp"/>
+</LinearLayout>

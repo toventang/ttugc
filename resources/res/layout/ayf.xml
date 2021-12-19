@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.p1194ui.titlebar.TextTitleBar id="@+id/eiz" background="@color/l" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x7="15dp" NOT_FOUND_0x9="@string/d01" NOT_FOUND_0xa="@color/bx" NOT_FOUND_0xb="true"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/dy" layout_width="match_parent" layout_marginTop="8dp" NOT_FOUND_0x8="@string/d00" style="@style/a10"/>
+    <com.bytedance.ies.dmt.p1194ui.common.views.CommonItemView id="@+id/gd" layout_width="match_parent" NOT_FOUND_0x8="@string/nk" style="@style/a10"/>
+</LinearLayout>

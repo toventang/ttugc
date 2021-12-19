@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent" paddingStart="32dp" paddingEnd="32dp">
+    <LinearLayout orientation="vertical" id="@+id/boc" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/de">
+        <com.p2082ss.android.ugc.aweme.account.p2280ui.InputWithIndicator id="@+id/bon" layout_width="match_parent" layout_height="20dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xd="1"/>
+        <com.p2082ss.android.ugc.aweme.account.login.p2268v2.p2271ui.InputResultIndicator textSize="@dimen/d5" id="@+id/boo" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0xe="@dimen/d4"/>
+    </LinearLayout>
+    <include id="@+id/bob" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/d8" layout="@layout/hv"/>
+    <com.p2082ss.android.ugc.aweme.account.p2280ui.LoadingButton textSize="@dimen/d6" id="@+id/bod" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/d8" text="@string/anz"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/ccz" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/evb" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="19dp" layout_marginBottom="12dp" text="@string/bwu" drawableLeft="0x7f0804a5" drawablePadding="5dp" drawableStart="0x7f0804a5" layout_marginStart="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="63"/>
+    <com.p2082ss.android.ugc.aweme.discover.widget.BannerViewPager id="@+id/fgn" layout_width="match_parent" layout_height="@dimen/rx" layout_below="@+id/evb" NOT_FOUND_0x15="@+id/evb"/>
+    <View id="@+id/e7_" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x15="@+id/evb"/>
+    <com.p2082ss.android.ugc.aweme.discover.widget.IndicatorView id="@+id/anu" paddingBottom="4dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xf="5dp" NOT_FOUND_0x10="5dp" NOT_FOUND_0x11="0.34" NOT_FOUND_0x12="@+id/fgn" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

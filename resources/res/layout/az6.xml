@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.p1194ui.frameworkui.PullUpLayout xmlns="" id="@+id/dat" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/dlx" background="@drawable/bik" paddingLeft="20dp" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="20dp">
+        <LinearLayout orientation="vertical" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="62dp" layout_centerVertical="true" layout_marginStart="62dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/np" id="@+id/f6m" layout_width="wrap_content" layout_height="wrap_content" text="@string/etc" NOT_FOUND_0x15="41"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/nq" id="@+id/euz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" text="@string/ag_" layout_below="@+id/f6m" NOT_FOUND_0x15="61"/>
+        </LinearLayout>
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.RemoteImageView id="@+id/bwr" background="@color/l" padding="1dp" layout_width="47.5dp" layout_height="64dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true"/>
+    </RelativeLayout>
+</com.bytedance.ies.dmt.p1194ui.frameworkui.PullUpLayout>

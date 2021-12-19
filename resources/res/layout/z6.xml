@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/av4" background="@color/bx" layout_width="match_parent" layout_height="match_parent">
+    <com.p2082ss.android.ugc.aweme.profile.p3576ui.widget.RecommendCommonUserView id="@+id/fft" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="59dp" layout_alignParentBottom="true"/>
+    <com.p2082ss.android.ugc.aweme.feed.guide.SimpleDMTDefaultView id="@+id/aiu" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.p2082ss.android.ugc.aweme.feed.guide.RecommendSuperUserView id="@+id/ebq" visibility="gone" layout_width="match_parent" layout_height="400dp" layout_marginTop="11dp" layout_below="@+id/aiu"/>
+    <com.bytedance.ies.dmt.p1194ui.widget.DmtStatusView id="@+id/e7i" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

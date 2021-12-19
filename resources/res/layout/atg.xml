@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="horizontal" id="@+id/ejf" paddingTop="24.5dp" visibility="visible" layout_width="match_parent" layout_height="match_parent" paddingEnd="8dp">
+    <com.p2082ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/pf" padding="8dp" layout_width="40dp" layout_height="40dp" src="0x7f0805bc" scaleType="centerCrop" layout_marginStart="12dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/c7f" paddingBottom="0dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentBottom="true"/>
+    <View id="@+id/fef" layout_width="1dp" layout_height="1dp" layout_alignParentBottom="true"/>
+    <com.bytedance.tux.button.TuxButton textColor="@color/a9" id="@+id/d51" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="36dp" layout_marginBottom="8dp" minWidth="69dp" text="@string/ey3" layout_above="@+id/fef" paddingStart="8dp" paddingEnd="8dp" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x17="52"/>
+</RelativeLayout>

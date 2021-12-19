@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/e_1" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/s_"/>
+    <include layout="@layout/b1e"/>
+</FrameLayout>

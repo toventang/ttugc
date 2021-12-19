@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/d9i" clickable="true" layout_width="match_parent" layout_height="match_parent" layout_marginTop="166dp" layout_below="@+id/amt">
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/cr8" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x17="@string/a1h"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/csm" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bk3" NOT_FOUND_0x17="@string/bk4"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fah" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bkd" NOT_FOUND_0x17="@string/bke"/>
+    <LinearLayout gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" id="@+id/cdy" layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="12dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" id="@+id/d0z" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_marginStart="20dp" layout_marginEnd="4dp" NOT_FOUND_0x11="app.com/@" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.icon.TuxIconView layout_width="16dp" layout_height="16dp" NOT_FOUND_0x14="@raw/icon_doc_on_doc" NOT_FOUND_0x16="?attr/bj"/>
+    </LinearLayout>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/da8" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/p7" NOT_FOUND_0x17="@string/exs"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/sl" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bjr" NOT_FOUND_0x17="@string/bjs"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fih" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bkf" NOT_FOUND_0x17="@string/bkg"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/chs" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bjx" NOT_FOUND_0x17="@string/bjy"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/ctf" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/dhc" NOT_FOUND_0x17="@string/dh9"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/kk" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/c" NOT_FOUND_0x17="@string/ub"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/a21" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/ad3" NOT_FOUND_0x17="@string/a__"/>
+    <View id="@+id/sk" background="?attr/an" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/bp2" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bjw" NOT_FOUND_0x17="@string/cmp"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fk6" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bkh" NOT_FOUND_0x17="@string/hcm"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/f7q" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x12="1" NOT_FOUND_0x15="@string/bka" NOT_FOUND_0x17="@string/gx5"/>
+</LinearLayout>

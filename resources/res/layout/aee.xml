@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/dkv" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="20dp">
+        <RelativeLayout id="@+id/ejf" layout_width="match_parent" layout_height="52dp" layout_marginBottom="16dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/eus" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="40dp" text="@string/bcx" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_centerInParent="true" layout_marginEnd="40dp" NOT_FOUND_0x1f="62"/>
+            <ImageView id="@+id/buu" background="@drawable/tl" layout_width="54dp" layout_height="32dp" layout_marginRight="16dp" src="@drawable/ac4" scaleType="center" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.p2082ss.android.ugc.aweme.shortvideo.cutmusic.DmtCutMusicLayout id="@+id/aha" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/ejf" color="@color/bm"/>
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/ejf">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f4_" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4.5dp" layout_marginTop="15dp" layout_marginStart="4.5dp" NOT_FOUND_0x1f="91"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/evs" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15dp" layout_marginRight="4.5dp" layout_alignParentRight="true" layout_marginEnd="4.5dp" layout_alignParentEnd="true" NOT_FOUND_0x1f="91"/>
+            <com.p2082ss.android.ugc.aweme.shortvideo.cut.videoedit.KTVView id="@+id/c2i" background="0x7f08065f" layout_width="match_parent" layout_height="50dp" layout_marginLeft="6dp" layout_marginRight="6dp" layout_toLeftOf="@+id/evs" layout_toRightOf="@+id/f4_" color="@color/bm" layout_marginStart="6dp" layout_marginEnd="6dp" layout_toStartOf="@+id/evs" layout_toEndOf="@+id/f4_"/>
+            <RelativeLayout id="@+id/e2o" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/c2i"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

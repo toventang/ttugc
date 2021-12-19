@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/cdz" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layoutDirection="ltr">
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/cl_" layout_width="180dp" layout_height="wrap_content" layout_marginLeft="40dp" textDirection="ltr" layoutDirection="ltr" NOT_FOUND_0xc="13sp"/>
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/bg0" layout_width="60dp" layout_height="wrap_content" textDirection="ltr" layoutDirection="ltr" NOT_FOUND_0xc="16sp"/>
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/ckc" layout_width="60dp" layout_height="wrap_content" textDirection="ltr" layoutDirection="ltr" NOT_FOUND_0xc="16sp"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/ce0" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layoutDirection="ltr">
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/bg1" layout_width="60dp" layout_height="wrap_content" layout_marginLeft="80dp" textDirection="ltr" layoutDirection="ltr" layout_marginStart="80dp" NOT_FOUND_0xc="16sp"/>
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/ckd" layout_width="60dp" layout_height="wrap_content" textDirection="ltr" layoutDirection="ltr" NOT_FOUND_0xc="16sp"/>
+        <com.p2082ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.LiveCDNumberPicker id="@+id/cla" layout_width="180dp" layout_height="wrap_content" textDirection="ltr" layoutDirection="ltr" NOT_FOUND_0xc="13sp"/>
+    </LinearLayout>
+    <View background="@color/bx" layout_width="match_parent" layout_height="1px" layout_marginTop="76dp" alpha="0.12"/>
+    <View background="@color/bx" layout_width="match_parent" layout_height="1px" layout_marginTop="112dp" alpha="0.12"/>
+</RelativeLayout>

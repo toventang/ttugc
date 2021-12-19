@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/e7a" layout_width="match_parent" layout_height="128dp">
+    <ImageView id="@+id/bh1" layout_width="128dp" layout_height="128dp" scaleType="centerCrop"/>
+    <include layout_width="48dp" layout_height="48dp" layout_marginLeft="2dp" layout_marginRight="2dp" layout_alignParentRight="true" layout_alignParentEnd="true" layout="@layout/all"/>
+    <include layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="128dp" layout_toLeftOf="@+id/a0y" layout_marginStart="128dp" layout_toStartOf="@+id/a0y" layout="@layout/alt"/>
+    <LinearLayout orientation="horizontal" id="@+id/ciz" layout_width="match_parent" layout_height="48dp" layout_marginLeft="12dp" layout_marginRight="12dp" layout_toRightOf="@+id/bh1" layout_alignParentBottom="true" layoutDirection="ltr" layout_toEndOf="@+id/bh1"/>
+    <ImageView id="@+id/c8" background="?android:attr/dividerHorizontal" layout_width="match_parent" layout_height="1dp" layout_toRightOf="@+id/bh1" layout_above="@+id/ciz" layout_toEndOf="@+id/bh1"/>
+</RelativeLayout>

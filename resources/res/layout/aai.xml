@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnb" background="@drawable/tb" layout_width="130dp" layout_height="195dp">
+    <LinearLayout orientation="vertical" id="@+id/f_s" layout_width="match_parent" layout_height="wrap_content" layout_centerHorizontal="true">
+        <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageWithVerify layout_gravity="center_horizontal" id="@+id/nz" layout_width="70dp" layout_height="70dp" layout_marginTop="12dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_horizontal" id="@+id/fa3" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginTop="6dp" layout_marginRight="10dp" layout_marginStart="10dp" layout_marginEnd="10dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/fa1" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1f="true" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/bv7" NOT_FOUND_0x23="2" NOT_FOUND_0x24="0" NOT_FOUND_0x26="@+id/bv7" NOT_FOUND_0x29="0" NOT_FOUND_0x2a="0" NOT_FOUND_0x2b="61"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bv7" visibility="gone" layout_width="20dp" layout_height="20dp" contentDescription="@string/bkl" layout_marginStart="4dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x25="@+id/fa1" NOT_FOUND_0x27="0" NOT_FOUND_0x28="@+id/fa1" NOT_FOUND_0x2a="0" NOT_FOUND_0x2c="@raw/icon_pen" NOT_FOUND_0x2d="?attr/ad"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <ImageView id="@+id/a6q" paddingLeft="28dp" paddingTop="8dp" paddingRight="8dp" paddingBottom="28dp" layout_width="44dp" layout_height="44dp" src="0x7f080587" layout_alignParentRight="true" contentDescription="@string/dkc" paddingStart="28dp" paddingEnd="8dp" layout_alignParentEnd="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="center" id="@+id/dfk" layout_width="wrap_content" layout_height="36dp" layout_marginLeft="10dp" layout_marginTop="3dp" layout_marginRight="10dp" maxLines="2" layout_below="@+id/f_s" layout_centerHorizontal="true" NOT_FOUND_0x2b="71"/>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/b6a" layout_width="106dp" layout_height="28dp" layout_marginTop="4dp" layout_marginBottom="12dp" drawablePadding="4dp" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x2b="61"/>
+</RelativeLayout>

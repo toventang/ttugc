@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dnh" fitsSystemWindows="false" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/eiz" background="@drawable/bvn" layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView id="@+id/ej0" layout_width="wrap_content" layout_height="wrap_content" drawableLeft="@drawable/bpp" drawableStart="@drawable/bpp" style="@style/a2n"/>
+        <ImageView id="@+id/ej2" visibility="gone" layout_width="24dp" layout_height="24dp" src="0x7f080e7d" layout_centerVertical="true" layout_toEndOf="@+id/ej0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17dp" textColor="@color/bx" ellipsize="end" gravity="center" layout_gravity="center" id="@+id/ej8" background="@color/a1o" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="41dp" layout_marginRight="41dp" maxLines="2" layout_centerInParent="true" NOT_FOUND_0x18="2"/>
+        <ImageView id="@+id/ej7" layout_width="24dp" layout_height="24dp" src="0x7f080eec" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="15.27dp"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/bg7" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

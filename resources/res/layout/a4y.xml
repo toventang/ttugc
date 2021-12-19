@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" focusable="true" clickable="true" layout_width="match_parent" layout_height="64dp">
+    <com.p2082ss.android.ugc.aweme.base.p2379ui.AvatarImageView id="@+id/a53" layout_width="48dp" layout_height="48dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0x1a="0x7f08063a"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center_horizontal" id="@+id/a56" layout_width="wrap_content" layout_height="17dp" layout_marginLeft="12dp" layout_marginTop="14dp" maxWidth="247dp" maxLines="1" singleLine="true" layout_toRightOf="@+id/a53" layout_marginStart="12dp" layout_toEndOf="@+id/a53" NOT_FOUND_0x1b="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/a55" visibility="gone" layout_width="wrap_content" layout_height="17dp" text="@string/f9y" layout_toRightOf="@+id/a56" layout_alignTop="@+id/a56" layout_toEndOf="@+id/a56" NOT_FOUND_0x1b="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center_vertical" id="@+id/a54" layout_width="wrap_content" layout_height="17dp" layout_marginLeft="12dp" maxWidth="247dp" maxLines="1" singleLine="true" layout_toRightOf="@+id/a53" layout_below="@+id/a56" layout_marginStart="12dp" layout_toEndOf="@+id/a53" NOT_FOUND_0x1b="51"/>
+    <com.bytedance.tux.input.TuxRadio id="@+id/a57" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0"/>
+</RelativeLayout>

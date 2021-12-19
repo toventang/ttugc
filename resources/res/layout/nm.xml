@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/ctj" layout_width="match_parent" layout_height="match_parent"/>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout id="@+id/cta" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/nl"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/crh" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/nj"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/cfs" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/nk"/>
+    </FrameLayout>
+    <View layout_gravity="top" id="@+id/a_k" background="@drawable/xe" visibility="gone" layout_width="match_parent" layout_height="8dp"/>
+</FrameLayout>

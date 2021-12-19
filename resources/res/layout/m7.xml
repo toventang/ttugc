@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/acf" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@+id/aeb" layout_width="match_parent" layout_height="match_parent" layout_alignParentBottom="true">
+        <View id="@+id/emn" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false" importantForAccessibility="no"/>
+        <com.bytedance.ies.bullet.service.popup.round.RoundFrameLayout layout_gravity="top|center_vertical|center_horizontal|center" id="@+id/aa_" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x7="com.bytedance.ies.bullet.service.popup.anim.BottomSheetBehavior" style="?attr/kx"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

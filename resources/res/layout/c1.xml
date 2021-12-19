@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnk" layout_width="match_parent" layout_height="match_parent">
+    <SurfaceView id="@+id/ec6" layout_width="match_parent" layout_height="match_parent"/>
+    <View background="@drawable/bc6" layout_width="match_parent" layout_height="120dp" layout_alignParentTop="true"/>
+    <View background="@drawable/bc5" layout_width="match_parent" layout_height="120dp" layout_alignParentBottom="true"/>
+    <FrameLayout fitsSystemWindows="true" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.ies.dmt.p1194ui.titlebar.TextTitleBar id="@+id/eiz" background="@color/c9" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x17="1" NOT_FOUND_0x18="@string/r2" NOT_FOUND_0x19="@color/a9" NOT_FOUND_0x1a="17dp" NOT_FOUND_0x1b="@string/fe4" NOT_FOUND_0x1c="@color/a9" NOT_FOUND_0x1d="18dp" NOT_FOUND_0x1f="true"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/b5a" layout_width="256dp" layout_height="255dp" layout_marginTop="180dp" layout_centerHorizontal="true">
+        <ImageView id="@+id/dpa" layout_width="258dp" layout_height="105dp" src="0x7f0808b2" style="@style/xu"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="16dp" layout_height="16dp" src="0x7f080b0f"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" layout_width="16dp" layout_height="16dp" src="0x7f080b10"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" layout_width="16dp" layout_height="16dp" src="0x7f080b11"/>
+        <com.p2082ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" layout_width="16dp" layout_height="16dp" src="0x7f080b12"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" gravity="center" layout_gravity="center" id="@+id/etj" layout_width="wrap_content" layout_height="wrap_content" text="@string/acq" shadowDy="2" shadowRadius="2" NOT_FOUND_0x1e="41"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/eyh" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/cuo" drawableTop="0x7f080b1e" drawablePadding="2dp" layout_alignBottom="@+id/b5a" layout_centerHorizontal="true" alpha="0.8" NOT_FOUND_0x1e="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" gravity="center_horizontal" id="@+id/f1u" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/g8x" layout_below="@+id/b5a" layout_centerHorizontal="true" NOT_FOUND_0x1e="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" id="@+id/ezy" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="24dp" text="@string/hck" drawableTop="0x7f080691" drawablePadding="5dp" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x1e="71"/>
+</RelativeLayout>
